@@ -10,7 +10,7 @@ You may find it useful to look at the RMarkdown file to see the R code for some 
 
 ## How to view the slides
 
-## In RStudio
+### In RStudio
 
 [Clone](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) or download this repository from GitHub and open `r4r_2020_visualisation.Rproj` in RStudio.
 
