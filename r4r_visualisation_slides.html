@@ -1,0 +1,1020 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>R for Archaeologists</title>
+    <meta charset="utf-8" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# R for Archaeologists
+## Visualisation
+
+---
+
+class: middle
+
+
+
+
+.pull-left[
+![](figures/shubayqa.jpg)
+![](figures/jr-thesis-slide.png)
+]
+
+.pull-right[
+**Joe Roe**  
+Research assistant  
+University of Copenhagen  
+
+https://joeroe.io  
+https://github.com/joeroe  
+https://twitter.com/joeroe90 
+]
+
+---
+class: center, middle
+
+<style>html {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
+}
+
+#eybfpnnest .gt_table {
+  display: table;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#eybfpnnest .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#eybfpnnest .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#eybfpnnest .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 0;
+  padding-bottom: 4px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#eybfpnnest .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#eybfpnnest .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#eybfpnnest .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#eybfpnnest .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#eybfpnnest .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#eybfpnnest .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#eybfpnnest .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#eybfpnnest .gt_group_heading {
+  padding: 8px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#eybfpnnest .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#eybfpnnest .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#eybfpnnest .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#eybfpnnest .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#eybfpnnest .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 12px;
+}
+
+#eybfpnnest .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#eybfpnnest .gt_first_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+}
+
+#eybfpnnest .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#eybfpnnest .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#eybfpnnest .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#eybfpnnest .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#eybfpnnest .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#eybfpnnest .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding: 4px;
+}
+
+#eybfpnnest .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#eybfpnnest .gt_sourcenote {
+  font-size: 90%;
+  padding: 4px;
+}
+
+#eybfpnnest .gt_left {
+  text-align: left;
+}
+
+#eybfpnnest .gt_center {
+  text-align: center;
+}
+
+#eybfpnnest .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#eybfpnnest .gt_font_normal {
+  font-weight: normal;
+}
+
+#eybfpnnest .gt_font_bold {
+  font-weight: bold;
+}
+
+#eybfpnnest .gt_font_italic {
+  font-style: italic;
+}
+
+#eybfpnnest .gt_super {
+  font-size: 65%;
+}
+
+#eybfpnnest .gt_footnote_marks {
+  font-style: italic;
+  font-size: 65%;
+}
+</style>
+<div id="eybfpnnest" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;"><table class="gt_table">
+  
+  <thead class="gt_col_headings">
+    <tr>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" style="font-weight: bold;">Day</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" style="font-weight: bold;">Time</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" style="font-weight: bold;">Topics</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" style="font-weight: bold;">Exercises</th>
+    </tr>
+  </thead>
+  <tbody class="gt_table_body">
+    <tr><td class="gt_row gt_left" style="font-size: small; text-align: left; vertical-align: top; font-weight: bold;"><div class='gt_from_md'><p>Wednesday</p>
+</div></td>
+<td class="gt_row gt_left" style="font-size: small; text-align: left; vertical-align: top; font-weight: bold;"><div class='gt_from_md'><p>10–13</p>
+</div></td>
+<td class="gt_row gt_left" style="font-size: small; text-align: left; vertical-align: top;"><div class='gt_from_md'><p><strong>Introduction to visualisation with R</strong></p>
+<ul>
+<li>Visualisation in data science</li>
+<li>Overview of R graphics packages</li>
+<li>Plotting with <code>base</code></li>
+</ul>
+</div></td>
+<td class="gt_row gt_left" style="font-size: small; text-align: left; vertical-align: top;"><div class='gt_from_md'><p><em>Quantitative Archaeology</em>, ch. 5</p>
+</div></td></tr>
+    <tr><td class="gt_row gt_left" style="font-size: small; text-align: left; vertical-align: top; font-weight: bold;"><div class='gt_from_md'></div></td>
+<td class="gt_row gt_left" style="font-size: small; text-align: left; vertical-align: top; font-weight: bold;"><div class='gt_from_md'><p>14–17</p>
+</div></td>
+<td class="gt_row gt_left" style="font-size: small; text-align: left; vertical-align: top;"><div class='gt_from_md'><p><strong>Tidy visualisation with <code>ggplot2</code></strong></p>
+<ul>
+<li>The 'grammar of graphics'</li>
+<li>Visualisation and tidy data</li>
+<li>Plotting with <code>ggplot2</code></li>
+</ul>
+</div></td>
+<td class="gt_row gt_left" style="font-size: small; text-align: left; vertical-align: top;"><div class='gt_from_md'><p><em>R for Data Science</em>, ch. 3 &amp; 7</p>
+</div></td></tr>
+    <tr><td class="gt_row gt_left" style="font-size: small; text-align: left; vertical-align: top; font-weight: bold;"><div class='gt_from_md'><p>Thursday</p>
+</div></td>
+<td class="gt_row gt_left" style="font-size: small; text-align: left; vertical-align: top; font-weight: bold;"><div class='gt_from_md'><p>10–13</p>
+</div></td>
+<td class="gt_row gt_left" style="font-size: small; text-align: left; vertical-align: top;"><div class='gt_from_md'><p><strong>Advanced visualisations for archaeologists</strong></p>
+<ul>
+<li>Radiocarbon chronologies with 'ridgeplots'</li>
+<li>Cartography in R: <code>sf</code> and <code>ggplot2</code></li>
+<li>3D topography with <code>rayshader</code></li>
+</ul>
+</div></td>
+<td class="gt_row gt_left" style="font-size: small; text-align: left; vertical-align: top;"><div class='gt_from_md'><p>To be provided</p>
+</div></td></tr>
+    <tr><td class="gt_row gt_left" style="font-size: small; text-align: left; vertical-align: top; font-weight: bold;"><div class='gt_from_md'></div></td>
+<td class="gt_row gt_left" style="font-size: small; text-align: left; vertical-align: top; font-weight: bold;"><div class='gt_from_md'><p>14–17</p>
+</div></td>
+<td class="gt_row gt_left" style="font-size: small; text-align: left; vertical-align: top;"><div class='gt_from_md'><p><strong>Publication-ready visualisations</strong></p>
+<ul>
+<li>What makes an effective graphic?</li>
+<li>Advanced <code>ggplot2</code>: aesthetics and themes</li>
+<li>Publishing with <code>RMarkdown</code></li>
+</ul>
+</div></td>
+<td class="gt_row gt_left" style="font-size: small; text-align: left; vertical-align: top;"><div class='gt_from_md'><p><em>R for Data Science</em>, ch. 27–28</p>
+</div></td></tr>
+  </tbody>
+  
+  
+</table></div>
+
+---
+class: inverse, center, middle
+
+# Visualisation with R
+## Introduction
+
+---
+class: center, middle
+
+![](figures/data-science.png)
+
+.center[&lt;small&gt;Data science workflow. After Wickham &amp; Grolemund, *R for Data Science*&lt;/small&gt;]
+
+???
+
+* We use visualisations (graphs, plots, etc.) to communicate things about data
+* But visualisations are also extremely important for you the analyst to *understand* the data
+* Hadley's "understand" cycle here encapsulates *exploratory data analysis*
+
+---
+
+# Exploratory Data Analysis (EDA)
+
+.pull-left[
+&lt;small&gt;
+&gt; Exploratory data analysis (EDA) is an essential step in any research analysis. The primary aim with exploratory analysis is to examine the data for distribution, outliers and anomalies to direct specific testing of your hypothesis. It also provides tools for hypothesis generation by visualizing and understanding the data usually through graphical representation. EDA aims to assist the natural patterns recognition of the analyst. 
+&gt;
+&gt; *Komorowski et al. 2016*
+&lt;/small&gt;
+]
+
+.pull-right[
+![](figures/tukey-eda.jpg)
+]
+
+???
+
+* John Tukey's *exploratory data analysis* (EDA) was an alternative (complementary) approach to hypothesis-testing statistics emphasising iterative exploration of data, especially using visual methods 
+* Tukey's approach was influential in the development of *S*, and by extension *R* – R is very much designed to do EDA
+* The modern "data science" approach was born with EDA and visualisation at its core
+
+---
+
+# Graphics packages in R
+
+
+```r
+library("archdata")
+data("BACups")
+```
+
+.pull-left[
+&lt;img src="r4r_visualisation_slides_files/figure-html/plot-demo-base-1.png" width="100%" /&gt;
+
+```r
+plot(BACups$H, BACups$RD)
+```
+]
+
+.pull-right[
+&lt;img src="r4r_visualisation_slides_files/figure-html/plot-demo-ggplot-1.png" width="100%" /&gt;
+
+```r
+ggplot(BACups, aes(x = H, y = RD)) +
+  geom_point()
+```
+]
+
+???
+
+* base, ggplot2, and lattice (now rarely used)
+* Major differences in syntax, and by extension flexibility and capabilities
+
+---
+
+.pull-left[
+&lt;img src="r4r_visualisation_slides_files/figure-html/plot-demo-base-ext-1.png" width="100%" /&gt;
+
+```r
+par(mfrow = c(1,2))
+plot(BACups[BACups$Phase=="Protoapennine",]$H,
+     BACups[BACups$Phase=="Protoapennine",]$RD,
+     cex = BACups[BACups$Phase=="Protoapennine",]$ND / 10,
+     main = "Bronze Age cups",
+     sub = "Protoapennine",
+     xlab = "Height",
+     ylab = "Rim Diameter")
+plot(BACups[BACups$Phase=="Subapennine",]$H,
+     BACups[BACups$Phase=="Subapennine",]$RD,
+     cex = BACups[BACups$Phase=="Subapennine",]$ND / 10,
+     main = "(Data from Lukesh and Howe 1978)",
+     sub = "Subapennine",
+     xlab = "Height",
+     ylab = "Rim Diameter")
+legend("bottomright", 
+       title = "Neck Diameter", 
+       pch = 1,
+       legend = c(10, 15, 20, 25), 
+       pt.cex = c(1, 1.5, 2, 2.5))
+```
+]
+
+.pull-right[
+&lt;img src="r4r_visualisation_slides_files/figure-html/plot-demo-ggplot-ext-1.png" width="100%" /&gt;
+
+```r
+ggplot(BACups, aes(x = H, y = RD, size = ND)) +
+  geom_point(shape = 1) +
+  facet_wrap(vars(Phase)) +
+  labs(x = "Height", 
+       y = "Rim Diameter", 
+       size = "Neck Diameter",
+       title = "Bronze Age cups", 
+       subtitle = "Data from Lukesh and Howe (1978)")
+```
+]
+
+???
+
+* The syntax differences are highlighted when you try to do more complex plots
+* Some debate over the pros and cons of each – I see ggplot2 as a straightforward upgrade at this point
+* But it's important to know base as the 'default' in a lot of cases, e.g. used by many packages to plot complex data structures
+
+---
+
+# Plotting with `base`: exercises
+
+**Carlson 2017, *Quantitative Methods in Archaeology Using R***
+
+**Chapter 5 – Looking at Data: Graphs** (skip the first section)
+
+* Create a new script in RStudio
+* Replicate all Carlson's code
+* Think about Carlson's code – how could you adapt it to do something different?
+* Answer questions as comments (`# Here is my answer...`)
+* Shout at me if you get stuck!
+
+---
+
+# Plotting with `base`: extension exercises
+
+1. Using the `MaskSite` data, make a) a pie chart and b) a bar plot of the frequency of artefacts by category. Which do you think is more effective?
+
+---
+class: inverse, center, middle
+
+# Tidy Visualisation
+## The `ggplot2` package
+
+---
+class: middle
+
+# The Grammar of Graphics
+
+![](figures/grammar-of-graphics.png)
+
+???
+
+* `ggplot2` is based on the "grammar of graphics"
+* This is a structured way of *describing* the relationship between data and graphical elements – as opposed to `base` graphics, which is you *telling* R what to plot
+* Specifically, `ggplot` introduces a *layered* grammer of graphics, allowing you to combine multiple mappings into a single plot
+* This makes it much more flexible than base and allows us to maintain readable code for even very complicated plots
+* Further reading: 
+  * Wickham 2010, *A Layered Grammar of Graphics*
+  * Wilkinson, Anand &amp; Grossman 2005, *The Grammar of Graphics*
+
+---
+
+# ggplot2 and tidy data
+
+.pull-left[
+
+```r
+data("emedyd") # From rcarbon
+emedyd %&gt;% 
+  filter(SiteName == "Nevali Cori") %&gt;% 
+  arrange(CRA) %&gt;% 
+  mutate(LabID = as_factor(LabID)) %&gt;% 
+  mutate(CalDate = cal(CRA, Error, verbose = FALSE)) %&gt;% 
+  unnest_legacy() %&gt;% 
+  ggplot(aes(calBP, PrDens)) +
+  facet_wrap(~LabID, ncol = 1, 
+             scales = "free_y", 
+             strip.position = "left") +
+  geom_area() + 
+  scale_x_reverse() +
+  labs(title = "Nevali Cori",
+      subtitle = "Radiocarbon chronology") +
+  theme(axis.title.y = element_blank(),
+        axis.text.y = element_blank(),
+        axis.ticks.y = element_blank(),
+        panel.grid.minor.y = element_blank(),
+        panel.grid.major.y = element_blank())
+```
+]
+
+.pull-right[
+&lt;img src="r4r_visualisation_slides_files/figure-html/tidy-rcarbon-1.png" width="100%" /&gt;
+]
+
+???
+
+* `ggplot2` is super-charged when used as part of a "tidy data analysis" workflow
+* For example, *pipes* allow us to elegently and concisely load data, clean and filter, and plot in a single code block
+* Caveat: data does have to be in a roughly tabular (if not fully "tidy") structure to work well with ggplot. Complex objects from other packages can be a challenge to work with.
+
+---
+
+# Plotting with `ggplot2`: exercises
+
+**Wickham &amp; Grolemund, *R for data science***
+
+https://r4ds.had.co.nz/
+
+Chapter 2: *Data visualisation*
+
+Chapter 7: *Exploratory Data Analysis* (if you have time)
+
+* Install the `tidyverse` metapackage
+* Run Hadley's code examples
+* Answer questions as comments (`# Here is my answer...`)
+* Do the 'exercises' sections – they're very informative!
+
+---
+
+# Plotting with `ggplot2`: applications?
+
+.pull-left[
+&lt;img src="r4r_visualisation_slides_files/figure-html/ggplot-scatter-1.png" width="100%" /&gt;
+&lt;img src="r4r_visualisation_slides_files/figure-html/ggplot-smooth-1.png" width="100%" /&gt;
+]
+
+.pull-right[
+&lt;img src="r4r_visualisation_slides_files/figure-html/ggplot-bar-1.png" width="100%" /&gt;
+&lt;img src="r4r_visualisation_slides_files/figure-html/ggplot-boxplot-1.png" width="100%" /&gt;
+]
+
+???
+
+We've seen how to do a few fundamental plots with ``ggplot2` today, but using "dummy" datasets like cars and diamonds. What are some archaeological applications of these plots?
+
+---
+class: inverse, center, middle
+
+# Advanced visualisations
+## Plotting archaeological data
+
+---
+
+# Cartography: R as a GIS
+
+.pull-left[
+* Spatial data
+  * `rgdal`, `rgeos`
+  * `sp`, `sf`
+  * `raster`, `stars`
+* Geostatistics
+  * `gstat`, `spdep`, `nlme`
+  * `landsat`, `dismo`
+  * Many, many more...
+]
+.pull-right[
+* Base maps + open data
+  * `maps`, `maptools`, `rnaturalearth`
+  * `ggmap`, `leaflet`, `mapview`
+  * `rOpenSci`
+* Cartography
+  * `ggplot2`
+  * `rasterVis`
+]
+
+---
+
+&lt;img src="r4r_visualisation_slides_files/figure-html/eg-tavo-1.png" width="100%" /&gt;
+
+---
+
+# Radiocarbon
+
+.pull-left[
+![](figures/shubayqa1-radiocarbon.jpg)
+.center[&lt;small&gt;Richter et al. 2017&lt;/small&gt;]
+]
+
+.pull-right[
+![](figures/bronk-ramsey-spd.jpeg)
+.center[&lt;small&gt;Bronk Ramsey 2017&lt;/small&gt;]
+]
+
+---
+
+# Radiocarbon packages in R
+
+* Databases
+  * `c14bazAAR`
+* Calibration
+  * `oxcAAR` (interface for OxCal)
+  * `rcarbon` (including summed distributions)
+  * `stratigraphr` (WIP!)
+
+---
+
+&lt;img src="r4r_visualisation_slides_files/figure-html/tidy-rcarbon-1.png" width="100%" /&gt;
+
+---
+
+# Stratigraphy (`tidygraph` &amp; `ggraph`)
+
+&lt;img src="r4r_visualisation_slides_files/figure-html/eg-stratigraphy-1.png" width="100%" /&gt;
+
+---
+class: center, middle
+
+# 3D (`rayshader` &amp; `rayrender`)
+
+![](figures/rayrendersmall.jpg)
+
+???
+
+* Note of caution
+  * Bad 3D (purely decorative)
+  * Dodgy 3D (functional, but usually better options)
+  * Good 3D! (things that are 3D, e.g. objects, topography)
+  
+---
+class: center, middle
+
+![](figures/raisz-cuba.jpeg)
+
+.center[&lt;small&gt;Gerardo Canet &amp; Erwin Raisz, *Atlas de Cuba* (1949)&lt;/small&gt;]
+
+---
+class: center, middle
+
+![](figures/rzvr-3d.png)
+
+---
+
+.pull-left[
+&lt;img src="r4r_visualisation_slides_files/figure-html/eg-tavo-1.png" width="100%" /&gt;
+&lt;img src="r4r_visualisation_slides_files/figure-html/tidy-rcarbon-1.png" width="100%" /&gt;
+]
+
+.pull-right[
+&lt;img src="r4r_visualisation_slides_files/figure-html/eg-stratigraphy-1.png" width="100%" /&gt;
+![](figures/rzvr-3d.png)
+]
+
+???
+
+Form groups and try to recreate one of these visualisations.
+
+---
+class: inverse, center, middle
+
+# Publication-ready visualisations
+## `ggplot2` and `RMarkdown`
+
+---
+
+# Publishing with RMarkdown
+
+* Notebooks
+* Papers &amp; theses (`rrtools`)
+* Books (`bookdown`, e.g. *R for Data Science*)
+* Slides (`xaringan`, e.g. these!)
+* Interactive interfaces (`shiny`, e.g. https://joeroe.shinyapps.io/LAC2018_fieldwalkr/)
+
+???
+
+* RMarkdown is a modern take on 'literate programming' (cf. Knuth) in R
+* It can now export to almost any format
+
+---
+
+# RMarkdown for science: research compendia
+
+.pull-left[
+A **research compendium** packages together all the **data**, **code**, **figures**, and **text** that comprise a scientific analysis in a single place (e.g. an R package).
+
+The idea is to make the analysis fully **reproducible** from start to finish.
+
+The R package `rrtools` assists with creating these in R.
+]
+
+.pull-right[
+![](figures/rr-compendium.jpeg)
+]
+
+---
+class: center, middle
+
+# Effective visualisations: Tufte's principles
+
+1. Above all else show data.
+2. Maximize the data-ink ratio.
+3. Erase non-data-ink.
+4. Erase redundant data-ink.
+5. Revise and edit.
+
+---
+class: center, middle
+
+![](figures/tufte-worst-chart.jpg)
+&gt; The worst graphic ever to find its way into print
+&gt; – Tufte 
+
+---
+
+
+
+
+```r
+tufte_data %&gt;% 
+  filter(age_group == "&lt;25") %&gt;% 
+  ggplot(aes(x = year, y = enrollment)) +
+  geom_line() +
+  scale_y_continuous(limits = c(0, 1), labels = percent) +
+  labs(title = "Enrollment under 25") +
+  theme_minimal()
+```
+
+&lt;img src="r4r_visualisation_slides_files/figure-html/tufte-graphic-improved-1.png" width="100%" /&gt;
+
+???
+
+R nudges you into making good graphics (as opposed to Excel!)
+
+---
+
+# `ggplot2` and `RMarkdown`: exercises
+
+**Wickham &amp; Grolemund, *R for data science***
+
+https://r4ds.had.co.nz/
+
+Chapter 27: *R Markdown*
+
+Chapter 28: *Graphics for communication*
+
+* Run Hadley's code examples
+* Answer questions as comments (`# Here is my answer...`)
+* Do the 'exercises' sections – they're very informative!
+
+---
+
+# Further reading
+
+* Wickham &amp; Grolemund, *R for Data Science*, https://r4ds.had.co.nz/
+  * Hadley also recommends lots of good books!
+* Wickham 2009, *ggplot2: Elegant Graphics for Data Analysis*
+* Xie 2015, *Dynamic Documents with R and knitr*
+* Marwick et al. 2017, *Packaging Data Analytical Work Reproducibly Using R (and Friends)*, https://doi.org/10.1080/00031305.2017.1375986
+* Wickham 2020, *Mastering `Shiny`*, https://mastering-shiny.org/
+* RStudio cheatsheets, https://rstudio.com/resources/cheatsheets/
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
