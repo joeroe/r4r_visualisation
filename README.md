@@ -10,11 +10,11 @@ You may find it useful to look at the RMarkdown file to see the R code for some 
 
 ## How to view the slides
 
-### In a browser
+### Online
 
-[Clone](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) or download this repository from GitHub and open `r4r_visualisation_slides.html` in a browser to view the pre-knit slides.
+The built slides are available online at <http://joeroe.io/r4r_visualisation/r4r_visualisation_slides.html>.
 
-Press `c` in the presentation window to view the speaker notes.
+Press `p` in the presentation window to view the speaker notes and `c` to open a new window.
 
 ### In RStudio
 
@@ -30,8 +30,4 @@ remotes::install_github("rstudio/fontawesome")
 
 You should then be able to open `r4r_visualisation_slides.Rmd` in RStudio and view the slides using the "knit" button at the top of the editor pane or `knitr::knit("r4r_visualisation_slides.Rmd")`.
 
-Press `c` in the presentation window to view the speaker notes.
-
-### As a PDF
-
-This repository also contains a PDF version of the slides [`r4r_visualisation_slides.pdf`](r4r_visualisation_slides.pdf), but this may contain formatting errors and does not include the speaker notes.
+Press `p` in the presentation window to view the speaker notes and `c` to open a new window.

@@ -116,6 +116,17 @@ tibble(Day = c("Wednesday", "", "Thursday", ""),
 * I would like this to be as hands-on as possible, so the format for this module is you doing exercises at your own pace, with me dropping in to explain things as needed
 
 ---
+class: center, middle
+
+View these slides online:  
+<https://joeroe.io/r4r_visualisation/r4r_visualisation_slides.html>
+
+Source code:  
+<https://github.com/joeroe/r4r_visualisation>
+
+<small>They're written in RMarkdown!</small>
+
+---
 class: inverse, center, middle
 
 # Visualisation with R
