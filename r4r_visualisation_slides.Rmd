@@ -256,6 +256,14 @@ ggplot(BACups, aes(x = H, y = RD, size = ND)) +
 
 1. Using the `MaskSite` data, make a) a pie chart and b) a bar plot of the frequency of artefacts by category. Which do you think is more effective?
 
+--
+
+**Hint** – you will need the functions:
+
+* `table()`
+* `pie()`
+* `barplot()`
+
 ---
 class: inverse, center, middle
 
@@ -328,7 +336,7 @@ emedyd %>%
 
 https://r4ds.had.co.nz/
 
-Chapter 2: *Data visualisation*
+Chapter 3: *Data visualisation*
 
 Chapter 7: *Exploratory Data Analysis* (if you have time)
 
