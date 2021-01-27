@@ -25,6 +25,7 @@ Make sure you have the following packages installed:
 ```r
 install.packages(c("tidyverse", "scales", "rcarbon", "sf", "rnaturalearth", "tidygraph", "ggraph", "remotes", "gt"))
 remotes::install_github("joeroe/stratigraphr")
+remotes::install_github("rstudio/fontawesome")
 ```
 
 You should then be able to open `r4r_visualisation_slides.Rmd` in RStudio and view the slides using the "knit" button at the top of the editor pane or `knitr::knit("r4r_visualisation_slides.Rmd")`.

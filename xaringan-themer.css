@@ -34,12 +34,12 @@
   --code-font-family: 'Source Code Pro';
   --code-font-is-google: 1;
   --base-font-size: 20px;
-  --text-font-size: 18pt;
-  --code-font-size: 11pt;
+  --text-font-size: 16pt;
+  --code-font-size: 9pt;
   --code-inline-font-size: 90%;
-  --header-h1-font-size: 36pt;
-  --header-h2-font-size: 30pt;
-  --header-h3-font-size: 24pt;
+  --header-h1-font-size: 30pt;
+  --header-h2-font-size: 24pt;
+  --header-h3-font-size: 18pt;
 
   /* Colors */
   --text-color: #3c3836;
@@ -76,7 +76,7 @@ h1, h2, h3 {
 }
 .remark-slide-content {
   background-color: var(--background-color);
-  font-size: 18pt;
+  font-size: 16pt;
   padding: 16px 64px 16px 64px;
   width: 100%;
   height: 100%;

@@ -28,11 +28,12 @@ library("rnaturalearth")
 library("tidygraph")
 library("ggraph")
 library("stratigraphr")
+library("fontawesome")
 source("R/tidy_rcarbon.R")
 ```
 ```{r xaringan-themer, include = FALSE}
 library("xaringanthemer")
-mono_accent(
+style_mono_accent(
   base_color = "#d79921",
   white_color = "#ffffff",
   black_color = "#3c3836",
@@ -42,29 +43,34 @@ mono_accent(
   header_font_google = google_font("Source Sans Pro", "600", "600i"), 
   header_font_weight = "600",
   code_font_google   = google_font("Source Code Pro"),
-  text_font_size = "18pt",
-  header_h1_font_size = "36pt",
-  header_h2_font_size = "30pt",
-  header_h3_font_size = "24pt",
-  code_font_size = "11pt",
+  text_font_size = "16pt",
+  header_h1_font_size = "30pt",
+  header_h2_font_size = "24pt",
+  header_h3_font_size = "18pt",
+  code_font_size = "9pt",
   code_inline_font_size = "90%"
 )
 ```
 
 .pull-left[
+![](https://joeroe.io/images/avatar.png)
+
+**Joe Roe**  
+University of Copenhagen  
+
+* `r fa("link")` [joeroe.io](https://joeroe.io)
+* `r fa("github")` [joeroe](https://github.com/joeroe)
+* `r fa("twitter")` [@joeroe](https://twitter.com/joeroe90)
+]
+
+.pull-right[
 ![](figures/shubayqa.jpg)
 ![](figures/jr-thesis-slide.png)
 ]
 
-.pull-right[
-**Joe Roe**  
-Research assistant  
-University of Copenhagen  
+???
 
-https://joeroe.io  
-https://github.com/joeroe  
-https://twitter.com/joeroe90 
-]
+* Introducing myself
 
 ---
 class: center, middle
@@ -73,7 +79,7 @@ class: center, middle
 tibble(Day = c("Wednesday", "", "Thursday", ""),
        Time = c("10–13", "14–17", "10–13", "14–17"),
        Topics = c(
-"**Introduction to visualisation with R**
+"**Introduction to visualisation in R**
 * Visualisation in data science
 * Overview of R graphics packages
 * Plotting with `base`",
@@ -81,11 +87,12 @@ tibble(Day = c("Wednesday", "", "Thursday", ""),
 * The 'grammar of graphics'
 * Visualisation and tidy data
 * Plotting with `ggplot2`",
-"**Advanced visualisations for archaeologists**
-* Radiocarbon chronologies with 'ridgeplots'
-* Cartography in R: `sf` and `ggplot2`
-* 3D topography with `rayshader`",
-"**Publication-ready visualisations**
+"**Advanced visualisation exercises**
+* Stratigraphy: `tidygraph` and `ggraph`
+* Radiocarbon: `ggridges`
+* Cartography/R as a GIS: `sf` and `ggmap`
+* 3D: `rayshader`",
+"**Publication-ready visualisation**
 * What makes an effective graphic?
 * Advanced `ggplot2`: aesthetics and themes
 * Publishing with `RMarkdown`"),
@@ -99,6 +106,14 @@ tibble(Day = c("Wednesday", "", "Thursday", ""),
   tab_style(cell_text(weight = "bold"), cells_column_labels(TRUE)) %>% 
   tab_style(cell_text(weight = "bold"), cells_body(columns = c("Day", "Time")))
 ```
+
+???
+
+* The "Visualisation" module follows on from the introduction to R you've had so far
+* We'll start by going through the two major graphics packages in R: "base" and `ggplot2`
+* Then tomorrow, we'll look at some specific "advanced" visualisation techniques relevant to archaeology
+* And finally we'll briefly introduce R's options for publishing with a focus on polished visualisations
+* I would like this to be as hands-on as possible, so the format for this module is you doing exercises at your own pace, with me dropping in to explain things as needed
 
 ---
 class: inverse, center, middle
@@ -115,31 +130,13 @@ class: center, middle
 
 ???
 
-* We use visualisations (graphs, plots, etc.) to communicate things about data
-* But visualisations are also extremely important for you the analyst to *understand* the data
-* Hadley's "understand" cycle here encapsulates *exploratory data analysis*
-
----
-
-# Exploratory Data Analysis (EDA)
-
-.pull-left[
-<small>
-> Exploratory data analysis (EDA) is an essential step in any research analysis. The primary aim with exploratory analysis is to examine the data for distribution, outliers and anomalies to direct specific testing of your hypothesis. It also provides tools for hypothesis generation by visualizing and understanding the data usually through graphical representation. EDA aims to assist the natural patterns recognition of the analyst. 
->
-> *Komorowski et al. 2016*
-</small>
-]
-
-.pull-right[
-![](figures/tukey-eda.jpg)
-]
-
-???
-
-* John Tukey's *exploratory data analysis* (EDA) was an alternative (complementary) approach to hypothesis-testing statistics emphasising iterative exploration of data, especially using visual methods 
-* Tukey's approach was influential in the development of *S*, and by extension *R* – R is very much designed to do EDA
-* The modern "data science" approach was born with EDA and visualisation at its core
+* Why are we looking at visualisation so early? Isn't it something you do at the end of a project?
+* Yes and no – we use visualisations (graphs, plots, etc.) to **communicate** things about data
+* But visualisations are also extremely important for you the analyst to **understand** the data
+* In the exploratory data analysis (EDA) or modern "data science" workflow (illustrated very nicely here in a figure from Hadley Wickham's *R for Data Science*), visualisation is one of the pillars of data analysis
+* You should use graphics often, to help you understand data as you go through the iterative cycle of interrogating and modelling it
+* R is very well suited for this: once you've mastered the basic graphics functions, you can generate plots easily and often
+* The "transform" step is also important here: a big part of using R's graphics packages is getting your data into the right format, so this module will also introduce you to some of the fundamental concepts of data manipulation
 
 ---
 
@@ -169,8 +166,9 @@ ggplot(BACups, aes(x = H, y = RD)) +
 
 ???
 
-* base, ggplot2, and lattice (now rarely used)
-* Major differences in syntax, and by extension flexibility and capabilities
+* There isn't one way to produce plots in R: you have to pick a **graphics package**
+* The main options are "base" (actually `graphics`), `ggplot2`, and `lattice` (now rarely used)
+* These packages have major differences in syntax, and by extension flexibility and capabilities
 
 ---
 
@@ -218,9 +216,10 @@ ggplot(BACups, aes(x = H, y = RD, size = ND)) +
 
 ???
 
-* The syntax differences are highlighted when you try to do more complex plots
-* Some debate over the pros and cons of each – I see ggplot2 as a straightforward upgrade at this point
-* But it's important to know base as the 'default' in a lot of cases, e.g. used by many packages to plot complex data structures
+* These differences are highlighted when you try to do more complex plots
+* Don't get hung up on the aesthetic differences – these are defaults, you can easily make one look like the other (or anything else)
+* There is some debate over the pros and cons of each – I see ggplot2 as a straightforward upgrade and from this afternoon we will focus on its approach
+* But it's helpful to be familiar with base as the 'default' in a lot of cases, e.g. used by many packages to plot complex data structures, so we'll start with that
 
 ---
 
@@ -234,7 +233,11 @@ ggplot(BACups, aes(x = H, y = RD, size = ND)) +
 * Replicate all Carlson's code
 * Think about Carlson's code – how could you adapt it to do something different?
 * Answer questions as comments (`# Here is my answer...`)
-* Shout at me if you get stuck!
+* Raise your hand if you get stuck or have a question!
+
+???
+
+* 
 
 ---
 
@@ -258,7 +261,7 @@ class: middle
 ???
 
 * `ggplot2` is based on the "grammar of graphics"
-* This is a structured way of *describing* the relationship between data and graphical elements – as opposed to `base` graphics, which is you *telling* R what to plot
+* This is a structured way of *describing* the relationship between data and graphical elements (declarative) – as opposed to `base` graphics, which is you *telling* R what to plot (imperative)
 * Specifically, `ggplot` introduces a *layered* grammer of graphics, allowing you to combine multiple mappings into a single plot
 * This makes it much more flexible than base and allows us to maintain readable code for even very complicated plots
 * Further reading: 
@@ -301,8 +304,9 @@ emedyd %>%
 
 ???
 
+* As I mentioned this morning, a big part of producing graphics effectively is having the tools to transform data to the right format
 * `ggplot2` is super-charged when used as part of a "tidy data analysis" workflow
-* For example, *pipes* allow us to elegently and concisely load data, clean and filter, and plot in a single code block
+* For example, *pipes* allow us to elegantly and concisely load data, clean and filter, and plot in a single code block
 * Caveat: data does have to be in a roughly tabular (if not fully "tidy") structure to work well with ggplot. Complex objects from other packages can be a challenge to work with.
 
 ---
@@ -353,7 +357,9 @@ ggplot(data = ggplot2::mpg, mapping = aes(x = class, y = hwy)) +
 
 ???
 
-We've seen how to do a few fundamental plots with ``ggplot2` today, but using "dummy" datasets like cars and diamonds. What are some archaeological applications of these plots?
+* We've seen how to do a few fundamental plots with ``ggplot2` today, but using "dummy" datasets like cars and diamonds. 
+* What are some archaeological applications of these plots?
+* Tomorrow we will look at some more niche types of visualisation in archaeology.
 
 ---
 class: inverse, center, middle
