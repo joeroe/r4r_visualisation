@@ -9,6 +9,8 @@ output:
     lib_dir: libs
     css: xaringan-themer.css
     nature:
+      beforeInit: 'libs/scale-macro.js'
+      ratio: '16:10'
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
@@ -24,8 +26,6 @@ library("gt")
 library("scales")
 library("rcarbon")
 library("sf")
-library("rnaturalearth")
-library("tidygraph")
 library("ggraph")
 library("stratigraphr")
 library("fontawesome")
@@ -392,13 +392,12 @@ class: inverse, center, middle
 
 .pull-left[
 * Spatial data
-  * `rgdal`, `rgeos`
-  * `sp`, `sf`
-  * `raster`, `stars`
+  * `rgdal`, `rgeos`, `rgrass7`, `link2gi`
+  * `sf`, `sp`
+  * `raster`, `stars`, `terra`
 * Geostatistics
-  * `gstat`, `spdep`, `nlme`
+  * `spatstat`, `gstat`, `spdep`, `nlme`
   * `landsat`, `dismo`
-  * Many, many more...
 ]
 .pull-right[
 * Base maps + open data
@@ -407,12 +406,13 @@ class: inverse, center, middle
   * `rOpenSci`
 * Cartography
   * `ggplot2`
+  * `ggspatial`
   * `rasterVis`
 ]
 
 ---
 
-```{r eg-tavo, echo=FALSE, results='hide', message=FALSE, warning=FALSE}
+```{r eg-tavo-prepare, include=FALSE}
 tavo <- read_tsv("data/tavo-a27.tsv", col_types = cols())
 
 # Reshape data into a table of occurrences
@@ -432,37 +432,56 @@ tavo %>%
     grepl("Bos*", taxon) ~ "Bos",
     grepl("Sus*", taxon) ~ "Sus",
   )) %>% 
-  filter(taxon %in% c("Gazella", "Equus", "Dama", "Ovicaprid", "Bos", "Sus")) ->
+  filter(taxon %in% c("Gazella", "Equus", "Dama",
+                      "Ovicaprid", "Bos", "Sus")) ->
   tavo
+```
+```{r eg-tavo-data, echo=FALSE}
+tavo
+```
 
-# Convert to simple features spatial object
+.pull-left[
+```{r eg-tavo, eval=FALSE}
+# Convert occurrence data to spatial object
 tavo %>% 
   drop_na(latitude, longitude) %>% 
-  st_as_sf(crs = 4326, coords = c("longitude", "latitude"), remove = FALSE,
+  st_as_sf(crs = 4326, 
+           coords = c("longitude", "latitude"), 
+           remove = FALSE,
            agr = "constant") %>% 
-  st_transform(crs = 22770) -> # EPSG:22770 / Syria Lambert
+  st_transform(crs = 22770) -> # Syria Lambert
   tavo
 
-# Plot
+# Read base map data
 box <- st_bbox(tavo)
-land <- ne_download(110, "land", "physical", returnclass = "sf") %>% 
-  st_crop(xmin = 0, xmax = 90, ymin = 0, ymax = 60) %>% 
-  st_transform(crs = 22770)
+read_sf("./data/ne_10m_land/ne_10m_land.shp") %>% 
+  st_crop(xmin = 0, xmax = 90, 
+          ymin = 0, ymax = 60) %>% 
+  st_transform(crs = 22770) ->
+  land
 
+# Plot
 ggplot(tavo) +
-  facet_wrap(vars(taxon)) +
+  facet_wrap(vars(taxon), ncol = 2) +
   geom_sf(data = land, fill = "white") +
-  geom_sf() +
-  coord_sf(xlim = c(box$xmin, box$xmax), ylim = c(box$ymin, box$ymax),
+  geom_sf(size = 1) +
+  coord_sf(xlim = c(box$xmin, box$xmax), 
+           ylim = c(box$ymin, box$ymax),
            label_axes = "----")
 ```
+]
+
+.pull-right[
+```{r eg-tavo, echo=FALSE, warning=FALSE, message=FALSE, out.width='100%'}
+```
+]
 
 ---
 
 # Radiocarbon
 
 .pull-left[
-![](figures/shubayqa1-radiocarbon.jpg)
+![:scale 70%](figures/shubayqa1-radiocarbon.jpg)
 .center[<small>Richter et al. 2017</small>]
 ]
 
@@ -478,41 +497,99 @@ ggplot(tavo) +
 * Databases
   * `c14bazAAR`
 * Calibration
+  * `rcarbon`
   * `oxcAAR` (interface for OxCal)
-  * `rcarbon` (including summed distributions)
-  * `stratigraphr` (WIP!)
+  * `Bchron`
+* Modelling
+  * `rcarbon`
+  * `stratigraphr`
+  * `ArchaeoPhases`
 
 ---
 
-```{r tidy-rcarbon, echo=FALSE, fig.asp=1.3}
+.pull-left[
+```{r eg-rcarbon-data, echo=FALSE}
+data("emedyd")
+emedyd <- tibble(emedyd)
+emedyd
 ```
+```{r eg-rcarbon, eval=FALSE}
+emedyd %>% 
+  filter(SiteName == "Nevali Cori") %>% 
+  arrange(CRA) %>% 
+  mutate(LabID = as_factor(LabID)) %>% 
+  mutate(CalDate = c14_calibrate(CRA, Error, verbose = FALSE)) %>% 
+  unnest_legacy() %>% 
+  ggplot(aes(year, p)) +
+  facet_wrap(~LabID, ncol = 1, 
+             scales = "free_y", 
+             strip.position = "left") +
+  geom_area() + 
+  scale_x_reverse() +
+  labs(title = "Nevali Cori",
+       subtitle = "Radiocarbon chronology",
+       x = "cal BP") +
+  theme(axis.title.y = element_blank(),
+        axis.text.y = element_blank(),
+        axis.ticks.y = element_blank(),
+        panel.grid.minor.y = element_blank(),
+        panel.grid.major.y = element_blank(),
+        strip.text.y.left = element_text(angle = 0, hjust = 0))
+```
+]
+
+.pull-right[
+```{r eg-rcarbon, echo=FALSE, fig.asp=1.3}
+```
+]
 
 ---
 
-# Stratigraphy (`tidygraph` & `ggraph`)
+# Stratigraphy (`ggraph`)
 
-```{r eg-stratigraphy, echo=FALSE}
+.pull-left[
+```{r eg-stratigraphy-data, echo=FALSE}
 data("harris12")
+harris12
+```
+```{r eg-stratigraphy, eval=FALSE}
 stratigraph(harris12, "context", "above") %>% 
   ggraph(layout = "sugiyama") +
   geom_edge_elbow() +
-  geom_node_label(aes(label = context), label.r = unit(0, "mm")) +
+  geom_node_label(aes(label = context), 
+                  label.r = unit(0, "mm")) +
   theme_graph()
 ```
+]
+
+.pull-right[
+```{r eg-stratigraphy, echo=FALSE}
+```
+]
+
+???
+
+* What about relative chronological data?
+* Unlike radiocarbon, stratigraphic data is much less standardised within archaeology
+* This means it's not so portable, and not so readily available to R
+* But I have been working on a package (`stratigraphr`) that works with stratigraphic data using graphs
+  * Which amongst other things lets you reproduce the classic Harris matrix with `ggraph`
 
 ---
 class: center, middle
 
 # 3D (`rayshader` & `rayrender`)
 
-![](figures/rayrendersmall.jpg)
+![:scale 50%](figures/rayrendersmall.jpg)
 
 ???
 
-* Note of caution
-  * Bad 3D (purely decorative)
-  * Dodgy 3D (functional, but usually better options)
-  * Good 3D! (things that are 3D, e.g. objects, topography)
+* These two packages are introducing rayshaded 3D models to R
+* 3D can be a 'touchy subject' in data viz., but there are different kins:
+  * Bad 3D: purely decorative
+  * Dodgy 3D: functional, but usually better options, e.g. 3D scatterplots
+  * Good 3D: things that are 3D, e.g. objects, topography
+* E.g. ...
   
 ---
 class: center, middle
@@ -520,6 +597,11 @@ class: center, middle
 ![](figures/raisz-cuba.jpeg)
 
 .center[<small>Gerardo Canet & Erwin Raisz, *Atlas de Cuba* (1949)</small>]
+
+???
+
+* ... these beautiful topographic maps by Erwin Raisz
+* Which can now be modernised with rayrender ...
 
 ---
 class: center, middle
@@ -543,7 +625,7 @@ class: center, middle
 
 ???
 
-Form groups and try to recreate one of these visualisations.
+* Today's exercise: form groups and try to recreate one of these visualisations.
 
 ---
 class: inverse, center, middle
@@ -579,7 +661,7 @@ The R package `rrtools` assists with creating these in R.
 ]
 
 .pull-right[
-![](figures/rr-compendium.jpeg)
+![:scale 60%](figures/rr-compendium.jpeg)
 ]
 
 ---
@@ -587,16 +669,20 @@ class: center, middle
 
 # Effective visualisations: Tufte's principles
 
-1. Above all else show data.
-2. Maximize the data-ink ratio.
-3. Erase non-data-ink.
-4. Erase redundant data-ink.
-5. Revise and edit.
+Above all else show data.
+
+Maximize the data-ink ratio.
+
+Erase non-data-ink.
+
+Erase redundant data-ink.
+
+Revise and edit.
 
 ---
 class: center, middle
 
-![](figures/tufte-worst-chart.jpg)
+![:scale 30%](figures/tufte-worst-chart.jpg)
 > The worst graphic ever to find its way into print
 > – Tufte 
 
@@ -609,7 +695,7 @@ tufte_data <- tibble(year = rep(1972:1976, 2),
                                     0.28, 0.292, 0.328, 0.336, 0.33))
 ```
 
-```{r tufte-graphic-improved}
+```{r tufte-graphic-improved, out.width='70%'}
 tufte_data %>% 
   filter(age_group == "<25") %>% 
   ggplot(aes(x = year, y = enrollment)) +
