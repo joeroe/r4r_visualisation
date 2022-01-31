@@ -16,6 +16,8 @@ output:
       countIncrementalSlides: false
 ---
 class: middle
+background-image: url("figures/jr-survey.png")
+background-size: 67%
 
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
@@ -56,7 +58,7 @@ style_mono_accent(
 ![](https://joeroe.io/images/avatar.png)
 
 **Joe Roe**  
-University of Copenhagen  
+University of Bern  
 
 * `r fa("link")` [joeroe.io](https://joeroe.io)
 * `r fa("github")` [joeroe](https://github.com/joeroe)
@@ -64,8 +66,8 @@ University of Copenhagen
 ]
 
 .pull-right[
-![](figures/shubayqa.jpg)
-![](figures/jr-thesis-slide.png)
+![](figures/jr-palecomod.png)
+![](figures/jr-c14.png)
 ]
 
 ???
@@ -141,6 +143,14 @@ class: inverse, center, middle
 # Visualisation with R
 ## Introduction
 
+???
+
+* Why use R for visualisations? Or: why did we devote a quarter of this course to visualisation?
+* Most of you are probably here because, in some way or other, you want to use R to "do statistics"
+* As you go up the admittedly steeper learning curve of visualisations in R, you might ask: why not just export the result to a more intuitive programme like Excel, and make the plots there?
+* For that I have three answers:
+  * (or four: the zeroth being because Excel is bad software, don't use it)
+
 ---
 class: center, middle
 
@@ -150,13 +160,54 @@ class: center, middle
 
 ???
 
-* Why are we looking at visualisation so early? Isn't it something you do at the end of a project?
-* Yes and no – we use visualisations (graphs, plots, etc.) to **communicate** things about data
-* But visualisations are also extremely important for you the analyst to **understand** the data
+* First—and this is why we are we looking at visualisations now, rather than at the end—is that visualisation is not just the end product of a statistical analysis, something you use to **communicate**, but right at its centre, as something that helps us **understand**.
 * In the exploratory data analysis (EDA) or modern "data science" workflow (illustrated very nicely here in a figure from Hadley Wickham's *R for Data Science*), visualisation is one of the pillars of data analysis
 * You should use graphics often, to help you understand data as you go through the iterative cycle of interrogating and modelling it
-* R is very well suited for this: once you've mastered the basic graphics functions, you can generate plots easily and often
-* The "transform" step is also important here: a big part of using R's graphics packages is getting your data into the right format, so this module will also introduce you to some of the fundamental concepts of data manipulation
+
+---
+class: center, middle
+
+.pull-left[
+![](figures/tukey-eda.jpg)
+]
+
+.pull-right[
+![](figures/r4ds.jpg)
+]
+
+???
+
+* This is an old idea: starting with 'exploratory data analysis', and continued in modern 'data science'
+* Computers obviously make it a lot easier to generate plots quickly;
+* And R was in fact originally designed to facilitate EDA, so it's very well suited for it: once you've mastered the basic graphics functions, you can generate plots easily and often
+
+---
+class: middle
+
+# R: a statistical *programming language*
+
+1. Iterate
+2. Scale
+3. Reproduce
+
+???
+
+* Second, R is a statisical *programming language*. This has powerful advantages compared to traditional workflows for producing plots:
+  * Iteration: generate your final plot and realise you need to change something in the source data? No problem!
+  * Scalability: write code to visualise X about Y; then run it on 1000 (or 10000, or 100000) values of Y
+  * Reproducibility: everybody can see exactly the steps you took to produce a plot
+
+---
+class: center, middle
+
+## `bbplot` <<https://github.com/bbc/bbplot>>
+
+![](figures/bbplot_example_plots.png)
+
+???
+
+* Third, R graphics simply do look very nice. Maybe not always 'out of the box', but the capability is there.
+* For example, ... all use R for their statistical graphics
 
 ---
 
