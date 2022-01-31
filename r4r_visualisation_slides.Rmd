@@ -691,38 +691,7 @@ class: center, middle
 class: inverse, center, middle
 
 # Publication-ready visualisations
-## `ggplot2` and `RMarkdown`
-
----
-
-# Publishing with RMarkdown
-
-* Notebooks
-* Papers & theses (`rrtools`)
-* Books (`bookdown`, e.g. *R for Data Science*)
-* Slides (`xaringan`, e.g. these!)
-* Interactive interfaces (`shiny`, e.g. https://joeroe.shinyapps.io/LAC2018_fieldwalkr/)
-
-???
-
-* RMarkdown is a modern take on 'literate programming' (cf. Knuth) in R
-* It can now export to almost any format
-
----
-
-# RMarkdown for science: research compendia
-
-.pull-left[
-A **research compendium** packages together all the **data**, **code**, **figures**, and **text** that comprise a scientific analysis in a single place (e.g. an R package).
-
-The idea is to make the analysis fully **reproducible** from start to finish.
-
-The R package `rrtools` assists with creating these in R.
-]
-
-.pull-right[
-![:scale 60%](figures/rr-compendium.jpeg)
-]
+## With `ggplot2` and friends
 
 ---
 class: center, middle
@@ -771,13 +740,11 @@ R nudges you into making good graphics (as opposed to Excel!)
 
 ---
 
-# `ggplot2` and `RMarkdown`: exercises
+# Publication-ready visualisation: exercises
 
 **Wickham & Grolemund, *R for data science***
 
 https://r4ds.had.co.nz/
-
-Chapter 27: *R Markdown*
 
 Chapter 28: *Graphics for communication*
 
