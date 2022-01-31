@@ -4,6 +4,7 @@ This repository contains the slides and source code for a workshop on visualisat
 
 * 27th January – 7th February 2020
 * 25th January – 5th February 2021
+* 24th January – 4th February 2022
 
 The slides use `remark.js` and are generated from an RMarkdown file using the [`xaringan`](https://github.com/yihui/xaringan) package. 
 You may find it useful to look at the RMarkdown file to see the R code for some of the examples.
