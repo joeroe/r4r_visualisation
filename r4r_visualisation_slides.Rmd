@@ -95,8 +95,8 @@ tibble(Day = c("Monday", "", "Tuesday", "", "Wednesday"),
 * Extensions: `tmap`, `ggspatial`, `gganimate`",
 "**Advanced visualisation exercises**
 * Tables: `gt`
-* Stratigraphy: `tidygraph` and `ggraph`
 * Radiocarbon: `ggridges`
+* Multivariate analysis: `dimensio`
 * 3D: `rayshader`",
 "**Publication-ready visualisation**
 * What makes an effective graphic?
@@ -443,12 +443,11 @@ Chapter 12: *Tidy data* (if you have time)
 ---
 class: inverse, center, middle
 
-# Advanced visualisations
-## Plotting archaeological data
+# CartogRaphy
 
 ---
 
-# Cartography: R as a GIS
+# R spatial ecosystem
 
 .pull-left[
 * Spatial data
@@ -536,6 +535,23 @@ ggplot(tavo) +
 ```
 ]
 
+
+---
+class: inverse, center, middle
+
+# Advanced visualisations
+## Plotting archaeological data
+
+---
+
+# Tables
+## The forgotten plot
+
+---
+
+# Multivariate Analysis
+## ...not just another scatter plot!
+
 ---
 
 # Radiocarbon
@@ -602,38 +618,6 @@ emedyd %>%
 ```{r eg-rcarbon, echo=FALSE, fig.asp=1.3}
 ```
 ]
-
----
-
-# Stratigraphy (`ggraph`)
-
-.pull-left[
-```{r eg-stratigraphy-data, echo=FALSE}
-data("harris12")
-harris12
-```
-```{r eg-stratigraphy, eval=FALSE}
-stratigraph(harris12, "context", "above") %>% 
-  ggraph(layout = "sugiyama") +
-  geom_edge_elbow() +
-  geom_node_label(aes(label = context), 
-                  label.r = unit(0, "mm")) +
-  theme_graph()
-```
-]
-
-.pull-right[
-```{r eg-stratigraphy, echo=FALSE}
-```
-]
-
-???
-
-* What about relative chronological data?
-* Unlike radiocarbon, stratigraphic data is much less standardised within archaeology
-* This means it's not so portable, and not so readily available to R
-* But I have been working on a package (`stratigraphr`) that works with stratigraphic data using graphs
-  * Which amongst other things lets you reproduce the classic Harris matrix with `ggraph`
 
 ---
 class: center, middle
