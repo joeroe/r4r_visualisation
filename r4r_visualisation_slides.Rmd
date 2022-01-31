@@ -76,43 +76,51 @@ University of Copenhagen
 class: center, middle
 
 ```{r programme-table, echo=FALSE}
-tibble(Day = c("Wednesday", "", "Thursday", ""),
-       Time = c("10–13", "14–17", "10–13", "14–17"),
+tibble(Day = c("Monday", "", "Tuesday", "", "Wednesday"),
+       Time = c("10–13", "14–17", "10–13", "14–17", "10–13"),
        Topics = c(
 "**Introduction to visualisation in R**
 * Visualisation in data science
 * Overview of R graphics packages
-* Plotting with `base`",
-"**Tidy visualisation with `ggplot2`**
-* The 'grammar of graphics'
-* Visualisation and tidy data
-* Plotting with `ggplot2`",
+* ggplot2: The 'grammar of graphics'",
+"**Visualisation for exploratory data analysis**
+* Applications in archaeology
+* Further plotting with `ggplot2`",
+"**CartogRaphy**
+* R as a GIS /  R isn't a GIS
+* Mapping with `ggplot2`
+* Extensions: `tmap`, `ggspatial`, `gganimate`",
 "**Advanced visualisation exercises**
+* Tables: `gt`
 * Stratigraphy: `tidygraph` and `ggraph`
 * Radiocarbon: `ggridges`
-* Cartography/R as a GIS: `sf` and `ggmap`
 * 3D: `rayshader`",
 "**Publication-ready visualisation**
 * What makes an effective graphic?
 * Advanced `ggplot2`: aesthetics and themes
-* Publishing with `RMarkdown`"),
-       Exercises = c("*Quantitative Archaeology*, ch. 5", 
-                     "*R for Data Science*, ch. 3 & 7",
-                     "To be provided",
-                     "*R for Data Science*, ch. 27–28")) %>% 
+* Tips for the real world"),
+       Exercises = c("*R for Data Science*, ch. 3", 
+                     "*R for Data Science*, ch. 7 & 11",
+                     "*Groupwork*",
+                     c("*ggplot2*, ch. 6;<br>*Geocomputation with R*, ch. 9"),
+                     "*R for Data Science*, ch. 28")) %>% 
   gt() %>% 
   fmt_markdown(everything()) %>% 
-  tab_style(cell_text(size = "small", align = "left", v_align = "top"), cells_body()) %>% 
-  tab_style(cell_text(weight = "bold"), cells_column_labels(TRUE)) %>% 
+  tab_style(cell_text(size = "small", align = "left", v_align = "top"), 
+            cells_body()) %>% 
+  tab_style(cell_text(weight = "bold"), cells_column_labels(everything())) %>% 
   tab_style(cell_text(weight = "bold"), cells_body(columns = c("Day", "Time")))
 ```
 
 ???
 
 * The "Visualisation" module follows on from the introduction to R you've had so far
-* We'll start by going through the two major graphics packages in R: "base" and `ggplot2`
-* Then tomorrow, we'll look at some specific "advanced" visualisation techniques relevant to archaeology
-* And finally we'll briefly introduce R's options for publishing with a focus on polished visualisations
+* We'll start by outlining the through the two major graphics packages in R: "base" and `ggplot2`
+* 
+* Then tomorrow, we'll look at some specific "advanced" visualisation techniques relevant to archaeology:
+  * First spatial visualisations and mapping, following on from last week's module on spatial analysis
+  * Then a selection of other specific applications – subject to change!
+* And finally, on Wednesday, we'll discuss preparing plots ready for final publication
 * I would like this to be as hands-on as possible, so the format for this module is you doing exercises at your own pace, with me dropping in to explain things as needed
 
 ---
