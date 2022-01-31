@@ -432,7 +432,9 @@ emedyd %>%
 
 https://r4ds.had.co.nz/
 
-Chapter 7: *Exploratory Data Analysis*
+Chapter 3: *Data visualisation* (if you haven't finished)  
+Chapter 7: *Exploratory Data Analysis*  
+Chapter 12: *Tidy data* (if you have time)
 
 * Run Hadley's code examples
 * Answer questions as comments (`# Here is my answer...`)
