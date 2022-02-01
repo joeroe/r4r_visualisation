@@ -28,6 +28,8 @@ library("gt")
 library("scales")
 library("rcarbon")
 library("sf")
+library("raster")
+library("ggspatial")
 library("ggraph")
 library("stratigraphr")
 library("fontawesome")
@@ -444,6 +446,11 @@ Chapter 12: *Tidy data* (if you have time)
 class: inverse, center, middle
 
 # CartogRaphy
+## Mapping with `ggplot2` and friends
+
+---
+
+# R as a GIS / R isn't a GIS
 
 ---
 
@@ -467,21 +474,53 @@ class: inverse, center, middle
   * `ggplot2`
   * `ggspatial`
   * `rasterVis`
+  * `tmap`
 ]
 
 ---
 
-# CartogRaphy: exercises
+# Mapping with `ggplot2`: exercises (1/2)
 
+**Wickham, Navarro & Pedersen, *ggplot2: Elegant Graphics for Data Analysis***
+
+https://ggplot2-book.org/
+
+Chapter 3: *Maps*
+
+* Run the code examples
+* Reproduce the following using the 'tavo-a27' dataset.
+  * Hint: In addition to `ggplot2`, you will need the `raster` and `ggspatial` packages.
+  
 ---
+class: center, middle
 
 ```{r eg-tavo-prepare, include=FALSE}
 tavo <- read_tsv("data/tavo-a27.tsv", col_types = cols())
 
-# Reshape data into a table of occurrences
+# Reshape data into a tidy table of occurrences
 tavo %>% 
   gather("taxon", "occurrence", 9:79) %>% 
-  filter(occurrence == 1) ->
+  filter(occurrence == 1) %>% 
+  separate_rows(periods, sep = ";") %>% 
+  mutate(
+      periods = recode(periods,
+                       "histor" = "Historic",
+                       "Isl" = "Islamic",
+                       "Byz" = "Byzantine",
+                       "Rom" = "Roman",
+                       "Hell" = "Hellenistic",
+                       "IA" = "Iron Age",
+                       "BA" = "Bronze Age",
+                       "LN" = "Late Neolithic",
+                       "EN" = "Early Neolithic",
+                       "PN" = "Protoneolithic",
+                       "EP" = "Epipalaeolithic",
+                       "UP" = "Upper Palaeolithic",
+                       "MP" = "Middle Palaeolithic",
+                       "LP" = "Lower Palaeolithic"
+      )
+  ) %>% 
+  rename(period = periods) ->
   tavo
 
 # Recode and filter to selected taxa of interest
@@ -498,13 +537,10 @@ tavo %>%
   filter(taxon %in% c("Gazella", "Equus", "Dama",
                       "Ovicaprid", "Bos", "Sus")) ->
   tavo
-```
-```{r eg-tavo-data, echo=FALSE}
-tavo
-```
 
-.pull-left[
-```{r eg-tavo, eval=FALSE}
+write_tsv(tavo, "data/tavo-a27-tidy.tsv")
+```
+```{r eg-tavo, echo=FALSE, warning=FALSE, cache=TRUE}
 # Convert occurrence data to spatial object
 tavo %>% 
   drop_na(latitude, longitude) %>% 
@@ -523,22 +559,36 @@ read_sf("./data/ne_10m_land/ne_10m_land.shp") %>%
   st_transform(crs = 22770) ->
   land
 
+dem <- raster("data/etopo1_swasia.tif")
+projection(dem) <- crs("+init=EPSG:4326")
+dem <- projectRaster(dem, crs = crs("+init=EPSG:22770"))
+dem <- mask(dem, land)
+
 # Plot
-ggplot(tavo) +
-  facet_wrap(vars(taxon), ncol = 2) +
-  geom_sf(data = land, fill = "white") +
+eg_tavo_periods <- c("Upper Palaeolithic", "Epipalaeolithic", "Protoneolithic",
+                     "Early Neolithic", "Late Neolithic", "Bronze Age")
+tavo %>% 
+  filter(taxon == "Ovicaprid") %>% 
+  filter(period %in% eg_tavo_periods) %>%
+  mutate(period = fct_relevel(period, eg_tavo_periods)) %>% 
+  ggplot() +
+  facet_wrap(vars(period), ncol = 3) +
+  geom_raster(data = df_spatial(dem), aes(x, y, fill = band1)) +
+  scale_fill_gradientn(colours = terrain.colors(32)[16:32], 
+                       na.value = "transparent",
+                       guide = guide_none()) +
+  geom_sf(data = land, colour = "black", fill = "NA") +
   geom_sf(size = 1) +
   coord_sf(xlim = c(box$xmin, box$xmax), 
            ylim = c(box$ymin, box$ymax),
-           label_axes = "----")
+           label_axes = "----") +
+  labs(title = "Dispersal of ovicaprids in Southwest Asia",
+       subtitle = "Data from Uerpmann 1987, The Ancient Distribution of Ungulate Mammals in the Middle East*",
+       caption = "*Available at <https://github.com/joeroe/tavo-a27>",
+       x = NULL,
+       y = NULL) +
+  annotation_scale(style = "ticks", location = "br")
 ```
-]
-
-.pull-right[
-```{r eg-tavo, echo=FALSE, warning=FALSE, message=FALSE, out.width='100%'}
-```
-]
-
 
 ---
 class: inverse, center, middle

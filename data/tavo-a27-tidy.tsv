@@ -1,0 +1,1188 @@
+id	site	country	latitude	longitude	coord_source	period	fauna_source	taxon	occurrence
+2	Abu Hureyra	Syria	35.867	38.4	Schyle & Uerpmann 1996	Protoneolithic	Moore, Hillman & Legge 1975	Equus	1
+2	Abu Hureyra	Syria	35.867	38.4	Schyle & Uerpmann 1996	Early Neolithic	Moore, Hillman & Legge 1975	Equus	1
+2	Abu Hureyra	Syria	35.867	38.4	Schyle & Uerpmann 1996	Late Neolithic	Moore, Hillman & Legge 1975	Equus	1
+8	Ain Mallaha	Israel	33.13	35.58	CONTEXT	Protoneolithic	Ducos 1968, for Canis see Davis & Valla 1978	Equus	1
+12	Amuq	Turkey	36.268	36.587	Yener 2005	Late Neolithic	Stampfli 1983	Equus	1
+14	Apamee, Tell	Syria	35.491	36.402	Pleiades	Late Neolithic	Gautier 1977	Equus	1
+19	Aşıklı Hüyük	Turkey	38.35	34.23	CONTEXT	Early Neolithic	Payne 1985	Equus	1
+26	Beersheba – Bir es-Safadi	Israel	32.931	35.408	Pleiades	Late Neolithic	Josien 1955; Ducos 1968	Equus	1
+27	Beersheba – Horvat Beter	Israel	32.931	35.408	Pleiades	Late Neolithic	Angress 1959	Equus	1
+28	Beidha	Jordan	30.37	35.45	CONTEXT	Early Neolithic	Hecker 1974, 1982	Equus	1
+29	Beisamoun	Israel	33.093	35.58	Bocquentin et al. 2011	Early Neolithic	Davis 1978	Equus	1
+37	Çatal Hüyük	Turkey	37.668	32.828	Pleiades	Early Neolithic	Perkins 1969	Equus	1
+45	Der, Tell ed-	Iraq	33.099	44.299	Pleiades	Bronze Age	Bökönyi 1978	Equus	1
+49	Dosariyah, Abu Khamis, and Ain Qannas	Saudi Arabia	26.94	49.71	CONTEXT	Late Neolithic	Zeder pers. comm.	Equus	1
+55	Eli, Tel	Israel	32.5	35.5	Kopp & Röllig 1994	Early Neolithic	Jarman 1974	Equus	1
+55	Eli, Tel	Israel	32.5	35.5	Kopp & Röllig 1994	Late Neolithic	Jarman 1974	Equus	1
+64	Gat-Govrin	Israel	31.583	34.833	Kopp & Röllig 1994	Late Neolithic	Ducos 1968	Equus	1
+70	Girikihaciyan	Turkey	38.233	39.967	Watson 1990	Late Neolithic	Mcardle 1974	Equus	1
+75	Hagoshrim	Israel	33.221	35.624	vici:57351	Late Neolithic	Ducos 1986	Equus	1
+79	Hayaz Hüyük	Turkey	37.563	38.357	vici:57511	Early Neolithic	Buitenhuis pers. comm.; Clason 1985	Equus	1
+79	Hayaz Hüyük	Turkey	37.563	38.357	vici:57511	Late Neolithic	Buitenhuis pers. comm.; Clason 1985	Equus	1
+87	Iǧrat al-Mihad	Egypt	28.5	33.5	Kopp & Röllig 1994	Early Neolithic	Bar-Yosef 1981	Equus	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Protoneolithic	Clutton-Brock 1979; Nobis 1968	Equus	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Early Neolithic	Clutton-Brock 1979; Nobis 1968	Equus	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Late Neolithic	Clutton-Brock 1979; Nobis 1968	Equus	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Bronze Age	Clutton-Brock 1979; Nobis 1968	Equus	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Iron Age	Clutton-Brock 1979; Nobis 1968	Equus	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Hellenistic	Clutton-Brock 1979; Nobis 1968	Equus	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Roman	Clutton-Brock 1979; Nobis 1968	Equus	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Byzantine	Clutton-Brock 1979; Nobis 1968	Equus	1
+93	Karataş-Semayük	Turkey	38.917	39	Schyle 1992	Bronze Age	Hesse & Perkins 1974	Equus	1
+98	Khiam, al-	Israel	31.633	35.267	Schyle & Uerpmann 1996	Epipalaeolithic	Vaufrey 1951; Ducos 1968	Equus	1
+98	Khiam, al-	Israel	31.633	35.267	Schyle & Uerpmann 1996	Early Neolithic	Vaufrey 1951; Ducos 1968	Equus	1
+107	Mdamagh	Jordan	30.333	35.45	Schyle 1992	Epipalaeolithic	Perkins 1966; Uerpmann 1987	Equus	1
+113	Metzer	Israel	32.417	35	Kopp & Röllig 1994	Late Neolithic	Ducos 1968	Equus	1
+115	Munhatta	Israel	32.5	35.5	Kopp & Röllig 1994	Early Neolithic	Ducos 1968	Equus	1
+115	Munhatta	Israel	32.5	35.5	Kopp & Röllig 1994	Late Neolithic	Ducos 1968	Equus	1
+121	Nahal Oren	Israel	32.72	34.97	CONTEXT	Epipalaeolithic	Ducos 1968; Noy, Legge & Higgs 1973	Equus	1
+121	Nahal Oren	Israel	32.72	34.97	CONTEXT	Protoneolithic	Ducos 1968; Noy, Legge & Higgs 1973	Equus	1
+121	Nahal Oren	Israel	32.72	34.97	CONTEXT	Early Neolithic	Ducos 1968; Noy, Legge & Higgs 1973	Equus	1
+132	Qafzeh, Grotte du Djebel Qafzeh	Israel	32.7	35.3	Schyle 1992	Middle Palaeolithic	Bouchud 1969	Equus	1
+132	Qafzeh, Grotte du Djebel Qafzeh	Israel	32.7	35.3	Schyle 1992	Upper Palaeolithic	Bouchud 1969	Equus	1
+132	Qafzeh, Grotte du Djebel Qafzeh	Israel	32.7	35.3	Schyle 1992	Epipalaeolithic	Bouchud 1969	Equus	1
+140	Ras en-Naqb	Jordan	30.017	35.483	Schyle 1992	Epipalaeolithic	Turnbull in press	Equus	1
+140	Ras en-Naqb	Jordan	30.017	35.483	Schyle 1992	Late Neolithic	Turnbull in press	Equus	1
+147	Sahba	Israel	31.583	35.217	Tomsky 1991	Middle Palaeolithic	Vaufrey 1951	Equus	1
+159	Sinn, Tell es-	Syria	35.917	38.233	Gebel 1984	Early Neolithic	Clason 1980	Equus	1
+159	Sinn, Tell es-	Syria	35.917	38.233	Gebel 1984	Protoneolithic	Clason 1980	Equus	1
+159	Sinn, Tell es-	Syria	35.917	38.233	Gebel 1984	Late Neolithic	Clason 1980	Equus	1
+168	Taibé, at-Tayyiba	Syria	32.567	36.267	Schyle & Uerpmann 1996	Epipalaeolithic	Ducos 1968	Equus	1
+183	Wadi Gaza	Israel	31	34	Kopp & Röllig 1994	Late Neolithic	Ducos 1968	Equus	1
+189	Wadi Tubaiq	Egypt	28.5	34	Kopp & Röllig 1994	Early Neolithic	Bar-Yosef 1981	Equus	1
+15	Aq Kupruk	Afghanistan	36.083	66.85	Schyle & Uerpmann 1996	Epipalaeolithic	Perkins 1972	Equus	1
+44	Demirci Hüyük	Turkey	39.87	30.36	CONTEXT	Bronze Age	Rauh 1981	Equus	1
+52	Ein Gev	Israel	32.8	35.65	CONTEXT	Upper Palaeolithic	Tchernov 1976	Equus	1
+52	Ein Gev	Israel	32.8	35.65	CONTEXT	Epipalaeolithic	Tchernov 1976	Equus	1
+57	Erq el-Ahmar	Israel	31.667	35.233	Schyle & Uerpmann 1996	Middle Palaeolithic	Vaufrey 1951; Davis 1980	Equus	1
+57	Erq el-Ahmar	Israel	31.667	35.233	Schyle & Uerpmann 1996	Upper Palaeolithic	Vaufrey 1951; Davis 1980	Equus	1
+57	Erq el-Ahmar	Israel	31.667	35.233	Schyle & Uerpmann 1996	Epipalaeolithic	Vaufrey 1951; Davis 1980	Equus	1
+92	Kara'in	Turkey	37.133	30.583	Schyle 1992	Lower Palaeolithic	Uerpmann 1987	Equus	1
+92	Kara'in	Turkey	37.133	30.583	Schyle 1992	Middle Palaeolithic	Uerpmann 1987	Equus	1
+92	Kara'in	Turkey	37.133	30.583	Schyle 1992	Upper Palaeolithic	Uerpmann 1987	Equus	1
+92	Kara'in	Turkey	37.133	30.583	Schyle 1992	Epipalaeolithic	Uerpmann 1987	Equus	1
+95	Kebarah Cave	Israel	32.57	34.93	CONTEXT	Middle Palaeolithic	Saxon 1974; Davis 1977; Uerpmann 1987	Equus	1
+95	Kebarah Cave	Israel	32.57	34.93	CONTEXT	Upper Palaeolithic	Saxon 1974; Davis 1977; Uerpmann 1987	Equus	1
+95	Kebarah Cave	Israel	32.57	34.93	CONTEXT	Epipalaeolithic	Saxon 1974; Davis 1977; Uerpmann 1987	Equus	1
+102	Ksar 'Akil	Lebanon	33.917	35.6	Schyle 1992	Middle Palaeolithic	Hooijer 1961; Uerpmann 1987	Equus	1
+102	Ksar 'Akil	Lebanon	33.917	35.6	Schyle 1992	Upper Palaeolithic	Hooijer 1961; Uerpmann 1987	Equus	1
+102	Ksar 'Akil	Lebanon	33.917	35.6	Schyle 1992	Epipalaeolithic	Hooijer 1961; Uerpmann 1987	Equus	1
+107	Mdamagh	Jordan	30.333	35.45	Schyle 1992	Epipalaeolithic	Perkins 1966; Uerpmann 1987	Equus	1
+120	Nahal Hadera V	Israel	32.467	34.9	Schyle & Uerpmann 1996	Epipalaeolithic	Saxon, Martin & Bar-Yosef 1978	Equus	1
+125	Norşun Tepe	Turkey	38.619	39.47	vici:29338	Late Neolithic	Boessneck & von den Driesch 1976	Equus	1
+125	Norşun Tepe	Turkey	38.619	39.47	vici:29338	Bronze Age	Boessneck & von den Driesch 1976	Equus	1
+125	Norşun Tepe	Turkey	38.619	39.47	vici:29338	Iron Age	Boessneck & von den Driesch 1976	Equus	1
+128	Palegawra	Iraq	35.64	45.11	CONTEXT	Epipalaeolithic	Turnbull & Reed 1974; Uerpmann 1987	Equus	1
+128	Palegawra	Iraq	35.64	45.11	CONTEXT	Early Neolithic	Turnbull & Reed 1974; Uerpmann 1987	Equus	1
+131	Pulur Hüyük	Turkey	38	38	Kopp & Röllig 1994	Late Neolithic	Deniz 1975	Equus	1
+131	Pulur Hüyük	Turkey	38	38	Kopp & Röllig 1994	Bronze Age	Deniz 1975	Equus	1
+155	Shuqba	Israel	31.983	35.033	Schyle & Uerpmann 1996	Middle Palaeolithic	Bate 1942; Uerpmann 1987	Equus	1
+155	Shuqba	Israel	31.983	35.033	Schyle & Uerpmann 1996	Epipalaeolithic	Bate 1942; Uerpmann 1987	Equus	1
+167	Tabun	Israel	31.55	35.233	Schyle 1992	Lower Palaeolithic	Bate 1937	Equus	1
+167	Tabun	Israel	31.55	35.233	Schyle 1992	Middle Palaeolithic	Bate 1937	Equus	1
+170	Tamtama Cave	Iran	NA	NA	NA	Upper Palaeolithic	Coon 1951; Uerpmann 1987	Equus	1
+200	Tepecik	Turkey	41.468	34.17	Pleiades:845078	Late Neolithic	Boessneck & von den Driesch 1979	Equus	1
+201	Tülintepe	Turkey	38.641	39.41	vici:51559	Late Neolithic	Boessneck & von den Driesch 1976b	Equus	1
+181	Wad, al-	Israel	32.67	34.97	CONTEXT	Upper Palaeolithic	Bate 1937; Uerpmann 1987	Equus	1
+181	Wad, al-	Israel	32.67	34.97	CONTEXT	Epipalaeolithic	Bate 1937; Uerpmann 1987	Equus	1
+190	Warwasi	Iran	34.4	47.117	Schyle 1992	MP:UP	Turnbull 1975	Equus	1
+190	Warwasi	Iran	34.4	47.117	Schyle 1992	Epipalaeolithic	Turnbull 1975	Equus	1
+191	Yabroud	Syria	33.967	36.65	Schyle 1992	Lower Palaeolithic	Perkins 1968; Lehmann 1970	Equus	1
+191	Yabroud	Syria	33.967	36.65	Schyle 1992	Upper Palaeolithic	Perkins 1968; Lehmann 1970	Equus	1
+191	Yabroud	Syria	33.967	36.65	Schyle 1992	Epipalaeolithic	Perkins 1968; Lehmann 1970	Equus	1
+194	Yarıkkaya	Turkey	39	34	Kopp & Röllig 1994	Bronze Age	Boessneck & Wiedemann 1977	Equus	1
+3	Abu Salabikh	Iraq	32.253	45.054	Pleiades	Bronze Age	Clutton-Brock & Burleigh 1978	Equus	1
+4	Abu Salim	Israel	30.53	34.52	CONTEXT	Protoneolithic	Butler et al. 1977; Dabis et al. 1982	Equus	1
+7	Ain Ghazal	Jordan	31.93	35.94	CONTEXT	Early Neolithic	Köhler-Rollefson 1984	Equus	1
+9	Ali Kosh	Iran	32.56	47.32	CONTEXT	Early Neolithic	Hole, Flannery & Neely 1969	Equus	1
+10	Ali Tappe	Iran	36.68	53.55	CONTEXT	Epipalaeolithic	Uerpmann & Frey 1981	Equus	1
+13	Anau	Soviet Union	38.187	58.477	Pleiades	Late Neolithic	Duerst 1908	Equus	1
+15	Aq Kupruk	Afghanistan	36.083	66.85	Schyle & Uerpmann 1996	Epipalaeolithic	Perkins 1972	Equus	1
+18	Asiab	Iran	34.3	47.19	CONTEXT	Protoneolithic	Bökönyi 1977	Equus	1
+20	Asmar, Tell	Iraq	33.487	44.725	Pleiades	Bronze Age	Hilzheimer 1941	Equus	1
+21	Azraq, Ain al-Assad	Jordan	31.807	36.805	Copeland 1988	Upper Palaeolithic	Turnbull pers. comm.	Equus	1
+21	Azraq, Ain al-Assad	Jordan	31.807	36.805	Copeland 1988	Early Neolithic	Turnbull pers. comm.	Equus	1
+21	Azraq, Ain al-Assad	Jordan	31.807	36.805	Copeland 1988	Bronze Age	Turnbull pers. comm.	Equus	1
+22	Azraq, C-spring	Jordan	31.834	36.82	Copeland 1988	Middle Palaeolithic	Clutton-Brock 1970	Equus	1
+23	Balakot	Pakistan	25.45	66.7	Dales 1974	Late Neolithic	Meadow 1979a	Equus	1
+23	Balakot	Pakistan	25.45	66.7	Dales 1974	Bronze Age	Meadow 1979a	Equus	1
+25	Bastam	Iran	38.891	44.894	Pleiades	Iron Age	Krauss 1975	Equus	1
+34	Bouqras	Syria	35.03	40.39	CONTEXT	Early Neolithic	Hooijer 1966; Clason 1977, 1981	Equus	1
+36	Choga Mami	Iraq	33.9	45.17	CONTEXT	Late Neolithic	Bökönyi 1978	Equus	1
+38	Çayönü Tepesi	Turkey	38.218	39.727	Pleiades	Early Neolithic	Lawrence 1980, 1982; Meadow 1986	Equus	1
+40	Dahan-i Gulaman	Iran	30.78	61.136	Pleiades	Iron Age	Compagnoni 1980a	Equus	1
+42	Dehsavar	Iran	34.313	47.131	Motarjem pers. comm.	Late Neolithic	Bökönyi 1977	Equus	1
+44	Demirci Hüyük	Turkey	39.87	30.36	CONTEXT	Bronze Age	Rauh 1981	Equus	1
+48	Djeitun	Soviet Union	38.3	58.4	Harris 1997	Late Neolithic	Shevchenko 1960	Equus	1
+50	Douara Cave	Syria	34.65	38.45	Schyle & Uerpmann 1996	Middle Palaeolithic	Payne 1983; Takai 1974	Equus	1
+51	Ein Aqev	Israel	30.82	34.82	CONTEXT	Upper Palaeolithic	Tchernov 1976	Equus	1
+57	Erq el-Ahmar	Israel	31.667	35.233	Schyle & Uerpmann 1996	Middle Palaeolithic	Vaufrey 1951; Davis 1980	Equus	1
+57	Erq el-Ahmar	Israel	31.667	35.233	Schyle & Uerpmann 1996	Upper Palaeolithic	Vaufrey 1951; Davis 1980	Equus	1
+57	Erq el-Ahmar	Israel	31.667	35.233	Schyle & Uerpmann 1996	Epipalaeolithic	Vaufrey 1951; Davis 1980	Equus	1
+58	Eshkaft-e Gavi	Iran	29.867	52.75	Schyle 1992	Middle Palaeolithic	Uerpmann 1987	Equus	1
+58	Eshkaft-e Gavi	Iran	29.867	52.75	Schyle 1992	Upper Palaeolithic	Uerpmann 1987	Equus	1
+58	Eshkaft-e Gavi	Iran	29.867	52.75	Schyle 1992	Epipalaeolithic	Uerpmann 1987	Equus	1
+59	Farukhabad	Iran	32.583	47.233	Wright 1981	Late Neolithic	Redding 1982	Equus	1
+59	Farukhabad	Iran	32.583	47.233	Wright 1981	Bronze Age	Redding 1982	Equus	1
+62	Ganj-e Dare	Iran	34.42	47.57	CONTEXT	Early Neolithic	Hesse 1978, 1982	Equus	1
+83	Hesbon	Jordan	31.75	35.75	Kopp & Röllig 1994	Iron Age	Weiler 1981; Boessneck & von den Driesch 1977, 1978	Equus	1
+85	Iblis, Tal-e	Iran	29	56	Kopp & Röllig 1994	Iron Age	Bökönyi 1967	Equus	1
+88	Ishan Bahriyat (Isin)	Iraq	31.933	45.283	Pleiades	Bronze Age	Boessneck 1977; Boessneck & Kokabi 1981	Equus	1
+88	Ishan Bahriyat (Isin)	Iraq	31.933	45.283	Pleiades	Iron Age	Boessneck 1977; Boessneck & Kokabi 1981	Equus	1
+89	Jarmo	Iraq	35.56	44.92	CONTEXT	Early Neolithic	Stampfli 1983	Equus	1
+91	Kamarband, Ghar-e	Iran	36.65	53.28	CONTEXT	Epipalaeolithic	Uerpmann & Frey 1981	Equus	1
+91	Kamarband, Ghar-e	Iran	36.65	53.28	CONTEXT	Late Neolithic	Uerpmann & Frey 1981	Equus	1
+95	Kebarah Cave	Israel	32.57	34.93	CONTEXT	Middle Palaeolithic	Saxon 1974; Davis 1977; Uerpmann 1987	Equus	1
+95	Kebarah Cave	Israel	32.57	34.93	CONTEXT	Upper Palaeolithic	Saxon 1974; Davis 1977; Uerpmann 1987	Equus	1
+95	Kebarah Cave	Israel	32.57	34.93	CONTEXT	Epipalaeolithic	Saxon 1974; Davis 1977; Uerpmann 1987	Equus	1
+99	Khorramabad Caves	Iran	33.492	48.349	Hole 2007 (KR-15/Ghamari)	Middle Palaeolithic	Hole & Flannery 1967	Equus	1
+99	Khorramabad Caves	Iran	33.492	48.349	Hole 2007 (KR-15/Ghamari)	Upper Palaeolithic	Hole & Flannery 1967	Equus	1
+99	Khorramabad Caves	Iran	33.492	48.349	Hole 2007 (KR-15/Ghamari)	Epipalaeolithic	Hole & Flannery 1967	Equus	1
+103	Labweh, Tell	Lebanon	34.187	36.358	vici:57360	Early Neolithic	Bökönyi 1978	Equus	1
+108	Malyan	Iran	29.99	52.52	CONTEXT	Bronze Age	Zeder 1984, 1986	Equus	1
+108	Malyan	Iran	29.99	52.52	CONTEXT	Iron Age	Zeder 1984, 1986	Equus	1
+111	Mehrgarh	Pakistan	29.403	67.599	vici:32060	Early Neolithic	Meadow 1984	Equus	1
+111	Mehrgarh	Pakistan	29.403	67.599	vici:32060	Late Neolithic	Meadow 1984	Equus	1
+111	Mehrgarh	Pakistan	29.403	67.599	vici:32060	Bronze Age	Meadow 1984	Equus	1
+123	Nahr al-Homr	Syria	36.2	38.067	Schyle & Uerpmann 1996	Epipalaeolithic	Clason & Buitenhuis 1978, pers. comm.	Equus	1
+126	Nush-i Jan	Iran	34.38	48.639	Pleiades	Iron Age	Bökönyi 1978	Equus	1
+128	Palegawra	Iraq	35.64	45.11	CONTEXT	Epipalaeolithic	Turnbull & Reed 1974; Uerpmann 1987	Equus	1
+128	Palegawra	Iraq	35.64	45.11	CONTEXT	Early Neolithic	Turnbull & Reed 1974; Uerpmann 1987	Equus	1
+130	Pirak	Pakistan	29	67	Kopp & Röllig 1994	Bronze Age	Meadow 1979b, pers. comm.	Equus	1
+130	Pirak	Pakistan	29	67	Kopp & Röllig 1994	Iron Age	Meadow 1979b, pers. comm.	Equus	1
+136	Quetta Valley	Pakistan	30	67	Kopp & Röllig 1994	Late Neolithic	Fairservis 1956	Equus	1
+136	Quetta Valley	Pakistan	30	67	Kopp & Röllig 1994	Bronze Age	Fairservis 1956	Equus	1
+138	Ras al-Amiya	Iraq	32.5	44.5	Kopp & Röllig 1994	Late Neolithic	Flannery & Cornwall 1969	Equus	1
+142	Resafa	Syria	35.629	38.758	Pleiades	Historic	Boessneck 1984	Equus	1
+143	Rosh Ein Mor (D15)	Israel	30.834	34.769	Rink et al. 2003	Middle Palaeolithic	Tchernov 1976	Equus	1
+144	Rosh Horesha	Israel	30.5	34.58	CONTEXT	Protoneolithic	Butler, Tchernov, Hietala & Davis 1977	Equus	1
+145	Rosh Zin	Israel	30.85	34.767	Schyle & Uerpmann 1996	Protoneolithic	Tchernov 1976	Equus	1
+146	Sabz, Tepe	Iran	32.59	47.26	CONTEXT	Late Neolithic	Hole, Flannery & Neely 1969	Equus	1
+148	Sarab	Iran	34.38	47.09	CONTEXT	Early Neolithic	Bökönyi 1977, 1978	Equus	1
+149	Sawwan, Tell es-	Iraq	34.122	43.905	vici:21265	Late Neolithic	Bökönyi 1978	Equus	1
+151	Shahr-e Sokhta	Iran	30.595	61.326	Pleiades	Bronze Age	Caloi & Compagnoni 1977, 1981; Compagnoni 1980	Equus	1
+152	Shams ed-Din Tannira	Syria	36.167	38.167	Kopp & Röllig 1994	Late Neolithic	Uerpmann 1982	Equus	1
+156	Siahbid	Iran	34.25	47	Kopp & Röllig 1994	Late Neolithic	Bökönyi 1977	Equus	1
+157	Sialk	Iran	34	54	Kopp & Röllig 1994	Late Neolithic	Vaufrey 1939; Uerpmann 1987	Equus	1
+158	Sibri	Pakistan	29	67	Kopp & Röllig 1994	Bronze Age	Meadow pers. comm.	Equus	1
+163	Skhul	Israel	32	34.5	Kopp & Röllig 1994	Middle Palaeolithic	Bate 1937	Equus	1
+167	Tabun	Israel	31.55	35.233	Schyle 1992	Lower Palaeolithic	Bate 1937	Equus	1
+167	Tabun	Israel	31.55	35.233	Schyle 1992	Middle Palaeolithic	Bate 1937	Equus	1
+170	Tamtama Cave	Iran	NA	NA	NA	Upper Palaeolithic	Coon 1951; Uerpmann 1987	Equus	1
+175	Tula'i Tepe	Iran	32.333	48.167	Kopp & Röllig 1994	Early Neolithic	Wheeler 1977	Equus	1
+179	Umm Dabagiyah	Iraq	35.5	42.5	Kopp & Röllig 1994	Early Neolithic	Bökönyi 1978	Equus	1
+181	Wad, al-	Israel	32.67	34.97	CONTEXT	Upper Palaeolithic	Bate 1937; Uerpmann 1987	Equus	1
+181	Wad, al-	Israel	32.67	34.97	CONTEXT	Epipalaeolithic	Bate 1937; Uerpmann 1987	Equus	1
+182	Wadi Dhobai, site K	Jordan	36.414	31.508	Garrard & Byrd 2013	Epipalaeolithic	Bate 1938	Equus	1
+190	Warwasi	Iran	34.4	47.117	Schyle 1992	MP:UP	Turnbull 1975	Equus	1
+190	Warwasi	Iran	34.4	47.117	Schyle 1992	Epipalaeolithic	Turnbull 1975	Equus	1
+191	Yabroud	Syria	33.967	36.65	Schyle 1992	Lower Palaeolithic	Perkins 1968; Lehmann 1970	Equus	1
+191	Yabroud	Syria	33.967	36.65	Schyle 1992	Upper Palaeolithic	Perkins 1968; Lehmann 1970	Equus	1
+191	Yabroud	Syria	33.967	36.65	Schyle 1992	Epipalaeolithic	Perkins 1968; Lehmann 1970	Equus	1
+192	Yahya Tepe	Iran	28.583	56.35	Pleiades	Late Neolithic	Meadow pers. comm.	Equus	1
+192	Yahya Tepe	Iran	28.583	56.35	Pleiades	Bronze Age	Meadow pers. comm.	Equus	1
+192	Yahya Tepe	Iran	28.583	56.35	Pleiades	Iron Age	Meadow pers. comm.	Equus	1
+193	Yarim Tepe	Iraq	36.333	42.167	Kopp & Röllig 1994	Late Neolithic	Bibikova 1980	Equus	1
+5	Abu Simbel east bank	Egypt	22.336	31.627	Pleiades	Epipalaeolithic	Reed in Wendt 1966	Equus	1
+5	Abu Simbel east bank	Egypt	22.336	31.627	Pleiades	Protoneolithic	Reed in Wendt 1966	Equus	1
+5	Abu Simbel east bank	Egypt	22.336	31.627	Pleiades	Early Neolithic	Reed in Wendt 1966	Equus	1
+5	Abu Simbel east bank	Egypt	22.336	31.627	Pleiades	Late Neolithic	Reed in Wendt 1966	Equus	1
+21	Azraq, Ain al-Assad	Jordan	31.807	36.805	Copeland 1988	Upper Palaeolithic	Turnbull pers. comm.	Equus	1
+21	Azraq, Ain al-Assad	Jordan	31.807	36.805	Copeland 1988	Early Neolithic	Turnbull pers. comm.	Equus	1
+21	Azraq, Ain al-Assad	Jordan	31.807	36.805	Copeland 1988	Bronze Age	Turnbull pers. comm.	Equus	1
+31	Bir Sahara	Egypt	22.933	28.75	Hill 2009	Middle Palaeolithic	Gautier 1980	Equus	1
+32	Bir Tarfawi	Egypt	22.917	28.75	Wendorf et al. 1993	Middle Palaeolithic	Gautier 1980	Equus	1
+41	Dakhla Oasis	Egypt	25.573	29.062	Pleiades	Late Neolithic	Churcher 1983	Equus	1
+54	Elephantine	Egypt	24.09	32.889	Pleiades	Bronze Age	Boessneck 1977; Boessneck & von den Driesch 1982	Equus	1
+57	Erq el-Ahmar	Israel	31.667	35.233	Schyle & Uerpmann 1996	Middle Palaeolithic	Vaufrey 1951; Davis 1980	Equus	1
+57	Erq el-Ahmar	Israel	31.667	35.233	Schyle & Uerpmann 1996	Upper Palaeolithic	Vaufrey 1951; Davis 1980	Equus	1
+57	Erq el-Ahmar	Israel	31.667	35.233	Schyle & Uerpmann 1996	Epipalaeolithic	Vaufrey 1951; Davis 1980	Equus	1
+63	Gat, Tel	Israel	31.4	34.5	Kopp & Röllig 1994	Bronze Age	Ducos 1968	Equus	1
+69	Gilf Kebir, Wadi Bakht	Egypt	23.167	26	Schyle & Uerpmann 1996	Late Neolithic	Gautier 1980, 1982	Equus	1
+84	Hili 8	UAE	24.167	55.667	Kopp & Röllig 1994	Bronze Age	Uerpmann 1987	Equus	1
+100	Kom Ombo	Egypt	24.452	32.928	Pleiades	Epipalaeolithic	Churcher 1972, 1974; Reed & Turnbull 1969; Turnbull pers. comm.	Equus	1
+110	Maysar	Oman	22	58	Kopp & Röllig 1994	Bronze Age	Uerpmann 1987	Equus	1
+116	Mureybit	Syria	36.083	38.083	CONTEXT	Protoneolithic	Ducos 1978	Equus	1
+139	Ras al-Hamra	Oman	23.5	58.5	Kopp & Röllig 1994	Late Neolithic	Uerpmann 1987	Equus	1
+152	Shams ed-Din Tannira	Syria	36.167	38.167	Kopp & Röllig 1994	Late Neolithic	Uerpmann 1982	Equus	1
+184	Wadi Halfa Area	Sudan	21	31	Kopp & Röllig 1994	Upper Palaeolithic	Gautier 1968	Equus	1
+184	Wadi Halfa Area	Sudan	21	31	Kopp & Röllig 1994	Epipalaeolithic	Gautier 1968	Equus	1
+184	Wadi Halfa Area	Sudan	21	31	Kopp & Röllig 1994	Protoneolithic	Gautier 1968	Equus	1
+184	Wadi Halfa Area	Sudan	21	31	Kopp & Röllig 1994	Early Neolithic	Gautier 1968	Equus	1
+184	Wadi Halfa Area	Sudan	21	31	Kopp & Röllig 1994	Late Neolithic	Gautier 1968	Equus	1
+186	Wadi Halfa, west bank	Sudan	21	31	Kopp & Röllig 1994	Epipalaeolithic	Turnbull pers. comm.	Equus	1
+188	Wadi Shaw	Sudan	20.5	27.25	Kopp & Röllig 1994	Bronze Age	Uerpmann 1987	Equus	1
+22	Azraq, C-spring	Jordan	31.834	36.82	Copeland 1988	Middle Palaeolithic	Clutton-Brock 1970	Equus	1
+35	Can Hasan III	Turkey	37.25	33.37	CONTEXT	Early Neolithic	Payne 1972; Payne pers. comm.	Equus	1
+52	Ein Gev	Israel	32.8	35.65	CONTEXT	Upper Palaeolithic	Tchernov 1976	Equus	1
+52	Ein Gev	Israel	32.8	35.65	CONTEXT	Epipalaeolithic	Tchernov 1976	Equus	1
+92	Kara'in	Turkey	37.133	30.583	Schyle 1992	Lower Palaeolithic	Uerpmann 1987	Equus	1
+92	Kara'in	Turkey	37.133	30.583	Schyle 1992	Middle Palaeolithic	Uerpmann 1987	Equus	1
+92	Kara'in	Turkey	37.133	30.583	Schyle 1992	Upper Palaeolithic	Uerpmann 1987	Equus	1
+92	Kara'in	Turkey	37.133	30.583	Schyle 1992	Epipalaeolithic	Uerpmann 1987	Equus	1
+95	Kebarah Cave	Israel	32.57	34.93	CONTEXT	Middle Palaeolithic	Saxon 1974; Davis 1977; Uerpmann 1987	Equus	1
+95	Kebarah Cave	Israel	32.57	34.93	CONTEXT	Upper Palaeolithic	Saxon 1974; Davis 1977; Uerpmann 1987	Equus	1
+95	Kebarah Cave	Israel	32.57	34.93	CONTEXT	Epipalaeolithic	Saxon 1974; Davis 1977; Uerpmann 1987	Equus	1
+163	Skhul	Israel	32	34.5	Kopp & Röllig 1994	Middle Palaeolithic	Bate 1937	Equus	1
+167	Tabun	Israel	31.55	35.233	Schyle 1992	Lower Palaeolithic	Bate 1937	Equus	1
+167	Tabun	Israel	31.55	35.233	Schyle 1992	Middle Palaeolithic	Bate 1937	Equus	1
+181	Wad, al-	Israel	32.67	34.97	CONTEXT	Upper Palaeolithic	Bate 1937; Uerpmann 1987	Equus	1
+181	Wad, al-	Israel	32.67	34.97	CONTEXT	Epipalaeolithic	Bate 1937; Uerpmann 1987	Equus	1
+191	Yabroud	Syria	33.967	36.65	Schyle 1992	Lower Palaeolithic	Perkins 1968; Lehmann 1970	Equus	1
+191	Yabroud	Syria	33.967	36.65	Schyle 1992	Upper Palaeolithic	Perkins 1968; Lehmann 1970	Equus	1
+191	Yabroud	Syria	33.967	36.65	Schyle 1992	Epipalaeolithic	Perkins 1968; Lehmann 1970	Equus	1
+41	Dakhla Oasis	Egypt	25.573	29.062	Pleiades	Late Neolithic	Churcher 1983	Equus	1
+57	Erq el-Ahmar	Israel	31.667	35.233	Schyle & Uerpmann 1996	Middle Palaeolithic	Vaufrey 1951; Davis 1980	Sus	1
+57	Erq el-Ahmar	Israel	31.667	35.233	Schyle & Uerpmann 1996	Upper Palaeolithic	Vaufrey 1951; Davis 1980	Sus	1
+57	Erq el-Ahmar	Israel	31.667	35.233	Schyle & Uerpmann 1996	Epipalaeolithic	Vaufrey 1951; Davis 1980	Sus	1
+2	Abu Hureyra	Syria	35.867	38.4	Schyle & Uerpmann 1996	Protoneolithic	Moore, Hillman & Legge 1975	Sus	1
+2	Abu Hureyra	Syria	35.867	38.4	Schyle & Uerpmann 1996	Early Neolithic	Moore, Hillman & Legge 1975	Sus	1
+2	Abu Hureyra	Syria	35.867	38.4	Schyle & Uerpmann 1996	Late Neolithic	Moore, Hillman & Legge 1975	Sus	1
+7	Ain Ghazal	Jordan	31.93	35.94	CONTEXT	Early Neolithic	Köhler-Rollefson 1984	Sus	1
+8	Ain Mallaha	Israel	33.13	35.58	CONTEXT	Protoneolithic	Ducos 1968, for Canis see Davis & Valla 1978	Sus	1
+9	Ali Kosh	Iran	32.56	47.32	CONTEXT	Early Neolithic	Hole, Flannery & Neely 1969	Sus	1
+10	Ali Tappe	Iran	36.68	53.55	CONTEXT	Epipalaeolithic	Uerpmann & Frey 1981	Sus	1
+12	Amuq	Turkey	36.268	36.587	Yener 2005	Late Neolithic	Stampfli 1983	Sus	1
+13	Anau	Soviet Union	38.187	58.477	Pleiades	Late Neolithic	Duerst 1908	Sus	1
+14	Apamee, Tell	Syria	35.491	36.402	Pleiades	Late Neolithic	Gautier 1977	Sus	1
+16	Arad	Israel	31.28	35.126	Pleiades	Bronze Age	Lernau 1972; Davis 1976	Sus	1
+18	Asiab	Iran	34.3	47.19	CONTEXT	Protoneolithic	Bökönyi 1977	Sus	1
+19	Aşıklı Hüyük	Turkey	38.35	34.23	CONTEXT	Early Neolithic	Payne 1985	Sus	1
+23	Balakot	Pakistan	25.45	66.7	Dales 1974	Late Neolithic	Meadow 1979a	Sus	1
+23	Balakot	Pakistan	25.45	66.7	Dales 1974	Bronze Age	Meadow 1979a	Sus	1
+25	Bastam	Iran	38.891	44.894	Pleiades	Iron Age	Krauss 1975	Sus	1
+28	Beidha	Jordan	30.37	35.45	CONTEXT	Early Neolithic	Hecker 1974, 1982	Sus	1
+29	Beisamoun	Israel	33.093	35.58	Bocquentin et al. 2011	Early Neolithic	Davis 1978	Sus	1
+35	Can Hasan III	Turkey	37.25	33.37	CONTEXT	Early Neolithic	Payne 1972; Payne pers. comm.	Sus	1
+36	Choga Mami	Iraq	33.9	45.17	CONTEXT	Late Neolithic	Bökönyi 1978	Sus	1
+37	Çatal Hüyük	Turkey	37.668	32.828	Pleiades	Early Neolithic	Perkins 1969	Sus	1
+38	Çayönü Tepesi	Turkey	38.218	39.727	Pleiades	Early Neolithic	Lawrence 1980, 1982; Meadow 1986	Sus	1
+40	Dahan-i Gulaman	Iran	30.78	61.136	Pleiades	Iron Age	Compagnoni 1980a	Sus	1
+42	Dehsavar	Iran	34.313	47.131	Motarjem pers. comm.	Late Neolithic	Bökönyi 1977	Sus	1
+43	Deir Alla	Jordan	32.197	35.621	vici:23804	Bronze Age	Clason & Buitenhuis 1978b	Sus	1
+43	Deir Alla	Jordan	32.197	35.621	vici:23804	Iron Age	Clason & Buitenhuis 1978b	Sus	1
+44	Demirci Hüyük	Turkey	39.87	30.36	CONTEXT	Bronze Age	Rauh 1981	Sus	1
+48	Djeitun	Soviet Union	38.3	58.4	Harris 1997	Late Neolithic	Shevchenko 1960	Sus	1
+52	Ein Gev	Israel	32.8	35.65	CONTEXT	Upper Palaeolithic	Tchernov 1976	Sus	1
+52	Ein Gev	Israel	32.8	35.65	CONTEXT	Epipalaeolithic	Tchernov 1976	Sus	1
+53	Ein Mir'i	Israel	33.067	35.45	Schyle & Uerpmann 1996	Epipalaeolithic	Uerpmann 1987	Sus	1
+55	Eli, Tel	Israel	32.5	35.5	Kopp & Röllig 1994	Early Neolithic	Jarman 1974	Sus	1
+55	Eli, Tel	Israel	32.5	35.5	Kopp & Röllig 1994	Late Neolithic	Jarman 1974	Sus	1
+61	Fikirtepe	Turkey	41	28	Kopp & Röllig 1994	Late Neolithic	Röhrs & Herre 1961; Boessneck & von den Driesch 1979	Sus	1
+62	Ganj-e Dare	Iran	34.42	47.57	CONTEXT	Early Neolithic	Hesse 1978, 1982	Sus	1
+63	Gat, Tel	Israel	31.4	34.5	Kopp & Röllig 1994	Bronze Age	Ducos 1968	Sus	1
+66	Geulah cave	Israel	32.796	35.003	Wreschner et al. 1960	Middle Palaeolithic	Angress 1960b	Sus	1
+72	Guran, Tepe	Iran	33.73	47.07	CONTEXT	Early Neolithic	Flannery pers. comm.	Sus	1
+73	Hacılar	Turkey	37.6	30.1	Pleiades	Early Neolithic	Westley 1970	Sus	1
+75	Hagoshrim	Israel	33.221	35.624	vici:57351	Late Neolithic	Ducos 1986	Sus	1
+76	Hajji Firuz	Iran	37.04	45.54	CONTEXT	Late Neolithic	Meadow 1983	Sus	1
+78	Hassek Hüyük	Turkey	37.698	39.009	vici:42297	Bronze Age	Boessneck & von den Driesch 1981	Sus	1
+79	Hayaz Hüyük	Turkey	37.563	38.357	vici:57511	Early Neolithic	Buitenhuis pers. comm.; Clason 1985	Sus	1
+79	Hayaz Hüyük	Turkey	37.563	38.357	vici:57511	Late Neolithic	Buitenhuis pers. comm.; Clason 1985	Sus	1
+80	Hayonim	Israel	32.92	35.22	CONTEXT	Epipalaeolithic	Bar Yosef & Tchernov 1966; Henry, Leroi-Gourhan & Davis in press	Sus	1
+80	Hayonim	Israel	32.92	35.22	CONTEXT	Protoneolithic	Bar Yosef & Tchernov 1966; Henry, Leroi-Gourhan & Davis in press	Sus	1
+82	Hefziba	Israel	32.433	34.867	Kopp & Röllig 1994	Epipalaeolithic	Söffner pers. comm.	Sus	1
+83	Hesbon	Jordan	31.75	35.75	Kopp & Röllig 1994	Iron Age	Weiler 1981; Boessneck & von den Driesch 1977, 1978	Sus	1
+88	Ishan Bahriyat (Isin)	Iraq	31.933	45.283	Pleiades	Bronze Age	Boessneck 1977; Boessneck & Kokabi 1981	Sus	1
+88	Ishan Bahriyat (Isin)	Iraq	31.933	45.283	Pleiades	Iron Age	Boessneck 1977; Boessneck & Kokabi 1981	Sus	1
+89	Jarmo	Iraq	35.56	44.92	CONTEXT	Early Neolithic	Stampfli 1983	Sus	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Protoneolithic	Clutton-Brock 1979; Nobis 1968	Sus	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Early Neolithic	Clutton-Brock 1979; Nobis 1968	Sus	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Late Neolithic	Clutton-Brock 1979; Nobis 1968	Sus	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Bronze Age	Clutton-Brock 1979; Nobis 1968	Sus	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Iron Age	Clutton-Brock 1979; Nobis 1968	Sus	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Hellenistic	Clutton-Brock 1979; Nobis 1968	Sus	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Roman	Clutton-Brock 1979; Nobis 1968	Sus	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Byzantine	Clutton-Brock 1979; Nobis 1968	Sus	1
+91	Kamarband, Ghar-e	Iran	36.65	53.28	CONTEXT	Epipalaeolithic	Uerpmann & Frey 1981	Sus	1
+91	Kamarband, Ghar-e	Iran	36.65	53.28	CONTEXT	Late Neolithic	Uerpmann & Frey 1981	Sus	1
+92	Kara'in	Turkey	37.133	30.583	Schyle 1992	Lower Palaeolithic	Uerpmann 1987	Sus	1
+92	Kara'in	Turkey	37.133	30.583	Schyle 1992	Middle Palaeolithic	Uerpmann 1987	Sus	1
+92	Kara'in	Turkey	37.133	30.583	Schyle 1992	Upper Palaeolithic	Uerpmann 1987	Sus	1
+92	Kara'in	Turkey	37.133	30.583	Schyle 1992	Epipalaeolithic	Uerpmann 1987	Sus	1
+93	Karataş-Semayük	Turkey	38.917	39	Schyle 1992	Bronze Age	Hesse & Perkins 1974	Sus	1
+94	Karim Shahir	Iraq	35.564	44.957	Braidwood et al. 1983	Protoneolithic	Stampfli 1983	Sus	1
+95	Kebarah Cave	Israel	32.57	34.93	CONTEXT	Middle Palaeolithic	Saxon 1974; Davis 1977; Uerpmann 1987	Sus	1
+95	Kebarah Cave	Israel	32.57	34.93	CONTEXT	Upper Palaeolithic	Saxon 1974; Davis 1977; Uerpmann 1987	Sus	1
+95	Kebarah Cave	Israel	32.57	34.93	CONTEXT	Epipalaeolithic	Saxon 1974; Davis 1977; Uerpmann 1987	Sus	1
+98	Khiam, al-	Israel	31.633	35.267	Schyle & Uerpmann 1996	Epipalaeolithic	Vaufrey 1951; Ducos 1968	Sus	1
+98	Khiam, al-	Israel	31.633	35.267	Schyle & Uerpmann 1996	Early Neolithic	Vaufrey 1951; Ducos 1968	Sus	1
+99	Khorramabad Caves	Iran	33.492	48.349	Hole 2007 (KR-15/Ghamari)	Middle Palaeolithic	Hole & Flannery 1967	Sus	1
+99	Khorramabad Caves	Iran	33.492	48.349	Hole 2007 (KR-15/Ghamari)	Upper Palaeolithic	Hole & Flannery 1967	Sus	1
+99	Khorramabad Caves	Iran	33.492	48.349	Hole 2007 (KR-15/Ghamari)	Epipalaeolithic	Hole & Flannery 1967	Sus	1
+101	Kordlar Tepe	Iran	37.5	45	Kopp & Röllig 1994	Iron Age	Wolff 1976	Sus	1
+197	Korucutepe	Turkey	38.637	39.537	Pleiades	Bronze Age	Boessneck & von den Driesch 1975	Sus	1
+198	Körtepe	Turkey	38.667	39.333	Kopp & Röllig 1994	Late Neolithic	von den Driesch 1976	Sus	1
+102	Ksar 'Akil	Lebanon	33.917	35.6	Schyle 1992	Middle Palaeolithic	Hooijer 1961; Uerpmann 1987	Sus	1
+102	Ksar 'Akil	Lebanon	33.917	35.6	Schyle 1992	Upper Palaeolithic	Hooijer 1961; Uerpmann 1987	Sus	1
+102	Ksar 'Akil	Lebanon	33.917	35.6	Schyle 1992	Epipalaeolithic	Hooijer 1961; Uerpmann 1987	Sus	1
+103	Labweh, Tell	Lebanon	34.187	36.358	vici:57360	Early Neolithic	Bökönyi 1978	Sus	1
+106	M'lefaat	Iraq	36.31	43.54	CONTEXT	Protoneolithic	Turnbull 1983	Sus	1
+107	Mdamagh	Jordan	30.333	35.45	Schyle 1992	Epipalaeolithic	Perkins 1966; Uerpmann 1987	Sus	1
+108	Malyan	Iran	29.99	52.52	CONTEXT	Bronze Age	Zeder 1984, 1986	Sus	1
+108	Malyan	Iran	29.99	52.52	CONTEXT	Iron Age	Zeder 1984, 1986	Sus	1
+111	Mehrgarh	Pakistan	29.403	67.599	vici:32060	Early Neolithic	Meadow 1984	Sus	1
+111	Mehrgarh	Pakistan	29.403	67.599	vici:32060	Late Neolithic	Meadow 1984	Sus	1
+111	Mehrgarh	Pakistan	29.403	67.599	vici:32060	Bronze Age	Meadow 1984	Sus	1
+114	Mohenjo Daro	Pakistan	27.329	68.139	Pleiades	Bronze Age	Sewell 1931	Sus	1
+115	Munhatta	Israel	32.5	35.5	Kopp & Röllig 1994	Early Neolithic	Ducos 1968	Sus	1
+115	Munhatta	Israel	32.5	35.5	Kopp & Röllig 1994	Late Neolithic	Ducos 1968	Sus	1
+116	Mureybit	Syria	36.083	38.083	CONTEXT	Protoneolithic	Ducos 1978	Sus	1
+118	Nagila, Tel	Israel	28.698	33.83	Pleiades	Bronze Age	Ducos 1968	Sus	1
+120	Nahal Hadera V	Israel	32.467	34.9	Schyle & Uerpmann 1996	Epipalaeolithic	Saxon, Martin & Bar-Yosef 1978	Sus	1
+121	Nahal Oren	Israel	32.72	34.97	CONTEXT	Epipalaeolithic	Ducos 1968; Noy, Legge & Higgs 1973	Sus	1
+121	Nahal Oren	Israel	32.72	34.97	CONTEXT	Protoneolithic	Ducos 1968; Noy, Legge & Higgs 1973	Sus	1
+121	Nahal Oren	Israel	32.72	34.97	CONTEXT	Early Neolithic	Ducos 1968; Noy, Legge & Higgs 1973	Sus	1
+122	Naharya	Israel	33	35.083	Kopp & Röllig 1994	Bronze Age	Ducos 1968	Sus	1
+125	Norşun Tepe	Turkey	38.619	39.47	vici:29338	Late Neolithic	Boessneck & von den Driesch 1976	Sus	1
+125	Norşun Tepe	Turkey	38.619	39.47	vici:29338	Bronze Age	Boessneck & von den Driesch 1976	Sus	1
+125	Norşun Tepe	Turkey	38.619	39.47	vici:29338	Iron Age	Boessneck & von den Driesch 1976	Sus	1
+127	Pa Sangar	Iran	33.485	48.341	Hole & Flannery 1967	Epipalaeolithic	Hole & Flannery 1967; Uerpmann 1987	Sus	1
+128	Palegawra	Iraq	35.64	45.11	CONTEXT	Epipalaeolithic	Turnbull & Reed 1974; Uerpmann 1987	Sus	1
+128	Palegawra	Iraq	35.64	45.11	CONTEXT	Early Neolithic	Turnbull & Reed 1974; Uerpmann 1987	Sus	1
+131	Pulur Hüyük	Turkey	38	38	Kopp & Röllig 1994	Late Neolithic	Deniz 1975	Sus	1
+131	Pulur Hüyük	Turkey	38	38	Kopp & Röllig 1994	Bronze Age	Deniz 1975	Sus	1
+132	Qafzeh, Grotte du Djebel Qafzeh	Israel	32.7	35.3	Schyle 1992	Middle Palaeolithic	Bouchud 1969	Sus	1
+132	Qafzeh, Grotte du Djebel Qafzeh	Israel	32.7	35.3	Schyle 1992	Upper Palaeolithic	Bouchud 1969	Sus	1
+132	Qafzeh, Grotte du Djebel Qafzeh	Israel	32.7	35.3	Schyle 1992	Epipalaeolithic	Bouchud 1969	Sus	1
+199	Rakefet	Israel	32.65	35.08	CONTEXT	Upper Palaeolithic	Garrard in Saxon 1976	Sus	1
+199	Rakefet	Israel	32.65	35.08	CONTEXT	Epipalaeolithic	Garrard in Saxon 1976	Sus	1
+138	Ras al-Amiya	Iraq	32.5	44.5	Kopp & Röllig 1994	Late Neolithic	Flannery & Cornwall 1969	Sus	1
+146	Sabz, Tepe	Iran	32.59	47.26	CONTEXT	Late Neolithic	Hole, Flannery & Neely 1969	Sus	1
+148	Sarab	Iran	34.38	47.09	CONTEXT	Early Neolithic	Bökönyi 1977, 1978	Sus	1
+149	Sawwan, Tell es-	Iraq	34.122	43.905	vici:21265	Late Neolithic	Bökönyi 1978	Sus	1
+150	Shah Tappe	Iran	36	54	Kopp & Röllig 1994	Bronze Age	Amschler 1939	Sus	1
+152	Shams ed-Din Tannira	Syria	36.167	38.167	Kopp & Röllig 1994	Late Neolithic	Uerpmann 1982	Sus	1
+153	Shanidar	Iraq	36.8	44.22	CONTEXT	Middle Palaeolithic	Perkins 1964; Evins 1981; Uerpmann 1987	Sus	1
+153	Shanidar	Iraq	36.8	44.22	CONTEXT	Upper Palaeolithic	Perkins 1964; Evins 1981; Uerpmann 1987	Sus	1
+153	Shanidar	Iraq	36.8	44.22	CONTEXT	Epipalaeolithic	Perkins 1964; Evins 1981; Uerpmann 1987	Sus	1
+155	Shuqba	Israel	31.983	35.033	Schyle & Uerpmann 1996	Middle Palaeolithic	Bate 1942; Uerpmann 1987	Sus	1
+155	Shuqba	Israel	31.983	35.033	Schyle & Uerpmann 1996	Epipalaeolithic	Bate 1942; Uerpmann 1987	Sus	1
+156	Siahbid	Iran	34.25	47	Kopp & Röllig 1994	Late Neolithic	Bökönyi 1977	Sus	1
+158	Sibri	Pakistan	29	67	Kopp & Röllig 1994	Bronze Age	Meadow pers. comm.	Sus	1
+164	Suberde	Turkey	37.333	31.933	Gebel 1984	Early Neolithic	Perkins & Daly 1968	Sus	1
+200	Tepecik	Turkey	41.468	34.17	Pleiades:845078	Late Neolithic	Boessneck & von den Driesch 1979	Sus	1
+174	Troy	Turkey	39.957	26.238	Pleiades	Bronze Age	Gejvall 1938, 1939	Sus	1
+175	Tula'i Tepe	Iran	32.333	48.167	Kopp & Röllig 1994	Early Neolithic	Wheeler 1977	Sus	1
+201	Tülintepe	Turkey	38.641	39.41	vici:51559	Late Neolithic	Boessneck & von den Driesch 1976b	Sus	1
+179	Umm Dabagiyah	Iraq	35.5	42.5	Kopp & Röllig 1994	Early Neolithic	Bökönyi 1978	Sus	1
+180	Uruk-Warka	Iraq	31.319	45.617	Pleiades	Bronze Age	Boessneck, von den Driesch & Steger 1984	Sus	1
+180	Uruk-Warka	Iraq	31.319	45.617	Pleiades	Iron Age	Boessneck, von den Driesch & Steger 1984	Sus	1
+181	Wad, al-	Israel	32.67	34.97	CONTEXT	Upper Palaeolithic	Bate 1937; Uerpmann 1987	Sus	1
+181	Wad, al-	Israel	32.67	34.97	CONTEXT	Epipalaeolithic	Bate 1937; Uerpmann 1987	Sus	1
+190	Warwasi	Iran	34.4	47.117	Schyle 1992	MP:UP	Turnbull 1975	Sus	1
+190	Warwasi	Iran	34.4	47.117	Schyle 1992	Epipalaeolithic	Turnbull 1975	Sus	1
+192	Yahya Tepe	Iran	28.583	56.35	Pleiades	Late Neolithic	Meadow pers. comm.	Sus	1
+192	Yahya Tepe	Iran	28.583	56.35	Pleiades	Bronze Age	Meadow pers. comm.	Sus	1
+192	Yahya Tepe	Iran	28.583	56.35	Pleiades	Iron Age	Meadow pers. comm.	Sus	1
+163	Skhul	Israel	32	34.5	Kopp & Röllig 1994	Middle Palaeolithic	Bate 1937	Sus	1
+167	Tabun	Israel	31.55	35.233	Schyle 1992	Lower Palaeolithic	Bate 1937	Sus	1
+167	Tabun	Israel	31.55	35.233	Schyle 1992	Middle Palaeolithic	Bate 1937	Sus	1
+69	Gilf Kebir, Wadi Bakht	Egypt	23.167	26	Schyle & Uerpmann 1996	Late Neolithic	Gautier 1980, 1982	Dama	1
+12	Amuq	Turkey	36.268	36.587	Yener 2005	Late Neolithic	Stampfli 1983	Dama	1
+55	Eli, Tel	Israel	32.5	35.5	Kopp & Röllig 1994	Early Neolithic	Jarman 1974	Dama	1
+55	Eli, Tel	Israel	32.5	35.5	Kopp & Röllig 1994	Late Neolithic	Jarman 1974	Dama	1
+79	Hayaz Hüyük	Turkey	37.563	38.357	vici:57511	Early Neolithic	Buitenhuis pers. comm.; Clason 1985	Dama	1
+79	Hayaz Hüyük	Turkey	37.563	38.357	vici:57511	Late Neolithic	Buitenhuis pers. comm.; Clason 1985	Dama	1
+30	Beldibi	Turkey	36.75	30.533	Schyle & Uerpmann 1996	Epipalaeolithic	Uerpmann 1987	Dama	1
+44	Demirci Hüyük	Turkey	39.87	30.36	CONTEXT	Bronze Age	Rauh 1981	Dama	1
+46	Didyma	Turkey	37.385	27.256	Pleiades	Iron Age	Boessneck & von den Driesch 1983	Dama	1
+61	Fikirtepe	Turkey	41	28	Kopp & Röllig 1994	Late Neolithic	Röhrs & Herre 1961; Boessneck & von den Driesch 1979	Dama	1
+73	Hacılar	Turkey	37.6	30.1	Pleiades	Early Neolithic	Westley 1970	Dama	1
+92	Kara'in	Turkey	37.133	30.583	Schyle 1992	Lower Palaeolithic	Uerpmann 1987	Dama	1
+92	Kara'in	Turkey	37.133	30.583	Schyle 1992	Middle Palaeolithic	Uerpmann 1987	Dama	1
+92	Kara'in	Turkey	37.133	30.583	Schyle 1992	Upper Palaeolithic	Uerpmann 1987	Dama	1
+92	Kara'in	Turkey	37.133	30.583	Schyle 1992	Epipalaeolithic	Uerpmann 1987	Dama	1
+129	Pergamon (Bergama)	Turkey	39.131	27.185	Pleiades	Roman	von den Driesch & Boessneck 1982	Dama	1
+164	Suberde	Turkey	37.333	31.933	Gebel 1984	Early Neolithic	Perkins & Daly 1968	Dama	1
+174	Troy	Turkey	39.957	26.238	Pleiades	Bronze Age	Gejvall 1938, 1939	Dama	1
+2	Abu Hureyra	Syria	35.867	38.4	Schyle & Uerpmann 1996	Protoneolithic	Moore, Hillman & Legge 1975	Dama	1
+2	Abu Hureyra	Syria	35.867	38.4	Schyle & Uerpmann 1996	Early Neolithic	Moore, Hillman & Legge 1975	Dama	1
+2	Abu Hureyra	Syria	35.867	38.4	Schyle & Uerpmann 1996	Late Neolithic	Moore, Hillman & Legge 1975	Dama	1
+8	Ain Mallaha	Israel	33.13	35.58	CONTEXT	Protoneolithic	Ducos 1968, for Canis see Davis & Valla 1978	Dama	1
+16	Arad	Israel	31.28	35.126	Pleiades	Bronze Age	Lernau 1972; Davis 1976	Dama	1
+18	Asiab	Iran	34.3	47.19	CONTEXT	Protoneolithic	Bökönyi 1977	Dama	1
+20	Asmar, Tell	Iraq	33.487	44.725	Pleiades	Bronze Age	Hilzheimer 1941	Dama	1
+29	Beisamoun	Israel	33.093	35.58	Bocquentin et al. 2011	Early Neolithic	Davis 1978	Dama	1
+34	Bouqras	Syria	35.03	40.39	CONTEXT	Early Neolithic	Hooijer 1966; Clason 1977, 1981	Dama	1
+36	Choga Mami	Iraq	33.9	45.17	CONTEXT	Late Neolithic	Bökönyi 1978	Dama	1
+38	Çayönü Tepesi	Turkey	38.218	39.727	Pleiades	Early Neolithic	Lawrence 1980, 1982; Meadow 1986	Dama	1
+43	Deir Alla	Jordan	32.197	35.621	vici:23804	Bronze Age	Clason & Buitenhuis 1978b	Dama	1
+43	Deir Alla	Jordan	32.197	35.621	vici:23804	Iron Age	Clason & Buitenhuis 1978b	Dama	1
+47	Djebel Aruda	Syria	36.167	38	Kopp & Röllig 1994	Late Neolithic	Buitenhuis pers. comm.	Dama	1
+52	Ein Gev	Israel	32.8	35.65	CONTEXT	Upper Palaeolithic	Tchernov 1976	Dama	1
+52	Ein Gev	Israel	32.8	35.65	CONTEXT	Epipalaeolithic	Tchernov 1976	Dama	1
+53	Ein Mir'i	Israel	33.067	35.45	Schyle & Uerpmann 1996	Epipalaeolithic	Uerpmann 1987	Dama	1
+59	Farukhabad	Iran	32.583	47.233	Wright 1981	Late Neolithic	Redding 1982	Dama	1
+59	Farukhabad	Iran	32.583	47.233	Wright 1981	Bronze Age	Redding 1982	Dama	1
+63	Gat, Tel	Israel	31.4	34.5	Kopp & Röllig 1994	Bronze Age	Ducos 1968	Dama	1
+66	Geulah cave	Israel	32.796	35.003	Wreschner et al. 1960	Middle Palaeolithic	Angress 1960b	Dama	1
+73	Hacılar	Turkey	37.6	30.1	Pleiades	Early Neolithic	Westley 1970	Dama	1
+74	Hadidi, Tell	Syria	36.265	38.151	vici:41131	Bronze Age	Clason & Buitenhuis 1978a, 1978b; Buitenhuis 1979	Dama	1
+75	Hagoshrim	Israel	33.221	35.624	vici:57351	Late Neolithic	Ducos 1986	Dama	1
+80	Hayonim	Israel	32.92	35.22	CONTEXT	Epipalaeolithic	Bar Yosef & Tchernov 1966; Henry, Leroi-Gourhan & Davis in press	Dama	1
+80	Hayonim	Israel	32.92	35.22	CONTEXT	Protoneolithic	Bar Yosef & Tchernov 1966; Henry, Leroi-Gourhan & Davis in press	Dama	1
+82	Hefziba	Israel	32.433	34.867	Kopp & Röllig 1994	Epipalaeolithic	Söffner pers. comm.	Dama	1
+83	Hesbon	Jordan	31.75	35.75	Kopp & Röllig 1994	Iron Age	Weiler 1981; Boessneck & von den Driesch 1977, 1978	Dama	1
+88	Ishan Bahriyat (Isin)	Iraq	31.933	45.283	Pleiades	Bronze Age	Boessneck 1977; Boessneck & Kokabi 1981	Dama	1
+88	Ishan Bahriyat (Isin)	Iraq	31.933	45.283	Pleiades	Iron Age	Boessneck 1977; Boessneck & Kokabi 1981	Dama	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Protoneolithic	Clutton-Brock 1979; Nobis 1968	Dama	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Early Neolithic	Clutton-Brock 1979; Nobis 1968	Dama	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Late Neolithic	Clutton-Brock 1979; Nobis 1968	Dama	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Bronze Age	Clutton-Brock 1979; Nobis 1968	Dama	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Iron Age	Clutton-Brock 1979; Nobis 1968	Dama	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Hellenistic	Clutton-Brock 1979; Nobis 1968	Dama	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Roman	Clutton-Brock 1979; Nobis 1968	Dama	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Byzantine	Clutton-Brock 1979; Nobis 1968	Dama	1
+95	Kebarah Cave	Israel	32.57	34.93	CONTEXT	Middle Palaeolithic	Saxon 1974; Davis 1977; Uerpmann 1987	Dama	1
+95	Kebarah Cave	Israel	32.57	34.93	CONTEXT	Upper Palaeolithic	Saxon 1974; Davis 1977; Uerpmann 1987	Dama	1
+95	Kebarah Cave	Israel	32.57	34.93	CONTEXT	Epipalaeolithic	Saxon 1974; Davis 1977; Uerpmann 1987	Dama	1
+102	Ksar 'Akil	Lebanon	33.917	35.6	Schyle 1992	Middle Palaeolithic	Hooijer 1961; Uerpmann 1987	Dama	1
+102	Ksar 'Akil	Lebanon	33.917	35.6	Schyle 1992	Upper Palaeolithic	Hooijer 1961; Uerpmann 1987	Dama	1
+102	Ksar 'Akil	Lebanon	33.917	35.6	Schyle 1992	Epipalaeolithic	Hooijer 1961; Uerpmann 1987	Dama	1
+103	Labweh, Tell	Lebanon	34.187	36.358	vici:57360	Early Neolithic	Bökönyi 1978	Dama	1
+104	Lachish	Israel	31.585	34.854	Pleiades	Bronze Age	Lerna 1975	Dama	1
+104	Lachish	Israel	31.585	34.854	Pleiades	Iron Age	Lerna 1975	Dama	1
+104	Lachish	Israel	31.585	34.854	Pleiades	Hellenistic	Lerna 1975	Dama	1
+113	Metzer	Israel	32.417	35	Kopp & Röllig 1994	Late Neolithic	Ducos 1968	Dama	1
+116	Mureybit	Syria	36.083	38.083	CONTEXT	Protoneolithic	Ducos 1978	Dama	1
+119	Nahal Divshon (D1)	Israel	30.833	34.783	Gebel 1984	Early Neolithic	Tchernov 1976	Dama	1
+120	Nahal Hadera V	Israel	32.467	34.9	Schyle & Uerpmann 1996	Epipalaeolithic	Saxon, Martin & Bar-Yosef 1978	Dama	1
+121	Nahal Oren	Israel	32.72	34.97	CONTEXT	Epipalaeolithic	Ducos 1968; Noy, Legge & Higgs 1973	Dama	1
+121	Nahal Oren	Israel	32.72	34.97	CONTEXT	Protoneolithic	Ducos 1968; Noy, Legge & Higgs 1973	Dama	1
+121	Nahal Oren	Israel	32.72	34.97	CONTEXT	Early Neolithic	Ducos 1968; Noy, Legge & Higgs 1973	Dama	1
+123	Nahr al-Homr	Syria	36.2	38.067	Schyle & Uerpmann 1996	Epipalaeolithic	Clason & Buitenhuis 1978, pers. comm.	Dama	1
+125	Norşun Tepe	Turkey	38.619	39.47	vici:29338	Late Neolithic	Boessneck & von den Driesch 1976	Dama	1
+125	Norşun Tepe	Turkey	38.619	39.47	vici:29338	Bronze Age	Boessneck & von den Driesch 1976	Dama	1
+125	Norşun Tepe	Turkey	38.619	39.47	vici:29338	Iron Age	Boessneck & von den Driesch 1976	Dama	1
+132	Qafzeh, Grotte du Djebel Qafzeh	Israel	32.7	35.3	Schyle 1992	Middle Palaeolithic	Bouchud 1969	Dama	1
+132	Qafzeh, Grotte du Djebel Qafzeh	Israel	32.7	35.3	Schyle 1992	Upper Palaeolithic	Bouchud 1969	Dama	1
+132	Qafzeh, Grotte du Djebel Qafzeh	Israel	32.7	35.3	Schyle 1992	Epipalaeolithic	Bouchud 1969	Dama	1
+135	Qitar, al-	Syria	36.384	38.18	vici:41135	Bronze Age	Buitenhuis pers. comm.	Dama	1
+199	Rakefet	Israel	32.65	35.08	CONTEXT	Upper Palaeolithic	Garrard in Saxon 1976	Dama	1
+199	Rakefet	Israel	32.65	35.08	CONTEXT	Epipalaeolithic	Garrard in Saxon 1976	Dama	1
+145	Rosh Zin	Israel	30.85	34.767	Schyle & Uerpmann 1996	Protoneolithic	Tchernov 1976	Dama	1
+148	Sarab	Iran	34.38	47.09	CONTEXT	Early Neolithic	Bökönyi 1977, 1978	Dama	1
+149	Sawwan, Tell es-	Iraq	34.122	43.905	vici:21265	Late Neolithic	Bökönyi 1978	Dama	1
+152	Shams ed-Din Tannira	Syria	36.167	38.167	Kopp & Röllig 1994	Late Neolithic	Uerpmann 1982	Dama	1
+154	Sheikh Hamad	Syria	35.5	40.667	Kopp & Röllig 1994	Iron Age	Uerpmann 1987	Dama	1
+155	Shuqba	Israel	31.983	35.033	Schyle & Uerpmann 1996	Middle Palaeolithic	Bate 1942; Uerpmann 1987	Dama	1
+155	Shuqba	Israel	31.983	35.033	Schyle & Uerpmann 1996	Epipalaeolithic	Bate 1942; Uerpmann 1987	Dama	1
+159	Sinn, Tell es-	Syria	35.917	38.233	Gebel 1984	Early Neolithic	Clason 1980	Dama	1
+159	Sinn, Tell es-	Syria	35.917	38.233	Gebel 1984	Protoneolithic	Clason 1980	Dama	1
+159	Sinn, Tell es-	Syria	35.917	38.233	Gebel 1984	Late Neolithic	Clason 1980	Dama	1
+163	Skhul	Israel	32	34.5	Kopp & Röllig 1994	Middle Palaeolithic	Bate 1937	Dama	1
+165	Sweyhat	Syria	36.274	38.254	vici:21267	Bronze Age	Buitenhuis pers. comm.	Dama	1
+167	Tabun	Israel	31.55	35.233	Schyle 1992	Lower Palaeolithic	Bate 1937	Dama	1
+167	Tabun	Israel	31.55	35.233	Schyle 1992	Middle Palaeolithic	Bate 1937	Dama	1
+181	Wad, al-	Israel	32.67	34.97	CONTEXT	Upper Palaeolithic	Bate 1937; Uerpmann 1987	Dama	1
+181	Wad, al-	Israel	32.67	34.97	CONTEXT	Epipalaeolithic	Bate 1937; Uerpmann 1987	Dama	1
+191	Yabroud	Syria	33.967	36.65	Schyle 1992	Lower Palaeolithic	Perkins 1968; Lehmann 1970	Dama	1
+191	Yabroud	Syria	33.967	36.65	Schyle 1992	Upper Palaeolithic	Perkins 1968; Lehmann 1970	Dama	1
+191	Yabroud	Syria	33.967	36.65	Schyle 1992	Epipalaeolithic	Perkins 1968; Lehmann 1970	Dama	1
+2	Abu Hureyra	Syria	35.867	38.4	Schyle & Uerpmann 1996	Protoneolithic	Moore, Hillman & Legge 1975	Ovicaprid	1
+2	Abu Hureyra	Syria	35.867	38.4	Schyle & Uerpmann 1996	Early Neolithic	Moore, Hillman & Legge 1975	Ovicaprid	1
+2	Abu Hureyra	Syria	35.867	38.4	Schyle & Uerpmann 1996	Late Neolithic	Moore, Hillman & Legge 1975	Ovicaprid	1
+8	Ain Mallaha	Israel	33.13	35.58	CONTEXT	Protoneolithic	Ducos 1968, for Canis see Davis & Valla 1978	Ovicaprid	1
+24	Banahilk	Iraq	36.65	44.54	CONTEXT	Late Neolithic	Laffer 1983	Ovicaprid	1
+35	Can Hasan III	Turkey	37.25	33.37	CONTEXT	Early Neolithic	Payne 1972; Payne pers. comm.	Ovicaprid	1
+44	Demirci Hüyük	Turkey	39.87	30.36	CONTEXT	Bronze Age	Rauh 1981	Ovicaprid	1
+47	Djebel Aruda	Syria	36.167	38	Kopp & Röllig 1994	Late Neolithic	Buitenhuis pers. comm.	Ovicaprid	1
+52	Ein Gev	Israel	32.8	35.65	CONTEXT	Upper Palaeolithic	Tchernov 1976	Ovicaprid	1
+52	Ein Gev	Israel	32.8	35.65	CONTEXT	Epipalaeolithic	Tchernov 1976	Ovicaprid	1
+53	Ein Mir'i	Israel	33.067	35.45	Schyle & Uerpmann 1996	Epipalaeolithic	Uerpmann 1987	Ovicaprid	1
+55	Eli, Tel	Israel	32.5	35.5	Kopp & Röllig 1994	Early Neolithic	Jarman 1974	Ovicaprid	1
+55	Eli, Tel	Israel	32.5	35.5	Kopp & Röllig 1994	Late Neolithic	Jarman 1974	Ovicaprid	1
+57	Erq el-Ahmar	Israel	31.667	35.233	Schyle & Uerpmann 1996	Middle Palaeolithic	Vaufrey 1951; Davis 1980	Ovicaprid	1
+57	Erq el-Ahmar	Israel	31.667	35.233	Schyle & Uerpmann 1996	Upper Palaeolithic	Vaufrey 1951; Davis 1980	Ovicaprid	1
+57	Erq el-Ahmar	Israel	31.667	35.233	Schyle & Uerpmann 1996	Epipalaeolithic	Vaufrey 1951; Davis 1980	Ovicaprid	1
+61	Fikirtepe	Turkey	41	28	Kopp & Röllig 1994	Late Neolithic	Röhrs & Herre 1961; Boessneck & von den Driesch 1979	Ovicaprid	1
+66	Geulah cave	Israel	32.796	35.003	Wreschner et al. 1960	Middle Palaeolithic	Angress 1960b	Ovicaprid	1
+73	Hacılar	Turkey	37.6	30.1	Pleiades	Early Neolithic	Westley 1970	Ovicaprid	1
+74	Hadidi, Tell	Syria	36.265	38.151	vici:41131	Bronze Age	Clason & Buitenhuis 1978a, 1978b; Buitenhuis 1979	Ovicaprid	1
+75	Hagoshrim	Israel	33.221	35.624	vici:57351	Late Neolithic	Ducos 1986	Ovicaprid	1
+79	Hayaz Hüyük	Turkey	37.563	38.357	vici:57511	Early Neolithic	Buitenhuis pers. comm.; Clason 1985	Ovicaprid	1
+79	Hayaz Hüyük	Turkey	37.563	38.357	vici:57511	Late Neolithic	Buitenhuis pers. comm.; Clason 1985	Ovicaprid	1
+80	Hayonim	Israel	32.92	35.22	CONTEXT	Epipalaeolithic	Bar Yosef & Tchernov 1966; Henry, Leroi-Gourhan & Davis in press	Ovicaprid	1
+80	Hayonim	Israel	32.92	35.22	CONTEXT	Protoneolithic	Bar Yosef & Tchernov 1966; Henry, Leroi-Gourhan & Davis in press	Ovicaprid	1
+89	Jarmo	Iraq	35.56	44.92	CONTEXT	Early Neolithic	Stampfli 1983	Ovicaprid	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Protoneolithic	Clutton-Brock 1979; Nobis 1968	Ovicaprid	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Early Neolithic	Clutton-Brock 1979; Nobis 1968	Ovicaprid	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Late Neolithic	Clutton-Brock 1979; Nobis 1968	Ovicaprid	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Bronze Age	Clutton-Brock 1979; Nobis 1968	Ovicaprid	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Iron Age	Clutton-Brock 1979; Nobis 1968	Ovicaprid	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Hellenistic	Clutton-Brock 1979; Nobis 1968	Ovicaprid	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Roman	Clutton-Brock 1979; Nobis 1968	Ovicaprid	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Byzantine	Clutton-Brock 1979; Nobis 1968	Ovicaprid	1
+95	Kebarah Cave	Israel	32.57	34.93	CONTEXT	Middle Palaeolithic	Saxon 1974; Davis 1977; Uerpmann 1987	Ovicaprid	1
+95	Kebarah Cave	Israel	32.57	34.93	CONTEXT	Upper Palaeolithic	Saxon 1974; Davis 1977; Uerpmann 1987	Ovicaprid	1
+95	Kebarah Cave	Israel	32.57	34.93	CONTEXT	Epipalaeolithic	Saxon 1974; Davis 1977; Uerpmann 1987	Ovicaprid	1
+102	Ksar 'Akil	Lebanon	33.917	35.6	Schyle 1992	Middle Palaeolithic	Hooijer 1961; Uerpmann 1987	Ovicaprid	1
+102	Ksar 'Akil	Lebanon	33.917	35.6	Schyle 1992	Upper Palaeolithic	Hooijer 1961; Uerpmann 1987	Ovicaprid	1
+102	Ksar 'Akil	Lebanon	33.917	35.6	Schyle 1992	Epipalaeolithic	Hooijer 1961; Uerpmann 1987	Ovicaprid	1
+115	Munhatta	Israel	32.5	35.5	Kopp & Röllig 1994	Early Neolithic	Ducos 1968	Ovicaprid	1
+115	Munhatta	Israel	32.5	35.5	Kopp & Röllig 1994	Late Neolithic	Ducos 1968	Ovicaprid	1
+120	Nahal Hadera V	Israel	32.467	34.9	Schyle & Uerpmann 1996	Epipalaeolithic	Saxon, Martin & Bar-Yosef 1978	Ovicaprid	1
+121	Nahal Oren	Israel	32.72	34.97	CONTEXT	Epipalaeolithic	Ducos 1968; Noy, Legge & Higgs 1973	Ovicaprid	1
+121	Nahal Oren	Israel	32.72	34.97	CONTEXT	Protoneolithic	Ducos 1968; Noy, Legge & Higgs 1973	Ovicaprid	1
+121	Nahal Oren	Israel	32.72	34.97	CONTEXT	Early Neolithic	Ducos 1968; Noy, Legge & Higgs 1973	Ovicaprid	1
+125	Norşun Tepe	Turkey	38.619	39.47	vici:29338	Late Neolithic	Boessneck & von den Driesch 1976	Ovicaprid	1
+125	Norşun Tepe	Turkey	38.619	39.47	vici:29338	Bronze Age	Boessneck & von den Driesch 1976	Ovicaprid	1
+125	Norşun Tepe	Turkey	38.619	39.47	vici:29338	Iron Age	Boessneck & von den Driesch 1976	Ovicaprid	1
+135	Qitar, al-	Syria	36.384	38.18	vici:41135	Bronze Age	Buitenhuis pers. comm.	Ovicaprid	1
+136	Quetta Valley	Pakistan	30	67	Kopp & Röllig 1994	Late Neolithic	Fairservis 1956	Ovicaprid	1
+136	Quetta Valley	Pakistan	30	67	Kopp & Röllig 1994	Bronze Age	Fairservis 1956	Ovicaprid	1
+199	Rakefet	Israel	32.65	35.08	CONTEXT	Upper Palaeolithic	Garrard in Saxon 1976	Ovicaprid	1
+199	Rakefet	Israel	32.65	35.08	CONTEXT	Epipalaeolithic	Garrard in Saxon 1976	Ovicaprid	1
+148	Sarab	Iran	34.38	47.09	CONTEXT	Early Neolithic	Bökönyi 1977, 1978	Ovicaprid	1
+150	Shah Tappe	Iran	36	54	Kopp & Röllig 1994	Bronze Age	Amschler 1939	Ovicaprid	1
+153	Shanidar	Iraq	36.8	44.22	CONTEXT	Middle Palaeolithic	Perkins 1964; Evins 1981; Uerpmann 1987	Ovicaprid	1
+153	Shanidar	Iraq	36.8	44.22	CONTEXT	Upper Palaeolithic	Perkins 1964; Evins 1981; Uerpmann 1987	Ovicaprid	1
+153	Shanidar	Iraq	36.8	44.22	CONTEXT	Epipalaeolithic	Perkins 1964; Evins 1981; Uerpmann 1987	Ovicaprid	1
+155	Shuqba	Israel	31.983	35.033	Schyle & Uerpmann 1996	Middle Palaeolithic	Bate 1942; Uerpmann 1987	Ovicaprid	1
+155	Shuqba	Israel	31.983	35.033	Schyle & Uerpmann 1996	Epipalaeolithic	Bate 1942; Uerpmann 1987	Ovicaprid	1
+163	Skhul	Israel	32	34.5	Kopp & Röllig 1994	Middle Palaeolithic	Bate 1937	Ovicaprid	1
+164	Suberde	Turkey	37.333	31.933	Gebel 1984	Early Neolithic	Perkins & Daly 1968	Ovicaprid	1
+165	Sweyhat	Syria	36.274	38.254	vici:21267	Bronze Age	Buitenhuis pers. comm.	Ovicaprid	1
+167	Tabun	Israel	31.55	35.233	Schyle 1992	Lower Palaeolithic	Bate 1937	Ovicaprid	1
+167	Tabun	Israel	31.55	35.233	Schyle 1992	Middle Palaeolithic	Bate 1937	Ovicaprid	1
+200	Tepecik	Turkey	41.468	34.17	Pleiades:845078	Late Neolithic	Boessneck & von den Driesch 1979	Ovicaprid	1
+201	Tülintepe	Turkey	38.641	39.41	vici:51559	Late Neolithic	Boessneck & von den Driesch 1976b	Ovicaprid	1
+22	Azraq, C-spring	Jordan	31.834	36.82	Copeland 1988	Middle Palaeolithic	Clutton-Brock 1970	Bos	1
+23	Balakot	Pakistan	25.45	66.7	Dales 1974	Late Neolithic	Meadow 1979a	Bos	1
+23	Balakot	Pakistan	25.45	66.7	Dales 1974	Bronze Age	Meadow 1979a	Bos	1
+111	Mehrgarh	Pakistan	29.403	67.599	vici:32060	Early Neolithic	Meadow 1984	Bos	1
+111	Mehrgarh	Pakistan	29.403	67.599	vici:32060	Late Neolithic	Meadow 1984	Bos	1
+111	Mehrgarh	Pakistan	29.403	67.599	vici:32060	Bronze Age	Meadow 1984	Bos	1
+57	Erq el-Ahmar	Israel	31.667	35.233	Schyle & Uerpmann 1996	Middle Palaeolithic	Vaufrey 1951; Davis 1980	Bos	1
+57	Erq el-Ahmar	Israel	31.667	35.233	Schyle & Uerpmann 1996	Upper Palaeolithic	Vaufrey 1951; Davis 1980	Bos	1
+57	Erq el-Ahmar	Israel	31.667	35.233	Schyle & Uerpmann 1996	Epipalaeolithic	Vaufrey 1951; Davis 1980	Bos	1
+132	Qafzeh, Grotte du Djebel Qafzeh	Israel	32.7	35.3	Schyle 1992	Middle Palaeolithic	Bouchud 1969	Bos	1
+132	Qafzeh, Grotte du Djebel Qafzeh	Israel	32.7	35.3	Schyle 1992	Upper Palaeolithic	Bouchud 1969	Bos	1
+132	Qafzeh, Grotte du Djebel Qafzeh	Israel	32.7	35.3	Schyle 1992	Epipalaeolithic	Bouchud 1969	Bos	1
+163	Skhul	Israel	32	34.5	Kopp & Röllig 1994	Middle Palaeolithic	Bate 1937	Bos	1
+167	Tabun	Israel	31.55	35.233	Schyle 1992	Lower Palaeolithic	Bate 1937	Bos	1
+167	Tabun	Israel	31.55	35.233	Schyle 1992	Middle Palaeolithic	Bate 1937	Bos	1
+2	Abu Hureyra	Syria	35.867	38.4	Schyle & Uerpmann 1996	Protoneolithic	Moore, Hillman & Legge 1975	Bos	1
+2	Abu Hureyra	Syria	35.867	38.4	Schyle & Uerpmann 1996	Early Neolithic	Moore, Hillman & Legge 1975	Bos	1
+2	Abu Hureyra	Syria	35.867	38.4	Schyle & Uerpmann 1996	Late Neolithic	Moore, Hillman & Legge 1975	Bos	1
+3	Abu Salabikh	Iraq	32.253	45.054	Pleiades	Bronze Age	Clutton-Brock & Burleigh 1978	Bos	1
+6	Abu Zureiq	Israel	32.636	35.126	Garfinkel & Matskevich 2002	Late Neolithic	Ducos 1968	Bos	1
+7	Ain Ghazal	Jordan	31.93	35.94	CONTEXT	Early Neolithic	Köhler-Rollefson 1984	Bos	1
+8	Ain Mallaha	Israel	33.13	35.58	CONTEXT	Protoneolithic	Ducos 1968, for Canis see Davis & Valla 1978	Bos	1
+9	Ali Kosh	Iran	32.56	47.32	CONTEXT	Early Neolithic	Hole, Flannery & Neely 1969	Bos	1
+10	Ali Tappe	Iran	36.68	53.55	CONTEXT	Epipalaeolithic	Uerpmann & Frey 1981	Bos	1
+12	Amuq	Turkey	36.268	36.587	Yener 2005	Late Neolithic	Stampfli 1983	Bos	1
+13	Anau	Soviet Union	38.187	58.477	Pleiades	Late Neolithic	Duerst 1908	Bos	1
+17	Ashkalon	Israel	31.666	34.546	Pleiades	Late Neolithic	Ducos 1968	Bos	1
+18	Asiab	Iran	34.3	47.19	CONTEXT	Protoneolithic	Bökönyi 1977	Bos	1
+19	Aşıklı Hüyük	Turkey	38.35	34.23	CONTEXT	Early Neolithic	Payne 1985	Bos	1
+22	Azraq, C-spring	Jordan	31.834	36.82	Copeland 1988	Middle Palaeolithic	Clutton-Brock 1970	Bos	1
+25	Bastam	Iran	38.891	44.894	Pleiades	Iron Age	Krauss 1975	Bos	1
+28	Beidha	Jordan	30.37	35.45	CONTEXT	Early Neolithic	Hecker 1974, 1982	Bos	1
+29	Beisamoun	Israel	33.093	35.58	Bocquentin et al. 2011	Early Neolithic	Davis 1978	Bos	1
+30	Beldibi	Turkey	36.75	30.533	Schyle & Uerpmann 1996	Epipalaeolithic	Uerpmann 1987	Bos	1
+34	Bouqras	Syria	35.03	40.39	CONTEXT	Early Neolithic	Hooijer 1966; Clason 1977, 1981	Bos	1
+35	Can Hasan III	Turkey	37.25	33.37	CONTEXT	Early Neolithic	Payne 1972; Payne pers. comm.	Bos	1
+36	Choga Mami	Iraq	33.9	45.17	CONTEXT	Late Neolithic	Bökönyi 1978	Bos	1
+37	Çatal Hüyük	Turkey	37.668	32.828	Pleiades	Early Neolithic	Perkins 1969	Bos	1
+38	Çayönü Tepesi	Turkey	38.218	39.727	Pleiades	Early Neolithic	Lawrence 1980, 1982; Meadow 1986	Bos	1
+41	Dakhla Oasis	Egypt	25.573	29.062	Pleiades	Late Neolithic	Churcher 1983	Bos	1
+42	Dehsavar	Iran	34.313	47.131	Motarjem pers. comm.	Late Neolithic	Bökönyi 1977	Bos	1
+43	Deir Alla	Jordan	32.197	35.621	vici:23804	Bronze Age	Clason & Buitenhuis 1978b	Bos	1
+43	Deir Alla	Jordan	32.197	35.621	vici:23804	Iron Age	Clason & Buitenhuis 1978b	Bos	1
+44	Demirci Hüyük	Turkey	39.87	30.36	CONTEXT	Bronze Age	Rauh 1981	Bos	1
+52	Ein Gev	Israel	32.8	35.65	CONTEXT	Upper Palaeolithic	Tchernov 1976	Bos	1
+52	Ein Gev	Israel	32.8	35.65	CONTEXT	Epipalaeolithic	Tchernov 1976	Bos	1
+55	Eli, Tel	Israel	32.5	35.5	Kopp & Röllig 1994	Early Neolithic	Jarman 1974	Bos	1
+55	Eli, Tel	Israel	32.5	35.5	Kopp & Röllig 1994	Late Neolithic	Jarman 1974	Bos	1
+56	Elkab	Egypt	25.12	32.798	Pleiades	Epipalaeolithic	Gautier 1978	Bos	1
+58	Eshkaft-e Gavi	Iran	29.867	52.75	Schyle 1992	Middle Palaeolithic	Uerpmann 1987	Bos	1
+58	Eshkaft-e Gavi	Iran	29.867	52.75	Schyle 1992	Upper Palaeolithic	Uerpmann 1987	Bos	1
+58	Eshkaft-e Gavi	Iran	29.867	52.75	Schyle 1992	Epipalaeolithic	Uerpmann 1987	Bos	1
+60	Fayum	Egypt	29.315	30.84	Pleiades	Epipalaeolithic	Caton-Thompson & Gardner 1934; Gautier 1980	Bos	1
+60	Fayum	Egypt	29.315	30.84	Pleiades	Protoneolithic	Caton-Thompson & Gardner 1934; Gautier 1980	Bos	1
+60	Fayum	Egypt	29.315	30.84	Pleiades	Early Neolithic	Caton-Thompson & Gardner 1934; Gautier 1980	Bos	1
+60	Fayum	Egypt	29.315	30.84	Pleiades	Bronze Age	Caton-Thompson & Gardner 1934; Gautier 1980	Bos	1
+61	Fikirtepe	Turkey	41	28	Kopp & Röllig 1994	Late Neolithic	Röhrs & Herre 1961; Boessneck & von den Driesch 1979	Bos	1
+62	Ganj-e Dare	Iran	34.42	47.57	CONTEXT	Early Neolithic	Hesse 1978, 1982	Bos	1
+64	Gat-Govrin	Israel	31.583	34.833	Kopp & Röllig 1994	Late Neolithic	Ducos 1968	Bos	1
+66	Geulah cave	Israel	32.796	35.003	Wreschner et al. 1960	Middle Palaeolithic	Angress 1960b	Bos	1
+70	Girikihaciyan	Turkey	38.233	39.967	Watson 1990	Late Neolithic	Mcardle 1974	Bos	1
+72	Guran, Tepe	Iran	33.73	47.07	CONTEXT	Early Neolithic	Flannery pers. comm.	Bos	1
+75	Hagoshrim	Israel	33.221	35.624	vici:57351	Late Neolithic	Ducos 1986	Bos	1
+76	Hajji Firuz	Iran	37.04	45.54	CONTEXT	Late Neolithic	Meadow 1983	Bos	1
+78	Hassek Hüyük	Turkey	37.698	39.009	vici:42297	Bronze Age	Boessneck & von den Driesch 1981	Bos	1
+79	Hayaz Hüyük	Turkey	37.563	38.357	vici:57511	Early Neolithic	Buitenhuis pers. comm.; Clason 1985	Bos	1
+79	Hayaz Hüyük	Turkey	37.563	38.357	vici:57511	Late Neolithic	Buitenhuis pers. comm.; Clason 1985	Bos	1
+80	Hayonim	Israel	32.92	35.22	CONTEXT	Epipalaeolithic	Bar Yosef & Tchernov 1966; Henry, Leroi-Gourhan & Davis in press	Bos	1
+80	Hayonim	Israel	32.92	35.22	CONTEXT	Protoneolithic	Bar Yosef & Tchernov 1966; Henry, Leroi-Gourhan & Davis in press	Bos	1
+82	Hefziba	Israel	32.433	34.867	Kopp & Röllig 1994	Epipalaeolithic	Söffner pers. comm.	Bos	1
+83	Hesbon	Jordan	31.75	35.75	Kopp & Röllig 1994	Iron Age	Weiler 1981; Boessneck & von den Driesch 1977, 1978	Bos	1
+85	Iblis, Tal-e	Iran	29	56	Kopp & Röllig 1994	Iron Age	Bökönyi 1967	Bos	1
+86	Idfu and Isna sites	Egypt	25.367	32.467	Schyle & Uerpmann 1996	Epipalaeolithic	Gautier 1976	Bos	1
+88	Ishan Bahriyat (Isin)	Iraq	31.933	45.283	Pleiades	Bronze Age	Boessneck 1977; Boessneck & Kokabi 1981	Bos	1
+88	Ishan Bahriyat (Isin)	Iraq	31.933	45.283	Pleiades	Iron Age	Boessneck 1977; Boessneck & Kokabi 1981	Bos	1
+89	Jarmo	Iraq	35.56	44.92	CONTEXT	Early Neolithic	Stampfli 1983	Bos	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Protoneolithic	Clutton-Brock 1979; Nobis 1968	Bos	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Early Neolithic	Clutton-Brock 1979; Nobis 1968	Bos	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Late Neolithic	Clutton-Brock 1979; Nobis 1968	Bos	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Bronze Age	Clutton-Brock 1979; Nobis 1968	Bos	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Iron Age	Clutton-Brock 1979; Nobis 1968	Bos	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Hellenistic	Clutton-Brock 1979; Nobis 1968	Bos	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Roman	Clutton-Brock 1979; Nobis 1968	Bos	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Byzantine	Clutton-Brock 1979; Nobis 1968	Bos	1
+91	Kamarband, Ghar-e	Iran	36.65	53.28	CONTEXT	Epipalaeolithic	Uerpmann & Frey 1981	Bos	1
+91	Kamarband, Ghar-e	Iran	36.65	53.28	CONTEXT	Late Neolithic	Uerpmann & Frey 1981	Bos	1
+92	Kara'in	Turkey	37.133	30.583	Schyle 1992	Lower Palaeolithic	Uerpmann 1987	Bos	1
+92	Kara'in	Turkey	37.133	30.583	Schyle 1992	Middle Palaeolithic	Uerpmann 1987	Bos	1
+92	Kara'in	Turkey	37.133	30.583	Schyle 1992	Upper Palaeolithic	Uerpmann 1987	Bos	1
+92	Kara'in	Turkey	37.133	30.583	Schyle 1992	Epipalaeolithic	Uerpmann 1987	Bos	1
+94	Karim Shahir	Iraq	35.564	44.957	Braidwood et al. 1983	Protoneolithic	Stampfli 1983	Bos	1
+95	Kebarah Cave	Israel	32.57	34.93	CONTEXT	Middle Palaeolithic	Saxon 1974; Davis 1977; Uerpmann 1987	Bos	1
+95	Kebarah Cave	Israel	32.57	34.93	CONTEXT	Upper Palaeolithic	Saxon 1974; Davis 1977; Uerpmann 1987	Bos	1
+95	Kebarah Cave	Israel	32.57	34.93	CONTEXT	Epipalaeolithic	Saxon 1974; Davis 1977; Uerpmann 1987	Bos	1
+99	Khorramabad Caves	Iran	33.492	48.349	Hole 2007 (KR-15/Ghamari)	Middle Palaeolithic	Hole & Flannery 1967	Bos	1
+99	Khorramabad Caves	Iran	33.492	48.349	Hole 2007 (KR-15/Ghamari)	Upper Palaeolithic	Hole & Flannery 1967	Bos	1
+99	Khorramabad Caves	Iran	33.492	48.349	Hole 2007 (KR-15/Ghamari)	Epipalaeolithic	Hole & Flannery 1967	Bos	1
+100	Kom Ombo	Egypt	24.452	32.928	Pleiades	Epipalaeolithic	Churcher 1972, 1974; Reed & Turnbull 1969; Turnbull pers. comm.	Bos	1
+101	Kordlar Tepe	Iran	37.5	45	Kopp & Röllig 1994	Iron Age	Wolff 1976	Bos	1
+197	Korucutepe	Turkey	38.637	39.537	Pleiades	Bronze Age	Boessneck & von den Driesch 1975	Bos	1
+102	Ksar 'Akil	Lebanon	33.917	35.6	Schyle 1992	Middle Palaeolithic	Hooijer 1961; Uerpmann 1987	Bos	1
+102	Ksar 'Akil	Lebanon	33.917	35.6	Schyle 1992	Upper Palaeolithic	Hooijer 1961; Uerpmann 1987	Bos	1
+102	Ksar 'Akil	Lebanon	33.917	35.6	Schyle 1992	Epipalaeolithic	Hooijer 1961; Uerpmann 1987	Bos	1
+103	Labweh, Tell	Lebanon	34.187	36.358	vici:57360	Early Neolithic	Bökönyi 1978	Bos	1
+106	M'lefaat	Iraq	36.31	43.54	CONTEXT	Protoneolithic	Turnbull 1983	Bos	1
+107	Mdamagh	Jordan	30.333	35.45	Schyle 1992	Epipalaeolithic	Perkins 1966; Uerpmann 1987	Bos	1
+108	Malyan	Iran	29.99	52.52	CONTEXT	Bronze Age	Zeder 1984, 1986	Bos	1
+108	Malyan	Iran	29.99	52.52	CONTEXT	Iron Age	Zeder 1984, 1986	Bos	1
+109	Matarrah	Iraq	35.18	44.4	CONTEXT	Late Neolithic	Stampfli 1983	Bos	1
+111	Mehrgarh	Pakistan	29.403	67.599	vici:32060	Early Neolithic	Meadow 1984	Bos	1
+111	Mehrgarh	Pakistan	29.403	67.599	vici:32060	Late Neolithic	Meadow 1984	Bos	1
+111	Mehrgarh	Pakistan	29.403	67.599	vici:32060	Bronze Age	Meadow 1984	Bos	1
+113	Metzer	Israel	32.417	35	Kopp & Röllig 1994	Late Neolithic	Ducos 1968	Bos	1
+115	Munhatta	Israel	32.5	35.5	Kopp & Röllig 1994	Early Neolithic	Ducos 1968	Bos	1
+115	Munhatta	Israel	32.5	35.5	Kopp & Röllig 1994	Late Neolithic	Ducos 1968	Bos	1
+116	Mureybit	Syria	36.083	38.083	CONTEXT	Protoneolithic	Ducos 1978	Bos	1
+118	Nagila, Tel	Israel	28.698	33.83	Pleiades	Bronze Age	Ducos 1968	Bos	1
+119	Nahal Divshon (D1)	Israel	30.833	34.783	Gebel 1984	Early Neolithic	Tchernov 1976	Bos	1
+120	Nahal Hadera V	Israel	32.467	34.9	Schyle & Uerpmann 1996	Epipalaeolithic	Saxon, Martin & Bar-Yosef 1978	Bos	1
+121	Nahal Oren	Israel	32.72	34.97	CONTEXT	Epipalaeolithic	Ducos 1968; Noy, Legge & Higgs 1973	Bos	1
+121	Nahal Oren	Israel	32.72	34.97	CONTEXT	Protoneolithic	Ducos 1968; Noy, Legge & Higgs 1973	Bos	1
+121	Nahal Oren	Israel	32.72	34.97	CONTEXT	Early Neolithic	Ducos 1968; Noy, Legge & Higgs 1973	Bos	1
+125	Norşun Tepe	Turkey	38.619	39.47	vici:29338	Late Neolithic	Boessneck & von den Driesch 1976	Bos	1
+125	Norşun Tepe	Turkey	38.619	39.47	vici:29338	Bronze Age	Boessneck & von den Driesch 1976	Bos	1
+125	Norşun Tepe	Turkey	38.619	39.47	vici:29338	Iron Age	Boessneck & von den Driesch 1976	Bos	1
+126	Nush-i Jan	Iran	34.38	48.639	Pleiades	Iron Age	Bökönyi 1978	Bos	1
+127	Pa Sangar	Iran	33.485	48.341	Hole & Flannery 1967	Epipalaeolithic	Hole & Flannery 1967; Uerpmann 1987	Bos	1
+128	Palegawra	Iraq	35.64	45.11	CONTEXT	Epipalaeolithic	Turnbull & Reed 1974; Uerpmann 1987	Bos	1
+128	Palegawra	Iraq	35.64	45.11	CONTEXT	Early Neolithic	Turnbull & Reed 1974; Uerpmann 1987	Bos	1
+136	Quetta Valley	Pakistan	30	67	Kopp & Röllig 1994	Late Neolithic	Fairservis 1956	Bos	1
+136	Quetta Valley	Pakistan	30	67	Kopp & Röllig 1994	Bronze Age	Fairservis 1956	Bos	1
+199	Rakefet	Israel	32.65	35.08	CONTEXT	Upper Palaeolithic	Garrard in Saxon 1976	Bos	1
+199	Rakefet	Israel	32.65	35.08	CONTEXT	Epipalaeolithic	Garrard in Saxon 1976	Bos	1
+140	Ras en-Naqb	Jordan	30.017	35.483	Schyle 1992	Epipalaeolithic	Turnbull in press	Bos	1
+140	Ras en-Naqb	Jordan	30.017	35.483	Schyle 1992	Late Neolithic	Turnbull in press	Bos	1
+144	Rosh Horesha	Israel	30.5	34.58	CONTEXT	Protoneolithic	Butler, Tchernov, Hietala & Davis 1977	Bos	1
+148	Sarab	Iran	34.38	47.09	CONTEXT	Early Neolithic	Bökönyi 1977, 1978	Bos	1
+149	Sawwan, Tell es-	Iraq	34.122	43.905	vici:21265	Late Neolithic	Bökönyi 1978	Bos	1
+150	Shah Tappe	Iran	36	54	Kopp & Röllig 1994	Bronze Age	Amschler 1939	Bos	1
+151	Shahr-e Sokhta	Iran	30.595	61.326	Pleiades	Bronze Age	Caloi & Compagnoni 1977, 1981; Compagnoni 1980	Bos	1
+152	Shams ed-Din Tannira	Syria	36.167	38.167	Kopp & Röllig 1994	Late Neolithic	Uerpmann 1982	Bos	1
+155	Shuqba	Israel	31.983	35.033	Schyle & Uerpmann 1996	Middle Palaeolithic	Bate 1942; Uerpmann 1987	Bos	1
+155	Shuqba	Israel	31.983	35.033	Schyle & Uerpmann 1996	Epipalaeolithic	Bate 1942; Uerpmann 1987	Bos	1
+156	Siahbid	Iran	34.25	47	Kopp & Röllig 1994	Late Neolithic	Bökönyi 1977	Bos	1
+159	Sinn, Tell es-	Syria	35.917	38.233	Gebel 1984	Early Neolithic	Clason 1980	Bos	1
+159	Sinn, Tell es-	Syria	35.917	38.233	Gebel 1984	Protoneolithic	Clason 1980	Bos	1
+159	Sinn, Tell es-	Syria	35.917	38.233	Gebel 1984	Late Neolithic	Clason 1980	Bos	1
+164	Suberde	Turkey	37.333	31.933	Gebel 1984	Early Neolithic	Perkins & Daly 1968	Bos	1
+166	Ta'as	Syria	36	38	Kopp & Röllig 1994	Byzantine	Clason & Buitenhuis 1978	Bos	1
+166	Ta'as	Syria	36	38	Kopp & Röllig 1994	Islamic	Clason & Buitenhuis 1978	Bos	1
+168	Taibé, at-Tayyiba	Syria	32.567	36.267	Schyle & Uerpmann 1996	Epipalaeolithic	Ducos 1968	Bos	1
+200	Tepecik	Turkey	41.468	34.17	Pleiades:845078	Late Neolithic	Boessneck & von den Driesch 1979	Bos	1
+175	Tula'i Tepe	Iran	32.333	48.167	Kopp & Röllig 1994	Early Neolithic	Wheeler 1977	Bos	1
+179	Umm Dabagiyah	Iraq	35.5	42.5	Kopp & Röllig 1994	Early Neolithic	Bökönyi 1978	Bos	1
+181	Wad, al-	Israel	32.67	34.97	CONTEXT	Upper Palaeolithic	Bate 1937; Uerpmann 1987	Bos	1
+181	Wad, al-	Israel	32.67	34.97	CONTEXT	Epipalaeolithic	Bate 1937; Uerpmann 1987	Bos	1
+184	Wadi Halfa Area	Sudan	21	31	Kopp & Röllig 1994	Upper Palaeolithic	Gautier 1968	Bos	1
+184	Wadi Halfa Area	Sudan	21	31	Kopp & Röllig 1994	Epipalaeolithic	Gautier 1968	Bos	1
+184	Wadi Halfa Area	Sudan	21	31	Kopp & Röllig 1994	Protoneolithic	Gautier 1968	Bos	1
+184	Wadi Halfa Area	Sudan	21	31	Kopp & Röllig 1994	Early Neolithic	Gautier 1968	Bos	1
+184	Wadi Halfa Area	Sudan	21	31	Kopp & Röllig 1994	Late Neolithic	Gautier 1968	Bos	1
+186	Wadi Halfa, west bank	Sudan	21	31	Kopp & Röllig 1994	Epipalaeolithic	Turnbull pers. comm.	Bos	1
+187	Wadi Kubbaniya	Egypt	24.217	32.85	Schyle & Uerpmann 1996	Epipalaeolithic	Gautier, Ballmann & van Neer 1980	Bos	1
+190	Warwasi	Iran	34.4	47.117	Schyle 1992	MP:UP	Turnbull 1975	Bos	1
+190	Warwasi	Iran	34.4	47.117	Schyle 1992	Epipalaeolithic	Turnbull 1975	Bos	1
+5	Abu Simbel east bank	Egypt	22.336	31.627	Pleiades	Epipalaeolithic	Reed in Wendt 1966	Gazella	1
+5	Abu Simbel east bank	Egypt	22.336	31.627	Pleiades	Protoneolithic	Reed in Wendt 1966	Gazella	1
+5	Abu Simbel east bank	Egypt	22.336	31.627	Pleiades	Early Neolithic	Reed in Wendt 1966	Gazella	1
+5	Abu Simbel east bank	Egypt	22.336	31.627	Pleiades	Late Neolithic	Reed in Wendt 1966	Gazella	1
+8	Ain Mallaha	Israel	33.13	35.58	CONTEXT	Protoneolithic	Ducos 1968, for Canis see Davis & Valla 1978	Gazella	1
+12	Amuq	Turkey	36.268	36.587	Yener 2005	Late Neolithic	Stampfli 1983	Gazella	1
+17	Ashkalon	Israel	31.666	34.546	Pleiades	Late Neolithic	Ducos 1968	Gazella	1
+21	Azraq, Ain al-Assad	Jordan	31.807	36.805	Copeland 1988	Upper Palaeolithic	Turnbull pers. comm.	Gazella	1
+21	Azraq, Ain al-Assad	Jordan	31.807	36.805	Copeland 1988	Early Neolithic	Turnbull pers. comm.	Gazella	1
+21	Azraq, Ain al-Assad	Jordan	31.807	36.805	Copeland 1988	Bronze Age	Turnbull pers. comm.	Gazella	1
+26	Beersheba – Bir es-Safadi	Israel	32.931	35.408	Pleiades	Late Neolithic	Josien 1955; Ducos 1968	Gazella	1
+28	Beidha	Jordan	30.37	35.45	CONTEXT	Early Neolithic	Hecker 1974, 1982	Gazella	1
+29	Beisamoun	Israel	33.093	35.58	Bocquentin et al. 2011	Early Neolithic	Davis 1978	Gazella	1
+34	Bouqras	Syria	35.03	40.39	CONTEXT	Early Neolithic	Hooijer 1966; Clason 1977, 1981	Gazella	1
+36	Choga Mami	Iraq	33.9	45.17	CONTEXT	Late Neolithic	Bökönyi 1978	Gazella	1
+38	Çayönü Tepesi	Turkey	38.218	39.727	Pleiades	Early Neolithic	Lawrence 1980, 1982; Meadow 1986	Gazella	1
+39	Dab'a, Tell ed-	Egypt	30.786	31.823	Pleiades	Bronze Age	Boessneck 1976	Gazella	1
+42	Dehsavar	Iran	34.313	47.131	Motarjem pers. comm.	Late Neolithic	Bökönyi 1977	Gazella	1
+43	Deir Alla	Jordan	32.197	35.621	vici:23804	Bronze Age	Clason & Buitenhuis 1978b	Gazella	1
+43	Deir Alla	Jordan	32.197	35.621	vici:23804	Iron Age	Clason & Buitenhuis 1978b	Gazella	1
+47	Djebel Aruda	Syria	36.167	38	Kopp & Röllig 1994	Late Neolithic	Buitenhuis pers. comm.	Gazella	1
+49	Dosariyah, Abu Khamis, and Ain Qannas	Saudi Arabia	26.94	49.71	CONTEXT	Late Neolithic	Zeder pers. comm.	Gazella	1
+55	Eli, Tel	Israel	32.5	35.5	Kopp & Röllig 1994	Early Neolithic	Jarman 1974	Gazella	1
+55	Eli, Tel	Israel	32.5	35.5	Kopp & Röllig 1994	Late Neolithic	Jarman 1974	Gazella	1
+57	Erq el-Ahmar	Israel	31.667	35.233	Schyle & Uerpmann 1996	Middle Palaeolithic	Vaufrey 1951; Davis 1980	Gazella	1
+57	Erq el-Ahmar	Israel	31.667	35.233	Schyle & Uerpmann 1996	Upper Palaeolithic	Vaufrey 1951; Davis 1980	Gazella	1
+57	Erq el-Ahmar	Israel	31.667	35.233	Schyle & Uerpmann 1996	Epipalaeolithic	Vaufrey 1951; Davis 1980	Gazella	1
+58	Eshkaft-e Gavi	Iran	29.867	52.75	Schyle 1992	Middle Palaeolithic	Uerpmann 1987	Gazella	1
+58	Eshkaft-e Gavi	Iran	29.867	52.75	Schyle 1992	Upper Palaeolithic	Uerpmann 1987	Gazella	1
+58	Eshkaft-e Gavi	Iran	29.867	52.75	Schyle 1992	Epipalaeolithic	Uerpmann 1987	Gazella	1
+63	Gat, Tel	Israel	31.4	34.5	Kopp & Röllig 1994	Bronze Age	Ducos 1968	Gazella	1
+64	Gat-Govrin	Israel	31.583	34.833	Kopp & Röllig 1994	Late Neolithic	Ducos 1968	Gazella	1
+68	Gilf Kebir, Wadi al-Akhdar	Egypt	23.167	26	Schyle & Uerpmann 1996	Late Neolithic	Kuper 1981	Gazella	1
+73	Hacılar	Turkey	37.6	30.1	Pleiades	Early Neolithic	Westley 1970	Gazella	1
+74	Hadidi, Tell	Syria	36.265	38.151	vici:41131	Bronze Age	Clason & Buitenhuis 1978a, 1978b; Buitenhuis 1979	Gazella	1
+75	Hagoshrim	Israel	33.221	35.624	vici:57351	Late Neolithic	Ducos 1986	Gazella	1
+77	Halawa	Syria	35	38	Kopp & Röllig 1994	Bronze Age	Boessneck & Kokabi 1981	Gazella	1
+79	Hayaz Hüyük	Turkey	37.563	38.357	vici:57511	Early Neolithic	Buitenhuis pers. comm.; Clason 1985	Gazella	1
+79	Hayaz Hüyük	Turkey	37.563	38.357	vici:57511	Late Neolithic	Buitenhuis pers. comm.; Clason 1985	Gazella	1
+84	Hili 8	UAE	24.167	55.667	Kopp & Röllig 1994	Bronze Age	Uerpmann 1987	Gazella	1
+85	Iblis, Tal-e	Iran	29	56	Kopp & Röllig 1994	Iron Age	Bökönyi 1967	Gazella	1
+87	Iǧrat al-Mihad	Egypt	28.5	33.5	Kopp & Röllig 1994	Early Neolithic	Bar-Yosef 1981	Gazella	1
+94	Karim Shahir	Iraq	35.564	44.957	Braidwood et al. 1983	Protoneolithic	Stampfli 1983	Gazella	1
+96	Kerma	Sudan	19.6	30.409	vici:21329	Bronze Age	Chaix 1980; Chaix pers. comm.	Gazella	1
+97	Kharga Oasis	Egypt	25.597	30.73	Pleiades	Late Neolithic	Guatier 1980	Gazella	1
+98	Khiam, al-	Israel	31.633	35.267	Schyle & Uerpmann 1996	Epipalaeolithic	Vaufrey 1951; Ducos 1968	Gazella	1
+98	Khiam, al-	Israel	31.633	35.267	Schyle & Uerpmann 1996	Early Neolithic	Vaufrey 1951; Ducos 1968	Gazella	1
+103	Labweh, Tell	Lebanon	34.187	36.358	vici:57360	Early Neolithic	Bökönyi 1978	Gazella	1
+104	Lachish	Israel	31.585	34.854	Pleiades	Bronze Age	Lerna 1975	Gazella	1
+104	Lachish	Israel	31.585	34.854	Pleiades	Iron Age	Lerna 1975	Gazella	1
+104	Lachish	Israel	31.585	34.854	Pleiades	Hellenistic	Lerna 1975	Gazella	1
+108	Malyan	Iran	29.99	52.52	CONTEXT	Bronze Age	Zeder 1984, 1986	Gazella	1
+108	Malyan	Iran	29.99	52.52	CONTEXT	Iron Age	Zeder 1984, 1986	Gazella	1
+109	Matarrah	Iraq	35.18	44.4	CONTEXT	Late Neolithic	Stampfli 1983	Gazella	1
+113	Metzer	Israel	32.417	35	Kopp & Röllig 1994	Late Neolithic	Ducos 1968	Gazella	1
+115	Munhatta	Israel	32.5	35.5	Kopp & Röllig 1994	Early Neolithic	Ducos 1968	Gazella	1
+115	Munhatta	Israel	32.5	35.5	Kopp & Röllig 1994	Late Neolithic	Ducos 1968	Gazella	1
+116	Mureybit	Syria	36.083	38.083	CONTEXT	Protoneolithic	Ducos 1978	Gazella	1
+118	Nagila, Tel	Israel	28.698	33.83	Pleiades	Bronze Age	Ducos 1968	Gazella	1
+121	Nahal Oren	Israel	32.72	34.97	CONTEXT	Epipalaeolithic	Ducos 1968; Noy, Legge & Higgs 1973	Gazella	1
+121	Nahal Oren	Israel	32.72	34.97	CONTEXT	Protoneolithic	Ducos 1968; Noy, Legge & Higgs 1973	Gazella	1
+121	Nahal Oren	Israel	32.72	34.97	CONTEXT	Early Neolithic	Ducos 1968; Noy, Legge & Higgs 1973	Gazella	1
+123	Nahr al-Homr	Syria	36.2	38.067	Schyle & Uerpmann 1996	Epipalaeolithic	Clason & Buitenhuis 1978, pers. comm.	Gazella	1
+133	Qantir	Egypt	30.786	31.823	Pleiades	Bronze Age	Boessneck & von den Driesch 1982	Gazella	1
+135	Qitar, al-	Syria	36.384	38.18	vici:41135	Bronze Age	Buitenhuis pers. comm.	Gazella	1
+199	Rakefet	Israel	32.65	35.08	CONTEXT	Upper Palaeolithic	Garrard in Saxon 1976	Gazella	1
+199	Rakefet	Israel	32.65	35.08	CONTEXT	Epipalaeolithic	Garrard in Saxon 1976	Gazella	1
+140	Ras en-Naqb	Jordan	30.017	35.483	Schyle 1992	Epipalaeolithic	Turnbull in press	Gazella	1
+140	Ras en-Naqb	Jordan	30.017	35.483	Schyle 1992	Late Neolithic	Turnbull in press	Gazella	1
+141	Ras Ghanada	UAE	24	54	Kopp & Röllig 1994	Bronze Age	Uerpmann 1987	Gazella	1
+147	Sahba	Israel	31.583	35.217	Tomsky 1991	Middle Palaeolithic	Vaufrey 1951	Gazella	1
+149	Sawwan, Tell es-	Iraq	34.122	43.905	vici:21265	Late Neolithic	Bökönyi 1978	Gazella	1
+156	Siahbid	Iran	34.25	47	Kopp & Röllig 1994	Late Neolithic	Bökönyi 1977	Gazella	1
+157	Sialk	Iran	34	54	Kopp & Röllig 1994	Late Neolithic	Vaufrey 1939; Uerpmann 1987	Gazella	1
+159	Sinn, Tell es-	Syria	35.917	38.233	Gebel 1984	Early Neolithic	Clason 1980	Gazella	1
+159	Sinn, Tell es-	Syria	35.917	38.233	Gebel 1984	Protoneolithic	Clason 1980	Gazella	1
+159	Sinn, Tell es-	Syria	35.917	38.233	Gebel 1984	Late Neolithic	Clason 1980	Gazella	1
+163	Skhul	Israel	32	34.5	Kopp & Röllig 1994	Middle Palaeolithic	Bate 1937	Gazella	1
+165	Sweyhat	Syria	36.274	38.254	vici:21267	Bronze Age	Buitenhuis pers. comm.	Gazella	1
+166	Ta'as	Syria	36	38	Kopp & Röllig 1994	Byzantine	Clason & Buitenhuis 1978	Gazella	1
+166	Ta'as	Syria	36	38	Kopp & Röllig 1994	Islamic	Clason & Buitenhuis 1978	Gazella	1
+167	Tabun	Israel	31.55	35.233	Schyle 1992	Lower Palaeolithic	Bate 1937	Gazella	1
+167	Tabun	Israel	31.55	35.233	Schyle 1992	Middle Palaeolithic	Bate 1937	Gazella	1
+168	Taibé, at-Tayyiba	Syria	32.567	36.267	Schyle & Uerpmann 1996	Epipalaeolithic	Ducos 1968	Gazella	1
+171	Tel-Aviv (Jabotinsky Road)	Israel	32	34.5	Kopp & Röllig 1994	Late Neolithic	Ducos 1968	Gazella	1
+173	Tor Abou Sif	Israel	31.567	35.217	Schyle & Uerpmann 1996	Epipalaeolithic	Vaufrey 1951	Gazella	1
+176	Turmus, Tel	Israel	31.725	34.773	vici:57419	Late Neolithic	Ducos 1968	Gazella	1
+178	Umm az-Zaituna (ez-Zoueitina)	Israel	31.567	35.217	Gebel 1984	Epipalaeolithic	Vaufrey 1951	Gazella	1
+179	Umm Dabagiyah	Iraq	35.5	42.5	Kopp & Röllig 1994	Early Neolithic	Bökönyi 1978	Gazella	1
+181	Wad, al-	Israel	32.67	34.97	CONTEXT	Upper Palaeolithic	Bate 1937; Uerpmann 1987	Gazella	1
+181	Wad, al-	Israel	32.67	34.97	CONTEXT	Epipalaeolithic	Bate 1937; Uerpmann 1987	Gazella	1
+182	Wadi Dhobai, site K	Jordan	36.414	31.508	Garrard & Byrd 2013	Epipalaeolithic	Bate 1938	Gazella	1
+183	Wadi Gaza	Israel	31	34	Kopp & Röllig 1994	Late Neolithic	Ducos 1968	Gazella	1
+184	Wadi Halfa Area	Sudan	21	31	Kopp & Röllig 1994	Upper Palaeolithic	Gautier 1968	Gazella	1
+184	Wadi Halfa Area	Sudan	21	31	Kopp & Röllig 1994	Epipalaeolithic	Gautier 1968	Gazella	1
+184	Wadi Halfa Area	Sudan	21	31	Kopp & Röllig 1994	Protoneolithic	Gautier 1968	Gazella	1
+184	Wadi Halfa Area	Sudan	21	31	Kopp & Röllig 1994	Early Neolithic	Gautier 1968	Gazella	1
+184	Wadi Halfa Area	Sudan	21	31	Kopp & Röllig 1994	Late Neolithic	Gautier 1968	Gazella	1
+186	Wadi Halfa, west bank	Sudan	21	31	Kopp & Röllig 1994	Epipalaeolithic	Turnbull pers. comm.	Gazella	1
+187	Wadi Kubbaniya	Egypt	24.217	32.85	Schyle & Uerpmann 1996	Epipalaeolithic	Gautier, Ballmann & van Neer 1980	Gazella	1
+189	Wadi Tubaiq	Egypt	28.5	34	Kopp & Röllig 1994	Early Neolithic	Bar-Yosef 1981	Gazella	1
+191	Yabroud	Syria	33.967	36.65	Schyle 1992	Lower Palaeolithic	Perkins 1968; Lehmann 1970	Gazella	1
+191	Yabroud	Syria	33.967	36.65	Schyle 1992	Upper Palaeolithic	Perkins 1968; Lehmann 1970	Gazella	1
+191	Yabroud	Syria	33.967	36.65	Schyle 1992	Epipalaeolithic	Perkins 1968; Lehmann 1970	Gazella	1
+16	Arad	Israel	31.28	35.126	Pleiades	Bronze Age	Lernau 1972; Davis 1976	Gazella	1
+52	Ein Gev	Israel	32.8	35.65	CONTEXT	Upper Palaeolithic	Tchernov 1976	Gazella	1
+52	Ein Gev	Israel	32.8	35.65	CONTEXT	Epipalaeolithic	Tchernov 1976	Gazella	1
+66	Geulah cave	Israel	32.796	35.003	Wreschner et al. 1960	Middle Palaeolithic	Angress 1960b	Gazella	1
+80	Hayonim	Israel	32.92	35.22	CONTEXT	Epipalaeolithic	Bar Yosef & Tchernov 1966; Henry, Leroi-Gourhan & Davis in press	Gazella	1
+80	Hayonim	Israel	32.92	35.22	CONTEXT	Protoneolithic	Bar Yosef & Tchernov 1966; Henry, Leroi-Gourhan & Davis in press	Gazella	1
+82	Hefziba	Israel	32.433	34.867	Kopp & Röllig 1994	Epipalaeolithic	Söffner pers. comm.	Gazella	1
+83	Hesbon	Jordan	31.75	35.75	Kopp & Röllig 1994	Iron Age	Weiler 1981; Boessneck & von den Driesch 1977, 1978	Gazella	1
+92	Kara'in	Turkey	37.133	30.583	Schyle 1992	Lower Palaeolithic	Uerpmann 1987	Gazella	1
+92	Kara'in	Turkey	37.133	30.583	Schyle 1992	Middle Palaeolithic	Uerpmann 1987	Gazella	1
+92	Kara'in	Turkey	37.133	30.583	Schyle 1992	Upper Palaeolithic	Uerpmann 1987	Gazella	1
+92	Kara'in	Turkey	37.133	30.583	Schyle 1992	Epipalaeolithic	Uerpmann 1987	Gazella	1
+95	Kebarah Cave	Israel	32.57	34.93	CONTEXT	Middle Palaeolithic	Saxon 1974; Davis 1977; Uerpmann 1987	Gazella	1
+95	Kebarah Cave	Israel	32.57	34.93	CONTEXT	Upper Palaeolithic	Saxon 1974; Davis 1977; Uerpmann 1987	Gazella	1
+95	Kebarah Cave	Israel	32.57	34.93	CONTEXT	Epipalaeolithic	Saxon 1974; Davis 1977; Uerpmann 1987	Gazella	1
+102	Ksar 'Akil	Lebanon	33.917	35.6	Schyle 1992	Middle Palaeolithic	Hooijer 1961; Uerpmann 1987	Gazella	1
+102	Ksar 'Akil	Lebanon	33.917	35.6	Schyle 1992	Upper Palaeolithic	Hooijer 1961; Uerpmann 1987	Gazella	1
+102	Ksar 'Akil	Lebanon	33.917	35.6	Schyle 1992	Epipalaeolithic	Hooijer 1961; Uerpmann 1987	Gazella	1
+107	Mdamagh	Jordan	30.333	35.45	Schyle 1992	Epipalaeolithic	Perkins 1966; Uerpmann 1987	Gazella	1
+110	Maysar	Oman	22	58	Kopp & Röllig 1994	Bronze Age	Uerpmann 1987	Gazella	1
+120	Nahal Hadera V	Israel	32.467	34.9	Schyle & Uerpmann 1996	Epipalaeolithic	Saxon, Martin & Bar-Yosef 1978	Gazella	1
+132	Qafzeh, Grotte du Djebel Qafzeh	Israel	32.7	35.3	Schyle 1992	Middle Palaeolithic	Bouchud 1969	Gazella	1
+132	Qafzeh, Grotte du Djebel Qafzeh	Israel	32.7	35.3	Schyle 1992	Upper Palaeolithic	Bouchud 1969	Gazella	1
+132	Qafzeh, Grotte du Djebel Qafzeh	Israel	32.7	35.3	Schyle 1992	Epipalaeolithic	Bouchud 1969	Gazella	1
+137	Ramad	Syria	33.36	35.949	vici:22595	Early Neolithic	Hooijer 1966	Gazella	1
+139	Ras al-Hamra	Oman	23.5	58.5	Kopp & Röllig 1994	Late Neolithic	Uerpmann 1987	Gazella	1
+148	Sarab	Iran	34.38	47.09	CONTEXT	Early Neolithic	Bökönyi 1977, 1978	Gazella	1
+155	Shuqba	Israel	31.983	35.033	Schyle & Uerpmann 1996	Middle Palaeolithic	Bate 1942; Uerpmann 1987	Gazella	1
+155	Shuqba	Israel	31.983	35.033	Schyle & Uerpmann 1996	Epipalaeolithic	Bate 1942; Uerpmann 1987	Gazella	1
+4	Abu Salim	Israel	30.53	34.52	CONTEXT	Protoneolithic	Butler et al. 1977; Dabis et al. 1982	Gazella	1
+27	Beersheba – Horvat Beter	Israel	32.931	35.408	Pleiades	Late Neolithic	Angress 1959	Gazella	1
+41	Dakhla Oasis	Egypt	25.573	29.062	Pleiades	Late Neolithic	Churcher 1983	Gazella	1
+51	Ein Aqev	Israel	30.82	34.82	CONTEXT	Upper Palaeolithic	Tchernov 1976	Gazella	1
+54	Elephantine	Egypt	24.09	32.889	Pleiades	Bronze Age	Boessneck 1977; Boessneck & von den Driesch 1982	Gazella	1
+56	Elkab	Egypt	25.12	32.798	Pleiades	Epipalaeolithic	Gautier 1978	Gazella	1
+60	Fayum	Egypt	29.315	30.84	Pleiades	Epipalaeolithic	Caton-Thompson & Gardner 1934; Gautier 1980	Gazella	1
+60	Fayum	Egypt	29.315	30.84	Pleiades	Protoneolithic	Caton-Thompson & Gardner 1934; Gautier 1980	Gazella	1
+60	Fayum	Egypt	29.315	30.84	Pleiades	Early Neolithic	Caton-Thompson & Gardner 1934; Gautier 1980	Gazella	1
+60	Fayum	Egypt	29.315	30.84	Pleiades	Bronze Age	Caton-Thompson & Gardner 1934; Gautier 1980	Gazella	1
+69	Gilf Kebir, Wadi Bakht	Egypt	23.167	26	Schyle & Uerpmann 1996	Late Neolithic	Gautier 1980, 1982	Gazella	1
+70	Girikihaciyan	Turkey	38.233	39.967	Watson 1990	Late Neolithic	Mcardle 1974	Gazella	1
+71	Giseh	Egypt	30	31.167	Kopp & Röllig 1994	Bronze Age	Kokabi 1980	Gazella	1
+83	Hesbon	Jordan	31.75	35.75	Kopp & Röllig 1994	Iron Age	Weiler 1981; Boessneck & von den Driesch 1977, 1978	Gazella	1
+86	Idfu and Isna sites	Egypt	25.367	32.467	Schyle & Uerpmann 1996	Epipalaeolithic	Gautier 1976	Gazella	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Protoneolithic	Clutton-Brock 1979; Nobis 1968	Gazella	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Early Neolithic	Clutton-Brock 1979; Nobis 1968	Gazella	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Late Neolithic	Clutton-Brock 1979; Nobis 1968	Gazella	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Bronze Age	Clutton-Brock 1979; Nobis 1968	Gazella	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Iron Age	Clutton-Brock 1979; Nobis 1968	Gazella	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Hellenistic	Clutton-Brock 1979; Nobis 1968	Gazella	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Roman	Clutton-Brock 1979; Nobis 1968	Gazella	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Byzantine	Clutton-Brock 1979; Nobis 1968	Gazella	1
+100	Kom Ombo	Egypt	24.452	32.928	Pleiades	Epipalaeolithic	Churcher 1972, 1974; Reed & Turnbull 1969; Turnbull pers. comm.	Gazella	1
+112	Mesad Mazzal	Israel	30.5	35	Kopp & Röllig 1994	Early Neolithic	Uerpmann 1987	Gazella	1
+119	Nahal Divshon (D1)	Israel	30.833	34.783	Gebel 1984	Early Neolithic	Tchernov 1976	Gazella	1
+144	Rosh Horesha	Israel	30.5	34.58	CONTEXT	Protoneolithic	Butler, Tchernov, Hietala & Davis 1977	Gazella	1
+145	Rosh Zin	Israel	30.85	34.767	Schyle & Uerpmann 1996	Protoneolithic	Tchernov 1976	Gazella	1
+158	Sibri	Pakistan	29	67	Kopp & Röllig 1994	Bronze Age	Meadow pers. comm.	Gazella	1
+160	Ä60	Egypt	NA	NA	NA	Holocene	Uerpmann 1987	Gazella	1
+162	K65, 67, 73	Egypt	NA	NA	NA	Late Neolithic	Uerpmann 1987	Gazella	1
+188	Wadi Shaw	Sudan	20.5	27.25	Kopp & Röllig 1994	Bronze Age	Uerpmann 1987	Gazella	1
+2	Abu Hureyra	Syria	35.867	38.4	Schyle & Uerpmann 1996	Protoneolithic	Moore, Hillman & Legge 1975	Gazella	1
+2	Abu Hureyra	Syria	35.867	38.4	Schyle & Uerpmann 1996	Early Neolithic	Moore, Hillman & Legge 1975	Gazella	1
+2	Abu Hureyra	Syria	35.867	38.4	Schyle & Uerpmann 1996	Late Neolithic	Moore, Hillman & Legge 1975	Gazella	1
+3	Abu Salabikh	Iraq	32.253	45.054	Pleiades	Bronze Age	Clutton-Brock & Burleigh 1978	Gazella	1
+7	Ain Ghazal	Jordan	31.93	35.94	CONTEXT	Early Neolithic	Köhler-Rollefson 1984	Gazella	1
+9	Ali Kosh	Iran	32.56	47.32	CONTEXT	Early Neolithic	Hole, Flannery & Neely 1969	Gazella	1
+10	Ali Tappe	Iran	36.68	53.55	CONTEXT	Epipalaeolithic	Uerpmann & Frey 1981	Gazella	1
+13	Anau	Soviet Union	38.187	58.477	Pleiades	Late Neolithic	Duerst 1908	Gazella	1
+15	Aq Kupruk	Afghanistan	36.083	66.85	Schyle & Uerpmann 1996	Epipalaeolithic	Perkins 1972	Gazella	1
+18	Asiab	Iran	34.3	47.19	CONTEXT	Protoneolithic	Bökönyi 1977	Gazella	1
+20	Asmar, Tell	Iraq	33.487	44.725	Pleiades	Bronze Age	Hilzheimer 1941	Gazella	1
+25	Bastam	Iran	38.891	44.894	Pleiades	Iron Age	Krauss 1975	Gazella	1
+40	Dahan-i Gulaman	Iran	30.78	61.136	Pleiades	Iron Age	Compagnoni 1980a	Gazella	1
+48	Djeitun	Soviet Union	38.3	58.4	Harris 1997	Late Neolithic	Shevchenko 1960	Gazella	1
+59	Farukhabad	Iran	32.583	47.233	Wright 1981	Late Neolithic	Redding 1982	Gazella	1
+59	Farukhabad	Iran	32.583	47.233	Wright 1981	Bronze Age	Redding 1982	Gazella	1
+62	Ganj-e Dare	Iran	34.42	47.57	CONTEXT	Early Neolithic	Hesse 1978, 1982	Gazella	1
+72	Guran, Tepe	Iran	33.73	47.07	CONTEXT	Early Neolithic	Flannery pers. comm.	Gazella	1
+88	Ishan Bahriyat (Isin)	Iraq	31.933	45.283	Pleiades	Bronze Age	Boessneck 1977; Boessneck & Kokabi 1981	Gazella	1
+88	Ishan Bahriyat (Isin)	Iraq	31.933	45.283	Pleiades	Iron Age	Boessneck 1977; Boessneck & Kokabi 1981	Gazella	1
+89	Jarmo	Iraq	35.56	44.92	CONTEXT	Early Neolithic	Stampfli 1983	Gazella	1
+91	Kamarband, Ghar-e	Iran	36.65	53.28	CONTEXT	Epipalaeolithic	Uerpmann & Frey 1981	Gazella	1
+91	Kamarband, Ghar-e	Iran	36.65	53.28	CONTEXT	Late Neolithic	Uerpmann & Frey 1981	Gazella	1
+99	Khorramabad Caves	Iran	33.492	48.349	Hole 2007 (KR-15/Ghamari)	Middle Palaeolithic	Hole & Flannery 1967	Gazella	1
+99	Khorramabad Caves	Iran	33.492	48.349	Hole 2007 (KR-15/Ghamari)	Upper Palaeolithic	Hole & Flannery 1967	Gazella	1
+99	Khorramabad Caves	Iran	33.492	48.349	Hole 2007 (KR-15/Ghamari)	Epipalaeolithic	Hole & Flannery 1967	Gazella	1
+101	Kordlar Tepe	Iran	37.5	45	Kopp & Röllig 1994	Iron Age	Wolff 1976	Gazella	1
+106	M'lefaat	Iraq	36.31	43.54	CONTEXT	Protoneolithic	Turnbull 1983	Gazella	1
+124	Nippur	Iraq	32.127	45.231	Pleiades:912910	Bronze Age	Boessneck 1978	Gazella	1
+125	Norşun Tepe	Turkey	38.619	39.47	vici:29338	Late Neolithic	Boessneck & von den Driesch 1976	Gazella	1
+125	Norşun Tepe	Turkey	38.619	39.47	vici:29338	Bronze Age	Boessneck & von den Driesch 1976	Gazella	1
+125	Norşun Tepe	Turkey	38.619	39.47	vici:29338	Iron Age	Boessneck & von den Driesch 1976	Gazella	1
+126	Nush-i Jan	Iran	34.38	48.639	Pleiades	Iron Age	Bökönyi 1978	Gazella	1
+128	Palegawra	Iraq	35.64	45.11	CONTEXT	Epipalaeolithic	Turnbull & Reed 1974; Uerpmann 1987	Gazella	1
+128	Palegawra	Iraq	35.64	45.11	CONTEXT	Early Neolithic	Turnbull & Reed 1974; Uerpmann 1987	Gazella	1
+136	Quetta Valley	Pakistan	30	67	Kopp & Röllig 1994	Late Neolithic	Fairservis 1956	Gazella	1
+136	Quetta Valley	Pakistan	30	67	Kopp & Röllig 1994	Bronze Age	Fairservis 1956	Gazella	1
+138	Ras al-Amiya	Iraq	32.5	44.5	Kopp & Röllig 1994	Late Neolithic	Flannery & Cornwall 1969	Gazella	1
+146	Sabz, Tepe	Iran	32.59	47.26	CONTEXT	Late Neolithic	Hole, Flannery & Neely 1969	Gazella	1
+148	Sarab	Iran	34.38	47.09	CONTEXT	Early Neolithic	Bökönyi 1977, 1978	Gazella	1
+150	Shah Tappe	Iran	36	54	Kopp & Röllig 1994	Bronze Age	Amschler 1939	Gazella	1
+151	Shahr-e Sokhta	Iran	30.595	61.326	Pleiades	Bronze Age	Caloi & Compagnoni 1977, 1981; Compagnoni 1980	Gazella	1
+152	Shams ed-Din Tannira	Syria	36.167	38.167	Kopp & Röllig 1994	Late Neolithic	Uerpmann 1982	Gazella	1
+175	Tula'i Tepe	Iran	32.333	48.167	Kopp & Röllig 1994	Early Neolithic	Wheeler 1977	Gazella	1
+177	Umm an-Nar	UAE	24.5	54.333	Kopp & Röllig 1994	Bronze Age	Hoch 1979	Gazella	1
+180	Uruk-Warka	Iraq	31.319	45.617	Pleiades	Bronze Age	Boessneck, von den Driesch & Steger 1984	Gazella	1
+180	Uruk-Warka	Iraq	31.319	45.617	Pleiades	Iron Age	Boessneck, von den Driesch & Steger 1984	Gazella	1
+193	Yarim Tepe	Iraq	36.333	42.167	Kopp & Röllig 1994	Late Neolithic	Bibikova 1980	Gazella	1
+41	Dakhla Oasis	Egypt	25.573	29.062	Pleiades	Late Neolithic	Churcher 1983	Gazella	1
+100	Kom Ombo	Egypt	24.452	32.928	Pleiades	Epipalaeolithic	Churcher 1972, 1974; Reed & Turnbull 1969; Turnbull pers. comm.	Gazella	1
+162	K65, 67, 73	Egypt	NA	NA	NA	Late Neolithic	Uerpmann 1987	Gazella	1
+23	Balakot	Pakistan	25.45	66.7	Dales 1974	Late Neolithic	Meadow 1979a	Gazella	1
+23	Balakot	Pakistan	25.45	66.7	Dales 1974	Bronze Age	Meadow 1979a	Gazella	1
+65	Gaz Tavileh (Daulatabad R37)	Iran	28	55	Kopp & Röllig 1994	Late Neolithic	Meadow pers. comm.	Gazella	1
+111	Mehrgarh	Pakistan	29.403	67.599	vici:32060	Early Neolithic	Meadow 1984	Gazella	1
+111	Mehrgarh	Pakistan	29.403	67.599	vici:32060	Late Neolithic	Meadow 1984	Gazella	1
+111	Mehrgarh	Pakistan	29.403	67.599	vici:32060	Bronze Age	Meadow 1984	Gazella	1
+192	Yahya Tepe	Iran	28.583	56.35	Pleiades	Late Neolithic	Meadow pers. comm.	Gazella	1
+192	Yahya Tepe	Iran	28.583	56.35	Pleiades	Bronze Age	Meadow pers. comm.	Gazella	1
+192	Yahya Tepe	Iran	28.583	56.35	Pleiades	Iron Age	Meadow pers. comm.	Gazella	1
+32	Bir Tarfawi	Egypt	22.917	28.75	Wendorf et al. 1993	Middle Palaeolithic	Gautier 1980	Gazella	1
+86	Idfu and Isna sites	Egypt	25.367	32.467	Schyle & Uerpmann 1996	Epipalaeolithic	Gautier 1976	Gazella	1
+117	Nabta Playa	Egypt	22.768	30.912	vici:33499	Early Neolithic	Gautier 1980	Gazella	1
+117	Nabta Playa	Egypt	22.768	30.912	vici:33499	Late Neolithic	Gautier 1980	Gazella	1
+32	Bir Tarfawi	Egypt	22.917	28.75	Wendorf et al. 1993	Middle Palaeolithic	Gautier 1980	Gazella	1
+117	Nabta Playa	Egypt	22.768	30.912	vici:33499	Early Neolithic	Gautier 1980	Gazella	1
+117	Nabta Playa	Egypt	22.768	30.912	vici:33499	Late Neolithic	Gautier 1980	Gazella	1
+162	K65, 67, 73	Egypt	NA	NA	NA	Late Neolithic	Uerpmann 1987	Gazella	1
+188	Wadi Shaw	Sudan	20.5	27.25	Kopp & Röllig 1994	Bronze Age	Uerpmann 1987	Gazella	1
+21	Azraq, Ain al-Assad	Jordan	31.807	36.805	Copeland 1988	Upper Palaeolithic	Turnbull pers. comm.	Ovicaprid	1
+21	Azraq, Ain al-Assad	Jordan	31.807	36.805	Copeland 1988	Early Neolithic	Turnbull pers. comm.	Ovicaprid	1
+21	Azraq, Ain al-Assad	Jordan	31.807	36.805	Copeland 1988	Bronze Age	Turnbull pers. comm.	Ovicaprid	1
+48	Djeitun	Soviet Union	38.3	58.4	Harris 1997	Late Neolithic	Shevchenko 1960	Ovicaprid	1
+111	Mehrgarh	Pakistan	29.403	67.599	vici:32060	Early Neolithic	Meadow 1984	Ovicaprid	1
+111	Mehrgarh	Pakistan	29.403	67.599	vici:32060	Late Neolithic	Meadow 1984	Ovicaprid	1
+111	Mehrgarh	Pakistan	29.403	67.599	vici:32060	Bronze Age	Meadow 1984	Ovicaprid	1
+121	Nahal Oren	Israel	32.72	34.97	CONTEXT	Epipalaeolithic	Ducos 1968; Noy, Legge & Higgs 1973	Ovicaprid	1
+121	Nahal Oren	Israel	32.72	34.97	CONTEXT	Protoneolithic	Ducos 1968; Noy, Legge & Higgs 1973	Ovicaprid	1
+121	Nahal Oren	Israel	32.72	34.97	CONTEXT	Early Neolithic	Ducos 1968; Noy, Legge & Higgs 1973	Ovicaprid	1
+192	Yahya Tepe	Iran	28.583	56.35	Pleiades	Late Neolithic	Meadow pers. comm.	Ovicaprid	1
+192	Yahya Tepe	Iran	28.583	56.35	Pleiades	Bronze Age	Meadow pers. comm.	Ovicaprid	1
+192	Yahya Tepe	Iran	28.583	56.35	Pleiades	Iron Age	Meadow pers. comm.	Ovicaprid	1
+2	Abu Hureyra	Syria	35.867	38.4	Schyle & Uerpmann 1996	Protoneolithic	Moore, Hillman & Legge 1975	Ovicaprid	1
+2	Abu Hureyra	Syria	35.867	38.4	Schyle & Uerpmann 1996	Early Neolithic	Moore, Hillman & Legge 1975	Ovicaprid	1
+2	Abu Hureyra	Syria	35.867	38.4	Schyle & Uerpmann 1996	Late Neolithic	Moore, Hillman & Legge 1975	Ovicaprid	1
+4	Abu Salim	Israel	30.53	34.52	CONTEXT	Protoneolithic	Butler et al. 1977; Dabis et al. 1982	Ovicaprid	1
+9	Ali Kosh	Iran	32.56	47.32	CONTEXT	Early Neolithic	Hole, Flannery & Neely 1969	Ovicaprid	1
+18	Asiab	Iran	34.3	47.19	CONTEXT	Protoneolithic	Bökönyi 1977	Ovicaprid	1
+19	Aşıklı Hüyük	Turkey	38.35	34.23	CONTEXT	Early Neolithic	Payne 1985	Ovicaprid	1
+24	Banahilk	Iraq	36.65	44.54	CONTEXT	Late Neolithic	Laffer 1983	Ovicaprid	1
+25	Bastam	Iran	38.891	44.894	Pleiades	Iron Age	Krauss 1975	Ovicaprid	1
+34	Bouqras	Syria	35.03	40.39	CONTEXT	Early Neolithic	Hooijer 1966; Clason 1977, 1981	Ovicaprid	1
+35	Can Hasan III	Turkey	37.25	33.37	CONTEXT	Early Neolithic	Payne 1972; Payne pers. comm.	Ovicaprid	1
+37	Çatal Hüyük	Turkey	37.668	32.828	Pleiades	Early Neolithic	Perkins 1969	Ovicaprid	1
+38	Çayönü Tepesi	Turkey	38.218	39.727	Pleiades	Early Neolithic	Lawrence 1980, 1982; Meadow 1986	Ovicaprid	1
+42	Dehsavar	Iran	34.313	47.131	Motarjem pers. comm.	Late Neolithic	Bökönyi 1977	Ovicaprid	1
+44	Demirci Hüyük	Turkey	39.87	30.36	CONTEXT	Bronze Age	Rauh 1981	Ovicaprid	1
+50	Douara Cave	Syria	34.65	38.45	Schyle & Uerpmann 1996	Middle Palaeolithic	Payne 1983; Takai 1974	Ovicaprid	1
+58	Eshkaft-e Gavi	Iran	29.867	52.75	Schyle 1992	Middle Palaeolithic	Uerpmann 1987	Ovicaprid	1
+58	Eshkaft-e Gavi	Iran	29.867	52.75	Schyle 1992	Upper Palaeolithic	Uerpmann 1987	Ovicaprid	1
+58	Eshkaft-e Gavi	Iran	29.867	52.75	Schyle 1992	Epipalaeolithic	Uerpmann 1987	Ovicaprid	1
+59	Farukhabad	Iran	32.583	47.233	Wright 1981	Late Neolithic	Redding 1982	Ovicaprid	1
+59	Farukhabad	Iran	32.583	47.233	Wright 1981	Bronze Age	Redding 1982	Ovicaprid	1
+62	Ganj-e Dare	Iran	34.42	47.57	CONTEXT	Early Neolithic	Hesse 1978, 1982	Ovicaprid	1
+70	Girikihaciyan	Turkey	38.233	39.967	Watson 1990	Late Neolithic	Mcardle 1974	Ovicaprid	1
+72	Guran, Tepe	Iran	33.73	47.07	CONTEXT	Early Neolithic	Flannery pers. comm.	Ovicaprid	1
+76	Hajji Firuz	Iran	37.04	45.54	CONTEXT	Late Neolithic	Meadow 1983	Ovicaprid	1
+78	Hassek Hüyük	Turkey	37.698	39.009	vici:42297	Bronze Age	Boessneck & von den Driesch 1981	Ovicaprid	1
+79	Hayaz Hüyük	Turkey	37.563	38.357	vici:57511	Early Neolithic	Buitenhuis pers. comm.; Clason 1985	Ovicaprid	1
+79	Hayaz Hüyük	Turkey	37.563	38.357	vici:57511	Late Neolithic	Buitenhuis pers. comm.; Clason 1985	Ovicaprid	1
+83	Hesbon	Jordan	31.75	35.75	Kopp & Röllig 1994	Iron Age	Weiler 1981; Boessneck & von den Driesch 1977, 1978	Ovicaprid	1
+89	Jarmo	Iraq	35.56	44.92	CONTEXT	Early Neolithic	Stampfli 1983	Ovicaprid	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Protoneolithic	Clutton-Brock 1979; Nobis 1968	Ovicaprid	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Early Neolithic	Clutton-Brock 1979; Nobis 1968	Ovicaprid	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Late Neolithic	Clutton-Brock 1979; Nobis 1968	Ovicaprid	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Bronze Age	Clutton-Brock 1979; Nobis 1968	Ovicaprid	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Iron Age	Clutton-Brock 1979; Nobis 1968	Ovicaprid	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Hellenistic	Clutton-Brock 1979; Nobis 1968	Ovicaprid	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Roman	Clutton-Brock 1979; Nobis 1968	Ovicaprid	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Byzantine	Clutton-Brock 1979; Nobis 1968	Ovicaprid	1
+92	Kara'in	Turkey	37.133	30.583	Schyle 1992	Lower Palaeolithic	Uerpmann 1987	Ovicaprid	1
+92	Kara'in	Turkey	37.133	30.583	Schyle 1992	Middle Palaeolithic	Uerpmann 1987	Ovicaprid	1
+92	Kara'in	Turkey	37.133	30.583	Schyle 1992	Upper Palaeolithic	Uerpmann 1987	Ovicaprid	1
+92	Kara'in	Turkey	37.133	30.583	Schyle 1992	Epipalaeolithic	Uerpmann 1987	Ovicaprid	1
+93	Karataş-Semayük	Turkey	38.917	39	Schyle 1992	Bronze Age	Hesse & Perkins 1974	Ovicaprid	1
+94	Karim Shahir	Iraq	35.564	44.957	Braidwood et al. 1983	Protoneolithic	Stampfli 1983	Ovicaprid	1
+99	Khorramabad Caves	Iran	33.492	48.349	Hole 2007 (KR-15/Ghamari)	Middle Palaeolithic	Hole & Flannery 1967	Ovicaprid	1
+99	Khorramabad Caves	Iran	33.492	48.349	Hole 2007 (KR-15/Ghamari)	Upper Palaeolithic	Hole & Flannery 1967	Ovicaprid	1
+99	Khorramabad Caves	Iran	33.492	48.349	Hole 2007 (KR-15/Ghamari)	Epipalaeolithic	Hole & Flannery 1967	Ovicaprid	1
+101	Kordlar Tepe	Iran	37.5	45	Kopp & Röllig 1994	Iron Age	Wolff 1976	Ovicaprid	1
+197	Korucutepe	Turkey	38.637	39.537	Pleiades	Bronze Age	Boessneck & von den Driesch 1975	Ovicaprid	1
+198	Körtepe	Turkey	38.667	39.333	Kopp & Röllig 1994	Late Neolithic	von den Driesch 1976	Ovicaprid	1
+106	M'lefaat	Iraq	36.31	43.54	CONTEXT	Protoneolithic	Turnbull 1983	Ovicaprid	1
+107	Mdamagh	Jordan	30.333	35.45	Schyle 1992	Epipalaeolithic	Perkins 1966; Uerpmann 1987	Ovicaprid	1
+108	Malyan	Iran	29.99	52.52	CONTEXT	Bronze Age	Zeder 1984, 1986	Ovicaprid	1
+108	Malyan	Iran	29.99	52.52	CONTEXT	Iron Age	Zeder 1984, 1986	Ovicaprid	1
+115	Munhatta	Israel	32.5	35.5	Kopp & Röllig 1994	Early Neolithic	Ducos 1968	Ovicaprid	1
+115	Munhatta	Israel	32.5	35.5	Kopp & Röllig 1994	Late Neolithic	Ducos 1968	Ovicaprid	1
+116	Mureybit	Syria	36.083	38.083	CONTEXT	Protoneolithic	Ducos 1978	Ovicaprid	1
+125	Norşun Tepe	Turkey	38.619	39.47	vici:29338	Late Neolithic	Boessneck & von den Driesch 1976	Ovicaprid	1
+125	Norşun Tepe	Turkey	38.619	39.47	vici:29338	Bronze Age	Boessneck & von den Driesch 1976	Ovicaprid	1
+125	Norşun Tepe	Turkey	38.619	39.47	vici:29338	Iron Age	Boessneck & von den Driesch 1976	Ovicaprid	1
+126	Nush-i Jan	Iran	34.38	48.639	Pleiades	Iron Age	Bökönyi 1978	Ovicaprid	1
+127	Pa Sangar	Iran	33.485	48.341	Hole & Flannery 1967	Epipalaeolithic	Hole & Flannery 1967; Uerpmann 1987	Ovicaprid	1
+128	Palegawra	Iraq	35.64	45.11	CONTEXT	Epipalaeolithic	Turnbull & Reed 1974; Uerpmann 1987	Ovicaprid	1
+128	Palegawra	Iraq	35.64	45.11	CONTEXT	Early Neolithic	Turnbull & Reed 1974; Uerpmann 1987	Ovicaprid	1
+131	Pulur Hüyük	Turkey	38	38	Kopp & Röllig 1994	Late Neolithic	Deniz 1975	Ovicaprid	1
+131	Pulur Hüyük	Turkey	38	38	Kopp & Röllig 1994	Bronze Age	Deniz 1975	Ovicaprid	1
+140	Ras en-Naqb	Jordan	30.017	35.483	Schyle 1992	Epipalaeolithic	Turnbull in press	Ovicaprid	1
+140	Ras en-Naqb	Jordan	30.017	35.483	Schyle 1992	Late Neolithic	Turnbull in press	Ovicaprid	1
+144	Rosh Horesha	Israel	30.5	34.58	CONTEXT	Protoneolithic	Butler, Tchernov, Hietala & Davis 1977	Ovicaprid	1
+148	Sarab	Iran	34.38	47.09	CONTEXT	Early Neolithic	Bökönyi 1977, 1978	Ovicaprid	1
+153	Shanidar	Iraq	36.8	44.22	CONTEXT	Middle Palaeolithic	Perkins 1964; Evins 1981; Uerpmann 1987	Ovicaprid	1
+153	Shanidar	Iraq	36.8	44.22	CONTEXT	Upper Palaeolithic	Perkins 1964; Evins 1981; Uerpmann 1987	Ovicaprid	1
+153	Shanidar	Iraq	36.8	44.22	CONTEXT	Epipalaeolithic	Perkins 1964; Evins 1981; Uerpmann 1987	Ovicaprid	1
+154	Sheikh Hamad	Syria	35.5	40.667	Kopp & Röllig 1994	Iron Age	Uerpmann 1987	Ovicaprid	1
+156	Siahbid	Iran	34.25	47	Kopp & Röllig 1994	Late Neolithic	Bökönyi 1977	Ovicaprid	1
+157	Sialk	Iran	34	54	Kopp & Röllig 1994	Late Neolithic	Vaufrey 1939; Uerpmann 1987	Ovicaprid	1
+159	Sinn, Tell es-	Syria	35.917	38.233	Gebel 1984	Early Neolithic	Clason 1980	Ovicaprid	1
+159	Sinn, Tell es-	Syria	35.917	38.233	Gebel 1984	Protoneolithic	Clason 1980	Ovicaprid	1
+159	Sinn, Tell es-	Syria	35.917	38.233	Gebel 1984	Late Neolithic	Clason 1980	Ovicaprid	1
+164	Suberde	Turkey	37.333	31.933	Gebel 1984	Early Neolithic	Perkins & Daly 1968	Ovicaprid	1
+200	Tepecik	Turkey	41.468	34.17	Pleiades:845078	Late Neolithic	Boessneck & von den Driesch 1979	Ovicaprid	1
+201	Tülintepe	Turkey	38.641	39.41	vici:51559	Late Neolithic	Boessneck & von den Driesch 1976b	Ovicaprid	1
+179	Umm Dabagiyah	Iraq	35.5	42.5	Kopp & Röllig 1994	Early Neolithic	Bökönyi 1978	Ovicaprid	1
+190	Warwasi	Iran	34.4	47.117	Schyle 1992	MP:UP	Turnbull 1975	Ovicaprid	1
+190	Warwasi	Iran	34.4	47.117	Schyle 1992	Epipalaeolithic	Turnbull 1975	Ovicaprid	1
+193	Yarim Tepe	Iraq	36.333	42.167	Kopp & Röllig 1994	Late Neolithic	Bibikova 1980	Ovicaprid	1
+195	Zaw-e Chami	Iraq	36.8	44.22	CONTEXT	Protoneolithic	Perkins 1964; Uerpmann 1987	Ovicaprid	1
+196	Zendan-e Suleiman	Iran	36	46	Kopp & Röllig 1994	Iron Age	Boessneck 1973	Ovicaprid	1
+10	Ali Tappe	Iran	36.68	53.55	CONTEXT	Epipalaeolithic	Uerpmann & Frey 1981	Ovicaprid	1
+13	Anau	Soviet Union	38.187	58.477	Pleiades	Late Neolithic	Duerst 1908	Ovicaprid	1
+15	Aq Kupruk	Afghanistan	36.083	66.85	Schyle & Uerpmann 1996	Epipalaeolithic	Perkins 1972	Ovicaprid	1
+91	Kamarband, Ghar-e	Iran	36.65	53.28	CONTEXT	Epipalaeolithic	Uerpmann & Frey 1981	Ovicaprid	1
+91	Kamarband, Ghar-e	Iran	36.65	53.28	CONTEXT	Late Neolithic	Uerpmann & Frey 1981	Ovicaprid	1
+150	Shah Tappe	Iran	36	54	Kopp & Röllig 1994	Bronze Age	Amschler 1939	Ovicaprid	1
+151	Shahr-e Sokhta	Iran	30.595	61.326	Pleiades	Bronze Age	Caloi & Compagnoni 1977, 1981; Compagnoni 1980	Ovicaprid	1
+41	Dakhla Oasis	Egypt	25.573	29.062	Pleiades	Late Neolithic	Churcher 1983	Ovicaprid	1
+4	Abu Salim	Israel	30.53	34.52	CONTEXT	Protoneolithic	Butler et al. 1977; Dabis et al. 1982	Ovicaprid	1
+12	Amuq	Turkey	36.268	36.587	Yener 2005	Late Neolithic	Stampfli 1983	Ovicaprid	1
+51	Ein Aqev	Israel	30.82	34.82	CONTEXT	Upper Palaeolithic	Tchernov 1976	Ovicaprid	1
+57	Erq el-Ahmar	Israel	31.667	35.233	Schyle & Uerpmann 1996	Middle Palaeolithic	Vaufrey 1951; Davis 1980	Ovicaprid	1
+57	Erq el-Ahmar	Israel	31.667	35.233	Schyle & Uerpmann 1996	Upper Palaeolithic	Vaufrey 1951; Davis 1980	Ovicaprid	1
+57	Erq el-Ahmar	Israel	31.667	35.233	Schyle & Uerpmann 1996	Epipalaeolithic	Vaufrey 1951; Davis 1980	Ovicaprid	1
+80	Hayonim	Israel	32.92	35.22	CONTEXT	Epipalaeolithic	Bar Yosef & Tchernov 1966; Henry, Leroi-Gourhan & Davis in press	Ovicaprid	1
+80	Hayonim	Israel	32.92	35.22	CONTEXT	Protoneolithic	Bar Yosef & Tchernov 1966; Henry, Leroi-Gourhan & Davis in press	Ovicaprid	1
+119	Nahal Divshon (D1)	Israel	30.833	34.783	Gebel 1984	Early Neolithic	Tchernov 1976	Ovicaprid	1
+121	Nahal Oren	Israel	32.72	34.97	CONTEXT	Epipalaeolithic	Ducos 1968; Noy, Legge & Higgs 1973	Ovicaprid	1
+121	Nahal Oren	Israel	32.72	34.97	CONTEXT	Protoneolithic	Ducos 1968; Noy, Legge & Higgs 1973	Ovicaprid	1
+121	Nahal Oren	Israel	32.72	34.97	CONTEXT	Early Neolithic	Ducos 1968; Noy, Legge & Higgs 1973	Ovicaprid	1
+132	Qafzeh, Grotte du Djebel Qafzeh	Israel	32.7	35.3	Schyle 1992	Middle Palaeolithic	Bouchud 1969	Ovicaprid	1
+132	Qafzeh, Grotte du Djebel Qafzeh	Israel	32.7	35.3	Schyle 1992	Upper Palaeolithic	Bouchud 1969	Ovicaprid	1
+132	Qafzeh, Grotte du Djebel Qafzeh	Israel	32.7	35.3	Schyle 1992	Epipalaeolithic	Bouchud 1969	Ovicaprid	1
+199	Rakefet	Israel	32.65	35.08	CONTEXT	Upper Palaeolithic	Garrard in Saxon 1976	Ovicaprid	1
+199	Rakefet	Israel	32.65	35.08	CONTEXT	Epipalaeolithic	Garrard in Saxon 1976	Ovicaprid	1
+140	Ras en-Naqb	Jordan	30.017	35.483	Schyle 1992	Epipalaeolithic	Turnbull in press	Ovicaprid	1
+140	Ras en-Naqb	Jordan	30.017	35.483	Schyle 1992	Late Neolithic	Turnbull in press	Ovicaprid	1
+144	Rosh Horesha	Israel	30.5	34.58	CONTEXT	Protoneolithic	Butler, Tchernov, Hietala & Davis 1977	Ovicaprid	1
+145	Rosh Zin	Israel	30.85	34.767	Schyle & Uerpmann 1996	Protoneolithic	Tchernov 1976	Ovicaprid	1
+163	Skhul	Israel	32	34.5	Kopp & Röllig 1994	Middle Palaeolithic	Bate 1937	Ovicaprid	1
+167	Tabun	Israel	31.55	35.233	Schyle 1992	Lower Palaeolithic	Bate 1937	Ovicaprid	1
+167	Tabun	Israel	31.55	35.233	Schyle 1992	Middle Palaeolithic	Bate 1937	Ovicaprid	1
+173	Tor Abou Sif	Israel	31.567	35.217	Schyle & Uerpmann 1996	Epipalaeolithic	Vaufrey 1951	Ovicaprid	1
+178	Umm az-Zaituna (ez-Zoueitina)	Israel	31.567	35.217	Gebel 1984	Epipalaeolithic	Vaufrey 1951	Ovicaprid	1
+189	Wadi Tubaiq	Egypt	28.5	34	Kopp & Röllig 1994	Early Neolithic	Bar-Yosef 1981	Ovicaprid	1
+191	Yabroud	Syria	33.967	36.65	Schyle 1992	Lower Palaeolithic	Perkins 1968; Lehmann 1970	Ovicaprid	1
+191	Yabroud	Syria	33.967	36.65	Schyle 1992	Upper Palaeolithic	Perkins 1968; Lehmann 1970	Ovicaprid	1
+191	Yabroud	Syria	33.967	36.65	Schyle 1992	Epipalaeolithic	Perkins 1968; Lehmann 1970	Ovicaprid	1
+2	Abu Hureyra	Syria	35.867	38.4	Schyle & Uerpmann 1996	Protoneolithic	Moore, Hillman & Legge 1975	Ovicaprid	1
+2	Abu Hureyra	Syria	35.867	38.4	Schyle & Uerpmann 1996	Early Neolithic	Moore, Hillman & Legge 1975	Ovicaprid	1
+2	Abu Hureyra	Syria	35.867	38.4	Schyle & Uerpmann 1996	Late Neolithic	Moore, Hillman & Legge 1975	Ovicaprid	1
+7	Ain Ghazal	Jordan	31.93	35.94	CONTEXT	Early Neolithic	Köhler-Rollefson 1984	Ovicaprid	1
+8	Ain Mallaha	Israel	33.13	35.58	CONTEXT	Protoneolithic	Ducos 1968, for Canis see Davis & Valla 1978	Ovicaprid	1
+9	Ali Kosh	Iran	32.56	47.32	CONTEXT	Early Neolithic	Hole, Flannery & Neely 1969	Ovicaprid	1
+15	Aq Kupruk	Afghanistan	36.083	66.85	Schyle & Uerpmann 1996	Epipalaeolithic	Perkins 1972	Ovicaprid	1
+18	Asiab	Iran	34.3	47.19	CONTEXT	Protoneolithic	Bökönyi 1977	Ovicaprid	1
+19	Aşıklı Hüyük	Turkey	38.35	34.23	CONTEXT	Early Neolithic	Payne 1985	Ovicaprid	1
+23	Balakot	Pakistan	25.45	66.7	Dales 1974	Late Neolithic	Meadow 1979a	Ovicaprid	1
+23	Balakot	Pakistan	25.45	66.7	Dales 1974	Bronze Age	Meadow 1979a	Ovicaprid	1
+25	Bastam	Iran	38.891	44.894	Pleiades	Iron Age	Krauss 1975	Ovicaprid	1
+28	Beidha	Jordan	30.37	35.45	CONTEXT	Early Neolithic	Hecker 1974, 1982	Ovicaprid	1
+30	Beldibi	Turkey	36.75	30.533	Schyle & Uerpmann 1996	Epipalaeolithic	Uerpmann 1987	Ovicaprid	1
+37	Çatal Hüyük	Turkey	37.668	32.828	Pleiades	Early Neolithic	Perkins 1969	Ovicaprid	1
+38	Çayönü Tepesi	Turkey	38.218	39.727	Pleiades	Early Neolithic	Lawrence 1980, 1982; Meadow 1986	Ovicaprid	1
+42	Dehsavar	Iran	34.313	47.131	Motarjem pers. comm.	Late Neolithic	Bökönyi 1977	Ovicaprid	1
+44	Demirci Hüyük	Turkey	39.87	30.36	CONTEXT	Bronze Age	Rauh 1981	Ovicaprid	1
+48	Djeitun	Soviet Union	38.3	58.4	Harris 1997	Late Neolithic	Shevchenko 1960	Ovicaprid	1
+50	Douara Cave	Syria	34.65	38.45	Schyle & Uerpmann 1996	Middle Palaeolithic	Payne 1983; Takai 1974	Ovicaprid	1
+52	Ein Gev	Israel	32.8	35.65	CONTEXT	Upper Palaeolithic	Tchernov 1976	Ovicaprid	1
+52	Ein Gev	Israel	32.8	35.65	CONTEXT	Epipalaeolithic	Tchernov 1976	Ovicaprid	1
+53	Ein Mir'i	Israel	33.067	35.45	Schyle & Uerpmann 1996	Epipalaeolithic	Uerpmann 1987	Ovicaprid	1
+62	Ganj-e Dare	Iran	34.42	47.57	CONTEXT	Early Neolithic	Hesse 1978, 1982	Ovicaprid	1
+70	Girikihaciyan	Turkey	38.233	39.967	Watson 1990	Late Neolithic	Mcardle 1974	Ovicaprid	1
+72	Guran, Tepe	Iran	33.73	47.07	CONTEXT	Early Neolithic	Flannery pers. comm.	Ovicaprid	1
+76	Hajji Firuz	Iran	37.04	45.54	CONTEXT	Late Neolithic	Meadow 1983	Ovicaprid	1
+78	Hassek Hüyük	Turkey	37.698	39.009	vici:42297	Bronze Age	Boessneck & von den Driesch 1981	Ovicaprid	1
+79	Hayaz Hüyük	Turkey	37.563	38.357	vici:57511	Early Neolithic	Buitenhuis pers. comm.; Clason 1985	Ovicaprid	1
+79	Hayaz Hüyük	Turkey	37.563	38.357	vici:57511	Late Neolithic	Buitenhuis pers. comm.; Clason 1985	Ovicaprid	1
+83	Hesbon	Jordan	31.75	35.75	Kopp & Röllig 1994	Iron Age	Weiler 1981; Boessneck & von den Driesch 1977, 1978	Ovicaprid	1
+89	Jarmo	Iraq	35.56	44.92	CONTEXT	Early Neolithic	Stampfli 1983	Ovicaprid	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Protoneolithic	Clutton-Brock 1979; Nobis 1968	Ovicaprid	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Early Neolithic	Clutton-Brock 1979; Nobis 1968	Ovicaprid	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Late Neolithic	Clutton-Brock 1979; Nobis 1968	Ovicaprid	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Bronze Age	Clutton-Brock 1979; Nobis 1968	Ovicaprid	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Iron Age	Clutton-Brock 1979; Nobis 1968	Ovicaprid	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Hellenistic	Clutton-Brock 1979; Nobis 1968	Ovicaprid	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Roman	Clutton-Brock 1979; Nobis 1968	Ovicaprid	1
+90	Jericho	Israel	31.86	35.47	CONTEXT	Byzantine	Clutton-Brock 1979; Nobis 1968	Ovicaprid	1
+92	Kara'in	Turkey	37.133	30.583	Schyle 1992	Lower Palaeolithic	Uerpmann 1987	Ovicaprid	1
+92	Kara'in	Turkey	37.133	30.583	Schyle 1992	Middle Palaeolithic	Uerpmann 1987	Ovicaprid	1
+92	Kara'in	Turkey	37.133	30.583	Schyle 1992	Upper Palaeolithic	Uerpmann 1987	Ovicaprid	1
+92	Kara'in	Turkey	37.133	30.583	Schyle 1992	Epipalaeolithic	Uerpmann 1987	Ovicaprid	1
+93	Karataş-Semayük	Turkey	38.917	39	Schyle 1992	Bronze Age	Hesse & Perkins 1974	Ovicaprid	1
+94	Karim Shahir	Iraq	35.564	44.957	Braidwood et al. 1983	Protoneolithic	Stampfli 1983	Ovicaprid	1
+95	Kebarah Cave	Israel	32.57	34.93	CONTEXT	Middle Palaeolithic	Saxon 1974; Davis 1977; Uerpmann 1987	Ovicaprid	1
+95	Kebarah Cave	Israel	32.57	34.93	CONTEXT	Upper Palaeolithic	Saxon 1974; Davis 1977; Uerpmann 1987	Ovicaprid	1
+95	Kebarah Cave	Israel	32.57	34.93	CONTEXT	Epipalaeolithic	Saxon 1974; Davis 1977; Uerpmann 1987	Ovicaprid	1
+99	Khorramabad Caves	Iran	33.492	48.349	Hole 2007 (KR-15/Ghamari)	Middle Palaeolithic	Hole & Flannery 1967	Ovicaprid	1
+99	Khorramabad Caves	Iran	33.492	48.349	Hole 2007 (KR-15/Ghamari)	Upper Palaeolithic	Hole & Flannery 1967	Ovicaprid	1
+99	Khorramabad Caves	Iran	33.492	48.349	Hole 2007 (KR-15/Ghamari)	Epipalaeolithic	Hole & Flannery 1967	Ovicaprid	1
+197	Korucutepe	Turkey	38.637	39.537	Pleiades	Bronze Age	Boessneck & von den Driesch 1975	Ovicaprid	1
+102	Ksar 'Akil	Lebanon	33.917	35.6	Schyle 1992	Middle Palaeolithic	Hooijer 1961; Uerpmann 1987	Ovicaprid	1
+102	Ksar 'Akil	Lebanon	33.917	35.6	Schyle 1992	Upper Palaeolithic	Hooijer 1961; Uerpmann 1987	Ovicaprid	1
+102	Ksar 'Akil	Lebanon	33.917	35.6	Schyle 1992	Epipalaeolithic	Hooijer 1961; Uerpmann 1987	Ovicaprid	1
+107	Mdamagh	Jordan	30.333	35.45	Schyle 1992	Epipalaeolithic	Perkins 1966; Uerpmann 1987	Ovicaprid	1
+108	Malyan	Iran	29.99	52.52	CONTEXT	Bronze Age	Zeder 1984, 1986	Ovicaprid	1
+108	Malyan	Iran	29.99	52.52	CONTEXT	Iron Age	Zeder 1984, 1986	Ovicaprid	1
+111	Mehrgarh	Pakistan	29.403	67.599	vici:32060	Early Neolithic	Meadow 1984	Ovicaprid	1
+111	Mehrgarh	Pakistan	29.403	67.599	vici:32060	Late Neolithic	Meadow 1984	Ovicaprid	1
+111	Mehrgarh	Pakistan	29.403	67.599	vici:32060	Bronze Age	Meadow 1984	Ovicaprid	1
+115	Munhatta	Israel	32.5	35.5	Kopp & Röllig 1994	Early Neolithic	Ducos 1968	Ovicaprid	1
+115	Munhatta	Israel	32.5	35.5	Kopp & Röllig 1994	Late Neolithic	Ducos 1968	Ovicaprid	1
+125	Norşun Tepe	Turkey	38.619	39.47	vici:29338	Late Neolithic	Boessneck & von den Driesch 1976	Ovicaprid	1
+125	Norşun Tepe	Turkey	38.619	39.47	vici:29338	Bronze Age	Boessneck & von den Driesch 1976	Ovicaprid	1
+125	Norşun Tepe	Turkey	38.619	39.47	vici:29338	Iron Age	Boessneck & von den Driesch 1976	Ovicaprid	1
+126	Nush-i Jan	Iran	34.38	48.639	Pleiades	Iron Age	Bökönyi 1978	Ovicaprid	1
+127	Pa Sangar	Iran	33.485	48.341	Hole & Flannery 1967	Epipalaeolithic	Hole & Flannery 1967; Uerpmann 1987	Ovicaprid	1
+128	Palegawra	Iraq	35.64	45.11	CONTEXT	Epipalaeolithic	Turnbull & Reed 1974; Uerpmann 1987	Ovicaprid	1
+128	Palegawra	Iraq	35.64	45.11	CONTEXT	Early Neolithic	Turnbull & Reed 1974; Uerpmann 1987	Ovicaprid	1
+148	Sarab	Iran	34.38	47.09	CONTEXT	Early Neolithic	Bökönyi 1977, 1978	Ovicaprid	1
+153	Shanidar	Iraq	36.8	44.22	CONTEXT	Middle Palaeolithic	Perkins 1964; Evins 1981; Uerpmann 1987	Ovicaprid	1
+153	Shanidar	Iraq	36.8	44.22	CONTEXT	Upper Palaeolithic	Perkins 1964; Evins 1981; Uerpmann 1987	Ovicaprid	1
+153	Shanidar	Iraq	36.8	44.22	CONTEXT	Epipalaeolithic	Perkins 1964; Evins 1981; Uerpmann 1987	Ovicaprid	1
+156	Siahbid	Iran	34.25	47	Kopp & Röllig 1994	Late Neolithic	Bökönyi 1977	Ovicaprid	1
+157	Sialk	Iran	34	54	Kopp & Röllig 1994	Late Neolithic	Vaufrey 1939; Uerpmann 1987	Ovicaprid	1
+159	Sinn, Tell es-	Syria	35.917	38.233	Gebel 1984	Early Neolithic	Clason 1980	Ovicaprid	1
+159	Sinn, Tell es-	Syria	35.917	38.233	Gebel 1984	Protoneolithic	Clason 1980	Ovicaprid	1
+159	Sinn, Tell es-	Syria	35.917	38.233	Gebel 1984	Late Neolithic	Clason 1980	Ovicaprid	1
+164	Suberde	Turkey	37.333	31.933	Gebel 1984	Early Neolithic	Perkins & Daly 1968	Ovicaprid	1
+169	Takht-e Suleiman	Iran	36.75	47.25	Kopp & Röllig 1994	Historic	Kolb 1972	Ovicaprid	1
+170	Tamtama Cave	Iran	NA	NA	NA	Upper Palaeolithic	Coon 1951; Uerpmann 1987	Ovicaprid	1
+200	Tepecik	Turkey	41.468	34.17	Pleiades:845078	Late Neolithic	Boessneck & von den Driesch 1979	Ovicaprid	1
+201	Tülintepe	Turkey	38.641	39.41	vici:51559	Late Neolithic	Boessneck & von den Driesch 1976b	Ovicaprid	1
+179	Umm Dabagiyah	Iraq	35.5	42.5	Kopp & Röllig 1994	Early Neolithic	Bökönyi 1978	Ovicaprid	1
+181	Wad, al-	Israel	32.67	34.97	CONTEXT	Upper Palaeolithic	Bate 1937; Uerpmann 1987	Ovicaprid	1
+181	Wad, al-	Israel	32.67	34.97	CONTEXT	Epipalaeolithic	Bate 1937; Uerpmann 1987	Ovicaprid	1
+190	Warwasi	Iran	34.4	47.117	Schyle 1992	MP:UP	Turnbull 1975	Ovicaprid	1
+190	Warwasi	Iran	34.4	47.117	Schyle 1992	Epipalaeolithic	Turnbull 1975	Ovicaprid	1
+193	Yarim Tepe	Iraq	36.333	42.167	Kopp & Röllig 1994	Late Neolithic	Bibikova 1980	Ovicaprid	1
+195	Zaw-e Chami	Iraq	36.8	44.22	CONTEXT	Protoneolithic	Perkins 1964; Uerpmann 1987	Ovicaprid	1
+196	Zendan-e Suleiman	Iran	36	46	Kopp & Röllig 1994	Iron Age	Boessneck 1973	Ovicaprid	1
+16	Arad	Israel	31.28	35.126	Pleiades	Bronze Age	Lernau 1972; Davis 1976	Ovicaprid	1
+28	Beidha	Jordan	30.37	35.45	CONTEXT	Early Neolithic	Hecker 1974, 1982	Ovicaprid	1
+41	Dakhla Oasis	Egypt	25.573	29.062	Pleiades	Late Neolithic	Churcher 1983	Ovicaprid	1
+54	Elephantine	Egypt	24.09	32.889	Pleiades	Bronze Age	Boessneck 1977; Boessneck & von den Driesch 1982	Ovicaprid	1
+83	Hesbon	Jordan	31.75	35.75	Kopp & Röllig 1994	Iron Age	Weiler 1981; Boessneck & von den Driesch 1977, 1978	Ovicaprid	1
+87	Iǧrat al-Mihad	Egypt	28.5	33.5	Kopp & Röllig 1994	Early Neolithic	Bar-Yosef 1981	Ovicaprid	1
