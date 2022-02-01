@@ -487,7 +487,7 @@ class: center, middle
 
 https://ggplot2-book.org/
 
-Chapter 3: *Maps*
+Chapter 6: *Maps*
 
 * Run the code examples
 * Reproduce the following using the 'tavo-a27' dataset.
