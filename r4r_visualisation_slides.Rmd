@@ -104,7 +104,7 @@ tibble(Day = c("Monday", "", "Tuesday", "", "Wednesday"),
 * Tips for the real world"),
        Exercises = c("*R for Data Science*, ch. 3", 
                      "*R for Data Science*, ch. 7 & 11",
-                     "*ggplot2*, ch. 6;<br>*Geocomputation with R*, ch. 9",
+                     "*ggplot2*, ch. 6",
                      "*Groupwork*",
                      "*R for Data Science*, ch. 28")) %>% 
   gt() %>% 
@@ -471,6 +471,10 @@ class: inverse, center, middle
 
 ---
 
+# CartogRaphy: exercises
+
+---
+
 ```{r eg-tavo-prepare, include=FALSE}
 tavo <- read_tsv("data/tavo-a27.tsv", col_types = cols())
 
@@ -740,10 +744,29 @@ Chapter 28: *Graphics for communication*
 
 # Further reading
 
-* Wickham & Grolemund, *R for Data Science*, https://r4ds.had.co.nz/
+## Principles of visualisation
+
+* Tufte 1983, *The Visual Display of Quantitative Information* 
+
+## R/tidyverse
+
+* Wickham & Grolemund, *R for Data Science*, <https://r4ds.had.co.nz/>
   * Hadley also recommends lots of good books!
-* Wickham 2009, *ggplot2: Elegant Graphics for Data Analysis*
-* Xie 2015, *Dynamic Documents with R and knitr*
+* RStudio cheatsheets, <https://rstudio.com/resources/cheatsheets/>
+
+## ggplot2
+
+* Wickham, Navarro & Pedersen, *ggplot2: Elegant Graphics for Data Analysis* (3rd ed.), <https://ggplot2-book.org/>
+* Chang, *R Graphics Cookbook*, <https://r-graphics.org/>
+* The R Graph Gallery, <https://www.r-graph-gallery.com/>
+* Wickham 2010, *A Layered Grammar of Graphics*
+* Wilkinson, Anand & Grossman 2005, *The Grammar of Graphics*
+  
+## Cartography
+
+* Lovelace, Nowosad & Muenchow, *Geocomputation with R*, <https://geocompr.robinlovelace.net/index.html>
+
+## Extensions
+
 * Marwick et al. 2017, *Packaging Data Analytical Work Reproducibly Using R (and Friends)*, https://doi.org/10.1080/00031305.2017.1375986
 * Wickham 2020, *Mastering `Shiny`*, https://mastering-shiny.org/
-* RStudio cheatsheets, https://rstudio.com/resources/cheatsheets/
