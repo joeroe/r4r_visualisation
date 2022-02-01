@@ -449,8 +449,10 @@ class: inverse, center, middle
 ## Mapping with `ggplot2` and friends
 
 ---
+class: center, middle
 
-# R as a GIS / R isn't a GIS
+# R as a GIS
+## (R isn't a GIS)
 
 ---
 
