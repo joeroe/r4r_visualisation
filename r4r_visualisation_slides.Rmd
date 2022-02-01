@@ -25,6 +25,8 @@ knitr::opts_chunk$set(out.width = '100%', fig.asp = 0.618, fig.retina = 5)
 
 library("tidyverse")
 library("gt")
+library("webshot")
+library("archdata")
 library("scales")
 library("rcarbon")
 library("sf")
@@ -395,10 +397,10 @@ class: middle
 # Plotting with tidy data
 
 .pull-left[
-```{r tidy-rcarbon, eval=FALSE}
+```{r tidy-rcarbon, eval=FALSE, warning=FALSE}
 data("emedyd") # From rcarbon
 emedyd %>% 
-  filter(SiteName == "Nevali Cori") %>% 
+  filter(SiteName == "Wadi Jilat 13") %>% 
   arrange(CRA) %>% 
   mutate(LabID = as_factor(LabID)) %>% 
   mutate(CalDate = cal(CRA, Error, verbose = FALSE)) %>% 
@@ -410,7 +412,7 @@ emedyd %>%
   geom_area() + 
   scale_x_reverse(name = "cal BP") +
   scale_y_continuous(labels = NULL, name = NULL) +
-  labs(title = "Nevali Cori",
+  labs(title = "Wadi Jilat 13",
       subtitle = "Radiocarbon chronology")
 ```
 ]
@@ -600,13 +602,41 @@ class: inverse, center, middle
 
 ---
 
-# Tables
-## The forgotten plot
+# Tables (`gt`)
+## The forgotten visualisation
 
----
+```{r eg-archdata-table, echo=FALSE}
+data(RBPottery) # from archdata
+RBPottery %>% 
+  group_by(Region, Kiln) %>% 
+  summarise(
+    Sites = n(),
+    across(Al2O3:BaO, mean), 
+    .groups = "drop_last") %>% 
+  gt() %>% 
+  tab_spanner("Mean composition", Al2O3:BaO) %>% 
+  fmt_percent(Al2O3:BaO, scale_values = FALSE) %>% 
+  cols_align("left", Kiln) %>% 
+  tab_header(
+    title = "Composition of Romano-British Pottery",
+    subtitle = "Data: Tubb et al. (1980) in Baxter (2003)"
+  ) %>% 
+  tab_style(cell_text(weight = "bold"), 
+            cells_body(rows = Kiln == "Llanedeyrn")) %>% 
+  tab_footnote("May contain an error.", cells_body(TiO2, Kiln == "Gloucester")) %>% 
+  tab_footnote("May contain an error.", cells_body(MnO, Kiln == "Llanedeyrn")) %>% 
+  tab_footnote("May contain an error.", cells_body(K2O, Kiln == "Llanedeyrn")) %>% 
+  opt_align_table_header("left") %>% 
+  opt_footnote_marks("standard")
+```
 
-# Multivariate Analysis
-## ...not just another scatter plot!
+???
+
+* Tables are often overlooked as a substitute for a plot, but actually they can be a very effective visualisation.
+* For example Tufte advises that if you have a bar plot with less than 5 (?) bars... use a table!
+* Or a 
+* R is table-oriented, but for publication we might want to break the "tidy" rules and do things like merge cells, add style, etc.
+* The new `gt` package from RStudio is excellent for this, and uses a ggplot2-like grammar
 
 ---
 
@@ -639,15 +669,16 @@ class: inverse, center, middle
 
 ---
 
-.pull-left[
 ```{r eg-rcarbon-data, echo=FALSE}
 data("emedyd")
 emedyd <- tibble(emedyd)
 emedyd
 ```
-```{r eg-rcarbon, eval=FALSE}
+
+.pull-left[
+```{r eg-rcarbon, eval=FALSE, warning=FALSE}
 emedyd %>% 
-  filter(SiteName == "Nevali Cori") %>% 
+  filter(SiteName == "Wadi Jilat 13") %>% 
   arrange(CRA) %>% 
   mutate(LabID = as_factor(LabID)) %>% 
   mutate(CalDate = c14_calibrate(CRA, Error, verbose = FALSE)) %>% 
@@ -658,7 +689,7 @@ emedyd %>%
              strip.position = "left") +
   geom_area() + 
   scale_x_reverse() +
-  labs(title = "Nevali Cori",
+  labs(title = "Wadi Jilat 13",
        subtitle = "Radiocarbon chronology",
        x = "cal BP") +
   theme(axis.title.y = element_blank(),
@@ -669,9 +700,8 @@ emedyd %>%
         strip.text.y.left = element_text(angle = 0, hjust = 0))
 ```
 ]
-
 .pull-right[
-```{r eg-rcarbon, echo=FALSE, fig.asp=1.3}
+```{r eg-rcarbon, echo=FALSE, warning=FALSE}
 ```
 ]
 
@@ -705,7 +735,6 @@ class: center, middle
 
 ---
 class: center, middle
-
 ![](figures/rzvr-3d.png)
 
 ---
@@ -713,13 +742,12 @@ class: center, middle
 .pull-left[
 ```{r eg-tavo, results='hide', message=FALSE, warning=FALSE, echo=FALSE}
 ```
-```{r tidy-rcarbon, echo=FALSE, fig.asp=1.3}
+```{r tidy-rcarbon, echo=FALSE}
 ```
 ]
 
 .pull-right[
-```{r eg-stratigraphy, echo=FALSE}
-```
+![](figures/archdata_table.png)
 ![](figures/rzvr-3d.png)
 ]
 
