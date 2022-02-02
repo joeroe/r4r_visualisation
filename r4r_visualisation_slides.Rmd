@@ -822,31 +822,55 @@ Chapter 28: *Graphics for communication*
 
 ---
 
+# Tips for the real world
+
+.pull-left[
+* Getting your data in the right shape is half the battle (at least)
+* (Semantic) colour is dangerous; try facets
+  * Five colours max; three is better
+  * Pretend you have to use black and white, even if you don't
+* Don't worry about aesthetics and output formats until you need to
+* ...but don't ignore them either!
+]
+.pull-right[
+* Tables are great, but `gt` support for PDF is still limited
+* `cowplot` for publication-quality figures
+* Colour schemes: `RColorBrewer` <<https://colorbrewer2.org/>>, `khroma`, `rcartocolor`
+* `patchwork` for composing multi-panel figures
+* If you can use it, animation is powerful (`gganimate`)
+* Annotating ggplots is frustrating, but `ggrepel`, `directlabels` and `ggforce` help
+]
+
+---
+
 # Further reading
 
-## Principles of visualisation
-
-* Tufte 1983, *The Visual Display of Quantitative Information* 
-
-## R/tidyverse
+.pull-left[
+### R/tidyverse
 
 * Wickham & Grolemund, *R for Data Science*, <https://r4ds.had.co.nz/>
-  * Hadley also recommends lots of good books!
+  * Also recommends lots of good books!
 * RStudio cheatsheets, <https://rstudio.com/resources/cheatsheets/>
 
-## ggplot2
+### ggplot2
 
 * Wickham, Navarro & Pedersen, *ggplot2: Elegant Graphics for Data Analysis* (3rd ed.), <https://ggplot2-book.org/>
 * Chang, *R Graphics Cookbook*, <https://r-graphics.org/>
 * The R Graph Gallery, <https://www.r-graph-gallery.com/>
 * Wickham 2010, *A Layered Grammar of Graphics*
 * Wilkinson, Anand & Grossman 2005, *The Grammar of Graphics*
-  
-## Cartography
+]
+ 
+.pull-right[
+* Tufte 1983, *The Visual Display of Quantitative Information* 
+
+### Cartography
 
 * Lovelace, Nowosad & Muenchow, *Geocomputation with R*, <https://geocompr.robinlovelace.net/index.html>
+* Robinson 1953, *Elements of Cartography* 
 
-## Extensions
+### Extensions
 
 * Marwick et al. 2017, *Packaging Data Analytical Work Reproducibly Using R (and Friends)*, https://doi.org/10.1080/00031305.2017.1375986
 * Wickham 2020, *Mastering `Shiny`*, https://mastering-shiny.org/
+]
