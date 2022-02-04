@@ -1,6 +1,6 @@
 # R for Archaeologists: Visualisation
 
-This repository contains the slides and source code for a workshop on visualisation in R, part of the 'R for Archaeologists' (R4R) winter school held at the University of Pisa on:
+This repository contains the slides and source code for a workshop on visualisation in R, part of the [R for Archaeologists (R4R) winter school](http://www.mappaproject.org/r4rchaeologists/) held at the University of Pisa on:
 
 * 27th January – 7th February 2020
 * 25th January – 5th February 2021
