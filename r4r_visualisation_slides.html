@@ -10,8 +10,12 @@
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
+.title[
 # R for Archaeologists
+]
+.subtitle[
 ## Visualisation
+]
 
 ---
 
@@ -28,7 +32,7 @@ background-size: 67%
 **Joe Roe**  
 University of Bern  
 
-* <svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg> [joeroe.io](https://joeroe.io)
+* <svg aria-hidden="true" role="img" viewBox="0 0 640 512" style="height:1em;width:1.25em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M579.8 267.7c56.5-56.5 56.5-148 0-204.5c-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6s30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.8 8.6c31.5 31.5 31.5 82.5 0 114L422.3 334.8c-31.5 31.5-82.5 31.5-114 0c-27.9-27.9-31.5-71.8-8.6-103.8l1.1-1.6c10.3-14.4 6.9-34.4-7.4-44.6s-34.4-6.9-44.6 7.4l-1.1 1.6C206.5 251.2 213 330 263 380c56.5 56.5 148 56.5 204.5 0L579.8 267.7zM60.2 244.3c-56.5 56.5-56.5 148 0 204.5c50 50 128.8 56.5 186.3 15.4l1.6-1.1c14.4-10.3 17.7-30.3 7.4-44.6s-30.3-17.7-44.6-7.4l-1.6 1.1c-32.1 22.9-76 19.3-103.8-8.6C74 372 74 321 105.5 289.5L217.7 177.2c31.5-31.5 82.5-31.5 114 0c27.9 27.9 31.5 71.8 8.6 103.9l-1.1 1.6c-10.3 14.4-6.9 34.4 7.4 44.6s34.4 6.9 44.6-7.4l1.1-1.6C433.5 260.8 427 182 377 132c-56.5-56.5-148-56.5-204.5 0L60.2 244.3z"/></svg> [joeroe.io](https://joeroe.io)
 * <svg aria-hidden="true" role="img" viewBox="0 0 496 512" style="height:1em;width:0.97em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg> [joeroe](https://github.com/joeroe)
 * <svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg> [@joeroe](https://twitter.com/joeroe90)
 ]
@@ -45,12 +49,12 @@ University of Bern
 ---
 class: center, middle
 
-<div id="pefmsdskvj" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="bxyclaofvn" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 <style>html {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#pefmsdskvj .gt_table {
+#bxyclaofvn .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -75,7 +79,7 @@ class: center, middle
   border-left-color: #D3D3D3;
 }
 
-#pefmsdskvj .gt_heading {
+#bxyclaofvn .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -87,33 +91,42 @@ class: center, middle
   border-right-color: #D3D3D3;
 }
 
-#pefmsdskvj .gt_title {
+#bxyclaofvn .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#bxyclaofvn .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
   padding-top: 4px;
   padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
   border-bottom-color: #FFFFFF;
   border-bottom-width: 0;
 }
 
-#pefmsdskvj .gt_subtitle {
+#bxyclaofvn .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
   padding-top: 0;
   padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
   border-top-color: #FFFFFF;
   border-top-width: 0;
 }
 
-#pefmsdskvj .gt_bottom_border {
+#bxyclaofvn .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#pefmsdskvj .gt_col_headings {
+#bxyclaofvn .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -128,7 +141,7 @@ class: center, middle
   border-right-color: #D3D3D3;
 }
 
-#pefmsdskvj .gt_col_heading {
+#bxyclaofvn .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -148,7 +161,7 @@ class: center, middle
   overflow-x: hidden;
 }
 
-#pefmsdskvj .gt_column_spanner_outer {
+#bxyclaofvn .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -160,15 +173,15 @@ class: center, middle
   padding-right: 4px;
 }
 
-#pefmsdskvj .gt_column_spanner_outer:first-child {
+#bxyclaofvn .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#pefmsdskvj .gt_column_spanner_outer:last-child {
+#bxyclaofvn .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#pefmsdskvj .gt_column_spanner {
+#bxyclaofvn .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -180,8 +193,11 @@ class: center, middle
   width: 100%;
 }
 
-#pefmsdskvj .gt_group_heading {
-  padding: 8px;
+#bxyclaofvn .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -200,9 +216,10 @@ class: center, middle
   border-right-width: 1px;
   border-right-color: #D3D3D3;
   vertical-align: middle;
+  text-align: left;
 }
 
-#pefmsdskvj .gt_empty_group_heading {
+#bxyclaofvn .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -217,15 +234,15 @@ class: center, middle
   vertical-align: middle;
 }
 
-#pefmsdskvj .gt_from_md > :first-child {
+#bxyclaofvn .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#pefmsdskvj .gt_from_md > :last-child {
+#bxyclaofvn .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#pefmsdskvj .gt_row {
+#bxyclaofvn .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -244,7 +261,7 @@ class: center, middle
   overflow-x: hidden;
 }
 
-#pefmsdskvj .gt_stub {
+#bxyclaofvn .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -253,10 +270,29 @@ class: center, middle
   border-right-style: solid;
   border-right-width: 2px;
   border-right-color: #D3D3D3;
-  padding-left: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
-#pefmsdskvj .gt_summary_row {
+#bxyclaofvn .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#bxyclaofvn .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+#bxyclaofvn .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -266,17 +302,26 @@ class: center, middle
   padding-right: 5px;
 }
 
-#pefmsdskvj .gt_first_summary_row {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
+#bxyclaofvn .gt_first_summary_row {
   border-top-style: solid;
-  border-top-width: 2px;
   border-top-color: #D3D3D3;
 }
 
-#pefmsdskvj .gt_grand_summary_row {
+#bxyclaofvn .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#bxyclaofvn .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#bxyclaofvn .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -286,7 +331,7 @@ class: center, middle
   padding-right: 5px;
 }
 
-#pefmsdskvj .gt_first_grand_summary_row {
+#bxyclaofvn .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -296,11 +341,11 @@ class: center, middle
   border-top-color: #D3D3D3;
 }
 
-#pefmsdskvj .gt_striped {
+#bxyclaofvn .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#pefmsdskvj .gt_table_body {
+#bxyclaofvn .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -309,7 +354,7 @@ class: center, middle
   border-bottom-color: #D3D3D3;
 }
 
-#pefmsdskvj .gt_footnotes {
+#bxyclaofvn .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -323,13 +368,16 @@ class: center, middle
   border-right-color: #D3D3D3;
 }
 
-#pefmsdskvj .gt_footnote {
+#bxyclaofvn .gt_footnote {
   margin: 0px;
   font-size: 90%;
-  padding: 4px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
-#pefmsdskvj .gt_sourcenotes {
+#bxyclaofvn .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -343,99 +391,116 @@ class: center, middle
   border-right-color: #D3D3D3;
 }
 
-#pefmsdskvj .gt_sourcenote {
+#bxyclaofvn .gt_sourcenote {
   font-size: 90%;
-  padding: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
-#pefmsdskvj .gt_left {
+#bxyclaofvn .gt_left {
   text-align: left;
 }
 
-#pefmsdskvj .gt_center {
+#bxyclaofvn .gt_center {
   text-align: center;
 }
 
-#pefmsdskvj .gt_right {
+#bxyclaofvn .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#pefmsdskvj .gt_font_normal {
+#bxyclaofvn .gt_font_normal {
   font-weight: normal;
 }
 
-#pefmsdskvj .gt_font_bold {
+#bxyclaofvn .gt_font_bold {
   font-weight: bold;
 }
 
-#pefmsdskvj .gt_font_italic {
+#bxyclaofvn .gt_font_italic {
   font-style: italic;
 }
 
-#pefmsdskvj .gt_super {
+#bxyclaofvn .gt_super {
   font-size: 65%;
 }
 
-#pefmsdskvj .gt_footnote_marks {
+#bxyclaofvn .gt_footnote_marks {
   font-style: italic;
   font-weight: normal;
-  font-size: 65%;
+  font-size: 75%;
+  vertical-align: 0.4em;
+}
+
+#bxyclaofvn .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#bxyclaofvn .gt_indent_1 {
+  text-indent: 5px;
+}
+
+#bxyclaofvn .gt_indent_2 {
+  text-indent: 10px;
+}
+
+#bxyclaofvn .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#bxyclaofvn .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#bxyclaofvn .gt_indent_5 {
+  text-indent: 25px;
 }
 </style>
 <table class="gt_table">
   
   <thead class="gt_col_headings">
     <tr>
-      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" style="font-weight: bold;">Day</th>
-      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" style="font-weight: bold;">Time</th>
-      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" style="font-weight: bold;">Topics</th>
-      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" style="font-weight: bold;">Exercises</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" style="font-weight: bold;" scope="col" id="Day">Day</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" style="font-weight: bold;" scope="col" id="Time">Time</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" style="font-weight: bold;" scope="col" id="Topics">Topics</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" style="font-weight: bold;" scope="col" id="Exercises">Exercises</th>
     </tr>
   </thead>
   <tbody class="gt_table_body">
-    <tr><td class="gt_row gt_left" style="font-size: small; text-align: left; vertical-align: top; font-weight: bold;"><div class='gt_from_md'><p>Monday</p>
+    <tr><td headers="Day" class="gt_row gt_left" style="font-size: small; text-align: left; vertical-align: top; font-weight: bold;"><div class='gt_from_md'><p>Monday</p>
 </div></td>
-<td class="gt_row gt_left" style="font-size: small; text-align: left; vertical-align: top; font-weight: bold;"><div class='gt_from_md'><p>10–13</p>
+<td headers="Time" class="gt_row gt_left" style="font-size: small; text-align: left; vertical-align: top; font-weight: bold;"><div class='gt_from_md'><p>10–13</p>
 </div></td>
-<td class="gt_row gt_left" style="font-size: small; text-align: left; vertical-align: top;"><div class='gt_from_md'><p><strong>Introduction to visualisation in R</strong></p>
+<td headers="Topics" class="gt_row gt_left" style="font-size: small; text-align: left; vertical-align: top;"><div class='gt_from_md'><p><strong>Introduction to visualisation in R</strong></p>
 <ul>
 <li>Visualisation in data science</li>
 <li>Overview of R graphics packages</li>
 <li>ggplot2: The 'grammar of graphics'</li>
 </ul>
 </div></td>
-<td class="gt_row gt_left" style="font-size: small; text-align: left; vertical-align: top;"><div class='gt_from_md'><p><em>R for Data Science</em>, ch. 3</p>
+<td headers="Exercises" class="gt_row gt_left" style="font-size: small; text-align: left; vertical-align: top;"><div class='gt_from_md'><p><em>R for Data Science</em>, ch. 3</p>
 </div></td></tr>
-    <tr><td class="gt_row gt_left" style="font-size: small; text-align: left; vertical-align: top; font-weight: bold;"><div class='gt_from_md'></div></td>
-<td class="gt_row gt_left" style="font-size: small; text-align: left; vertical-align: top; font-weight: bold;"><div class='gt_from_md'><p>14–17</p>
+    <tr><td headers="Day" class="gt_row gt_left" style="font-size: small; text-align: left; vertical-align: top; font-weight: bold;"><div class='gt_from_md'></div></td>
+<td headers="Time" class="gt_row gt_left" style="font-size: small; text-align: left; vertical-align: top; font-weight: bold;"><div class='gt_from_md'><p>14–17</p>
 </div></td>
-<td class="gt_row gt_left" style="font-size: small; text-align: left; vertical-align: top;"><div class='gt_from_md'><p><strong>Visualisation for Exploratory Data Analysis</strong></p>
+<td headers="Topics" class="gt_row gt_left" style="font-size: small; text-align: left; vertical-align: top;"><div class='gt_from_md'><p><strong>Visualisation for Exploratory Data Analysis</strong></p>
 <ul>
 <li>Applications in archaeology</li>
 <li>Visualising 'tidy data'</li>
 <li><code>ggplot2</code> for EDA</li>
 </ul>
 </div></td>
-<td class="gt_row gt_left" style="font-size: small; text-align: left; vertical-align: top;"><div class='gt_from_md'><p><em>R for Data Science</em>, ch. 7 &amp; 11</p>
+<td headers="Exercises" class="gt_row gt_left" style="font-size: small; text-align: left; vertical-align: top;"><div class='gt_from_md'><p><em>R for Data Science</em>, ch. 7 &amp; 11</p>
 </div></td></tr>
-    <tr><td class="gt_row gt_left" style="font-size: small; text-align: left; vertical-align: top; font-weight: bold;"><div class='gt_from_md'><p>Tuesday</p>
+    <tr><td headers="Day" class="gt_row gt_left" style="font-size: small; text-align: left; vertical-align: top; font-weight: bold;"><div class='gt_from_md'><p>Tuesday</p>
 </div></td>
-<td class="gt_row gt_left" style="font-size: small; text-align: left; vertical-align: top; font-weight: bold;"><div class='gt_from_md'><p>10–13</p>
+<td headers="Time" class="gt_row gt_left" style="font-size: small; text-align: left; vertical-align: top; font-weight: bold;"><div class='gt_from_md'><p>10–13</p>
 </div></td>
-<td class="gt_row gt_left" style="font-size: small; text-align: left; vertical-align: top;"><div class='gt_from_md'><p><strong>CartogRaphy</strong></p>
-<ul>
-<li>R as a GIS /  R isn't a GIS</li>
-<li>Mapping with <code>ggplot2</code></li>
-<li>Extensions: <code>tmap</code>, <code>ggspatial</code>, <code>gganimate</code></li>
-</ul>
-</div></td>
-<td class="gt_row gt_left" style="font-size: small; text-align: left; vertical-align: top;"><div class='gt_from_md'><p><em>ggplot2</em>, ch. 6</p>
-</div></td></tr>
-    <tr><td class="gt_row gt_left" style="font-size: small; text-align: left; vertical-align: top; font-weight: bold;"><div class='gt_from_md'></div></td>
-<td class="gt_row gt_left" style="font-size: small; text-align: left; vertical-align: top; font-weight: bold;"><div class='gt_from_md'><p>14–17</p>
-</div></td>
-<td class="gt_row gt_left" style="font-size: small; text-align: left; vertical-align: top;"><div class='gt_from_md'><p><strong>Advanced visualisation exercises</strong></p>
+<td headers="Topics" class="gt_row gt_left" style="font-size: small; text-align: left; vertical-align: top;"><div class='gt_from_md'><p><strong>Advanced visualisation exercises</strong></p>
 <ul>
 <li>Tables: <code>gt</code></li>
 <li>Radiocarbon: <code>ggridges</code></li>
@@ -443,20 +508,19 @@ class: center, middle
 <li>3D: <code>rayshader</code></li>
 </ul>
 </div></td>
-<td class="gt_row gt_left" style="font-size: small; text-align: left; vertical-align: top;"><div class='gt_from_md'><p><em>Groupwork</em></p>
+<td headers="Exercises" class="gt_row gt_left" style="font-size: small; text-align: left; vertical-align: top;"><div class='gt_from_md'><p><em>Groupwork</em></p>
 </div></td></tr>
-    <tr><td class="gt_row gt_left" style="font-size: small; text-align: left; vertical-align: top; font-weight: bold;"><div class='gt_from_md'><p>Wednesday</p>
+    <tr><td headers="Day" class="gt_row gt_left" style="font-size: small; text-align: left; vertical-align: top; font-weight: bold;"><div class='gt_from_md'></div></td>
+<td headers="Time" class="gt_row gt_left" style="font-size: small; text-align: left; vertical-align: top; font-weight: bold;"><div class='gt_from_md'><p>14–17</p>
 </div></td>
-<td class="gt_row gt_left" style="font-size: small; text-align: left; vertical-align: top; font-weight: bold;"><div class='gt_from_md'><p>10–13</p>
-</div></td>
-<td class="gt_row gt_left" style="font-size: small; text-align: left; vertical-align: top;"><div class='gt_from_md'><p><strong>Publication-ready visualisation</strong></p>
+<td headers="Topics" class="gt_row gt_left" style="font-size: small; text-align: left; vertical-align: top;"><div class='gt_from_md'><p><strong>Publication-ready visualisation</strong></p>
 <ul>
 <li>What makes an effective graphic?</li>
 <li>Advanced <code>ggplot2</code>: aesthetics and themes</li>
 <li>Tips for the real world</li>
 </ul>
 </div></td>
-<td class="gt_row gt_left" style="font-size: small; text-align: left; vertical-align: top;"><div class='gt_from_md'><p><em>R for Data Science</em>, ch. 28</p>
+<td headers="Exercises" class="gt_row gt_left" style="font-size: small; text-align: left; vertical-align: top;"><div class='gt_from_md'><p><em>R for Data Science</em>, ch. 28</p>
 </div></td></tr>
   </tbody>
   
@@ -830,7 +894,7 @@ Chapter 6: *Maps*
 class: center, middle
 
 
-&lt;img src="r4r_visualisation_slides_files/figure-html/eg-tavo-1.png" width="100%" /&gt;
+
 
 ---
 class: inverse, center, middle
@@ -843,12 +907,12 @@ class: inverse, center, middle
 # Tables (`gt`)
 ## The forgotten visualisation
 
-<div id="yylloaveau" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="pnwoaabimo" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 <style>html {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#yylloaveau .gt_table {
+#pnwoaabimo .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -873,7 +937,7 @@ class: inverse, center, middle
   border-left-color: #D3D3D3;
 }
 
-#yylloaveau .gt_heading {
+#pnwoaabimo .gt_heading {
   background-color: #FFFFFF;
   text-align: left;
   border-bottom-color: #FFFFFF;
@@ -885,33 +949,42 @@ class: inverse, center, middle
   border-right-color: #D3D3D3;
 }
 
-#yylloaveau .gt_title {
+#pnwoaabimo .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#pnwoaabimo .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
   padding-top: 4px;
   padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
   border-bottom-color: #FFFFFF;
   border-bottom-width: 0;
 }
 
-#yylloaveau .gt_subtitle {
+#pnwoaabimo .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
   padding-top: 0;
   padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
   border-top-color: #FFFFFF;
   border-top-width: 0;
 }
 
-#yylloaveau .gt_bottom_border {
+#pnwoaabimo .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#yylloaveau .gt_col_headings {
+#pnwoaabimo .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -926,7 +999,7 @@ class: inverse, center, middle
   border-right-color: #D3D3D3;
 }
 
-#yylloaveau .gt_col_heading {
+#pnwoaabimo .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -946,7 +1019,7 @@ class: inverse, center, middle
   overflow-x: hidden;
 }
 
-#yylloaveau .gt_column_spanner_outer {
+#pnwoaabimo .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -958,15 +1031,15 @@ class: inverse, center, middle
   padding-right: 4px;
 }
 
-#yylloaveau .gt_column_spanner_outer:first-child {
+#pnwoaabimo .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#yylloaveau .gt_column_spanner_outer:last-child {
+#pnwoaabimo .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#yylloaveau .gt_column_spanner {
+#pnwoaabimo .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -978,8 +1051,11 @@ class: inverse, center, middle
   width: 100%;
 }
 
-#yylloaveau .gt_group_heading {
-  padding: 8px;
+#pnwoaabimo .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -998,9 +1074,10 @@ class: inverse, center, middle
   border-right-width: 1px;
   border-right-color: #D3D3D3;
   vertical-align: middle;
+  text-align: left;
 }
 
-#yylloaveau .gt_empty_group_heading {
+#pnwoaabimo .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -1015,15 +1092,15 @@ class: inverse, center, middle
   vertical-align: middle;
 }
 
-#yylloaveau .gt_from_md > :first-child {
+#pnwoaabimo .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#yylloaveau .gt_from_md > :last-child {
+#pnwoaabimo .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#yylloaveau .gt_row {
+#pnwoaabimo .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1042,7 +1119,7 @@ class: inverse, center, middle
   overflow-x: hidden;
 }
 
-#yylloaveau .gt_stub {
+#pnwoaabimo .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1051,10 +1128,29 @@ class: inverse, center, middle
   border-right-style: solid;
   border-right-width: 2px;
   border-right-color: #D3D3D3;
-  padding-left: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
-#yylloaveau .gt_summary_row {
+#pnwoaabimo .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#pnwoaabimo .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+#pnwoaabimo .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1064,17 +1160,26 @@ class: inverse, center, middle
   padding-right: 5px;
 }
 
-#yylloaveau .gt_first_summary_row {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
+#pnwoaabimo .gt_first_summary_row {
   border-top-style: solid;
-  border-top-width: 2px;
   border-top-color: #D3D3D3;
 }
 
-#yylloaveau .gt_grand_summary_row {
+#pnwoaabimo .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#pnwoaabimo .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#pnwoaabimo .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1084,7 +1189,7 @@ class: inverse, center, middle
   padding-right: 5px;
 }
 
-#yylloaveau .gt_first_grand_summary_row {
+#pnwoaabimo .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1094,11 +1199,11 @@ class: inverse, center, middle
   border-top-color: #D3D3D3;
 }
 
-#yylloaveau .gt_striped {
+#pnwoaabimo .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#yylloaveau .gt_table_body {
+#pnwoaabimo .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1107,7 +1212,7 @@ class: inverse, center, middle
   border-bottom-color: #D3D3D3;
 }
 
-#yylloaveau .gt_footnotes {
+#pnwoaabimo .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1121,13 +1226,16 @@ class: inverse, center, middle
   border-right-color: #D3D3D3;
 }
 
-#yylloaveau .gt_footnote {
+#pnwoaabimo .gt_footnote {
   margin: 0px;
   font-size: 90%;
-  padding: 4px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
-#yylloaveau .gt_sourcenotes {
+#pnwoaabimo .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1141,154 +1249,174 @@ class: inverse, center, middle
   border-right-color: #D3D3D3;
 }
 
-#yylloaveau .gt_sourcenote {
+#pnwoaabimo .gt_sourcenote {
   font-size: 90%;
-  padding: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
-#yylloaveau .gt_left {
+#pnwoaabimo .gt_left {
   text-align: left;
 }
 
-#yylloaveau .gt_center {
+#pnwoaabimo .gt_center {
   text-align: center;
 }
 
-#yylloaveau .gt_right {
+#pnwoaabimo .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#yylloaveau .gt_font_normal {
+#pnwoaabimo .gt_font_normal {
   font-weight: normal;
 }
 
-#yylloaveau .gt_font_bold {
+#pnwoaabimo .gt_font_bold {
   font-weight: bold;
 }
 
-#yylloaveau .gt_font_italic {
+#pnwoaabimo .gt_font_italic {
   font-style: italic;
 }
 
-#yylloaveau .gt_super {
+#pnwoaabimo .gt_super {
   font-size: 65%;
 }
 
-#yylloaveau .gt_footnote_marks {
+#pnwoaabimo .gt_footnote_marks {
   font-style: italic;
   font-weight: normal;
-  font-size: 65%;
+  font-size: 75%;
+  vertical-align: 0.4em;
+}
+
+#pnwoaabimo .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#pnwoaabimo .gt_indent_1 {
+  text-indent: 5px;
+}
+
+#pnwoaabimo .gt_indent_2 {
+  text-indent: 10px;
+}
+
+#pnwoaabimo .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#pnwoaabimo .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#pnwoaabimo .gt_indent_5 {
+  text-indent: 25px;
 }
 </style>
 <table class="gt_table">
   <thead class="gt_header">
     <tr>
-      <th colspan="11" class="gt_heading gt_title gt_font_normal" style>Composition of Romano-British Pottery</th>
+      <td colspan="11" class="gt_heading gt_title gt_font_normal" style>Composition of Romano-British Pottery</td>
     </tr>
     <tr>
-      <th colspan="11" class="gt_heading gt_subtitle gt_font_normal gt_bottom_border" style>Data: Tubb et al. (1980) in Baxter (2003)</th>
+      <td colspan="11" class="gt_heading gt_subtitle gt_font_normal gt_bottom_border" style>Data: Tubb et al. (1980) in Baxter (2003)</td>
     </tr>
   </thead>
   <thead class="gt_col_headings">
     <tr>
-      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="2" colspan="1">Kiln</th>
-      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="2" colspan="1">Sites</th>
-      <th class="gt_center gt_columns_top_border gt_column_spanner_outer" rowspan="1" colspan="9">
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="2" colspan="1" scope="col" id="Kiln">Kiln</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="2" colspan="1" scope="col" id="Sites">Sites</th>
+      <th class="gt_center gt_columns_top_border gt_column_spanner_outer" rowspan="1" colspan="9" scope="colgroup" id="Mean composition">
         <span class="gt_column_spanner">Mean composition</span>
       </th>
     </tr>
     <tr>
-      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1">Al2O3</th>
-      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1">Fe2O3</th>
-      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1">MgO</th>
-      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1">CaO</th>
-      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1">Na2O</th>
-      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1">K2O</th>
-      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1">TiO2</th>
-      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1">MnO</th>
-      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1">BaO</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="Al2O3">Al2O3</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="Fe2O3">Fe2O3</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="MgO">MgO</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="CaO">CaO</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="Na2O">Na2O</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="K2O">K2O</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="TiO2">TiO2</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="MnO">MnO</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="BaO">BaO</th>
     </tr>
   </thead>
   <tbody class="gt_table_body">
     <tr class="gt_group_heading_row">
-      <td colspan="11" class="gt_group_heading">Gloucester</td>
+      <th colspan="11" class="gt_group_heading" scope="colgroup" id="Gloucester">Gloucester</th>
     </tr>
-    <tr><td class="gt_row gt_left">Gloucester</td>
-<td class="gt_row gt_right">22</td>
-<td class="gt_row gt_right">16.94&percnt;</td>
-<td class="gt_row gt_right">7.43&percnt;</td>
-<td class="gt_row gt_right">1.84&percnt;</td>
-<td class="gt_row gt_right">0.94&percnt;</td>
-<td class="gt_row gt_right">0.35&percnt;</td>
-<td class="gt_row gt_right">3.11&percnt;</td>
-<td class="gt_row gt_right">0.90&percnt;<sup class="gt_footnote_marks">*</sup></td>
-<td class="gt_row gt_right">0.07&percnt;</td>
-<td class="gt_row gt_right">0.02&percnt;</td></tr>
+    <tr class="gt_row_group_first"><td headers="Gloucester  Kiln" class="gt_row gt_left">Gloucester</td>
+<td headers="Gloucester  Sites" class="gt_row gt_right">22</td>
+<td headers="Gloucester  Al2O3" class="gt_row gt_right">16.94%</td>
+<td headers="Gloucester  Fe2O3" class="gt_row gt_right">7.43%</td>
+<td headers="Gloucester  MgO" class="gt_row gt_right">1.84%</td>
+<td headers="Gloucester  CaO" class="gt_row gt_right">0.94%</td>
+<td headers="Gloucester  Na2O" class="gt_row gt_right">0.35%</td>
+<td headers="Gloucester  K2O" class="gt_row gt_right">3.11%</td>
+<td headers="Gloucester  TiO2" class="gt_row gt_right"><sup class="gt_footnote_marks gt_asterisk">*</sup> 0.90%</td>
+<td headers="Gloucester  MnO" class="gt_row gt_right">0.07%</td>
+<td headers="Gloucester  BaO" class="gt_row gt_right">0.02%</td></tr>
     <tr class="gt_group_heading_row">
-      <td colspan="11" class="gt_group_heading">Wales</td>
+      <th colspan="11" class="gt_group_heading" scope="colgroup" id="Wales">Wales</th>
     </tr>
-    <tr><td class="gt_row gt_left" style="font-weight: bold;">Llanedeyrn</td>
-<td class="gt_row gt_right" style="font-weight: bold;">14</td>
-<td class="gt_row gt_right" style="font-weight: bold;">12.56&percnt;</td>
-<td class="gt_row gt_right" style="font-weight: bold;">6.37&percnt;</td>
-<td class="gt_row gt_right" style="font-weight: bold;">4.83&percnt;</td>
-<td class="gt_row gt_right" style="font-weight: bold;">0.20&percnt;</td>
-<td class="gt_row gt_right" style="font-weight: bold;">0.25&percnt;</td>
-<td class="gt_row gt_right" style="font-weight: bold;">3.93&percnt;<sup class="gt_footnote_marks">*</sup></td>
-<td class="gt_row gt_right" style="font-weight: bold;">0.71&percnt;</td>
-<td class="gt_row gt_right" style="font-weight: bold;">0.14&percnt;<sup class="gt_footnote_marks">*</sup></td>
-<td class="gt_row gt_right" style="font-weight: bold;">0.02&percnt;</td></tr>
-    <tr><td class="gt_row gt_left">Caldicot</td>
-<td class="gt_row gt_right">2</td>
-<td class="gt_row gt_right">11.70&percnt;</td>
-<td class="gt_row gt_right">5.42&percnt;</td>
-<td class="gt_row gt_right">3.85&percnt;</td>
-<td class="gt_row gt_right">0.29&percnt;</td>
-<td class="gt_row gt_right">0.05&percnt;</td>
-<td class="gt_row gt_right">4.57&percnt;</td>
-<td class="gt_row gt_right">0.57&percnt;</td>
-<td class="gt_row gt_right">0.10&percnt;</td>
-<td class="gt_row gt_right">0.01&percnt;</td></tr>
+    <tr class="gt_row_group_first"><td headers="Wales  Kiln" class="gt_row gt_left" style="font-weight: bold;">Llanedeyrn</td>
+<td headers="Wales  Sites" class="gt_row gt_right" style="font-weight: bold;">14</td>
+<td headers="Wales  Al2O3" class="gt_row gt_right" style="font-weight: bold;">12.56%</td>
+<td headers="Wales  Fe2O3" class="gt_row gt_right" style="font-weight: bold;">6.37%</td>
+<td headers="Wales  MgO" class="gt_row gt_right" style="font-weight: bold;">4.83%</td>
+<td headers="Wales  CaO" class="gt_row gt_right" style="font-weight: bold;">0.20%</td>
+<td headers="Wales  Na2O" class="gt_row gt_right" style="font-weight: bold;">0.25%</td>
+<td headers="Wales  K2O" class="gt_row gt_right" style="font-weight: bold;"><sup class="gt_footnote_marks gt_asterisk">*</sup> 3.93%</td>
+<td headers="Wales  TiO2" class="gt_row gt_right" style="font-weight: bold;">0.71%</td>
+<td headers="Wales  MnO" class="gt_row gt_right" style="font-weight: bold;"><sup class="gt_footnote_marks gt_asterisk">*</sup> 0.14%</td>
+<td headers="Wales  BaO" class="gt_row gt_right" style="font-weight: bold;">0.02%</td></tr>
+    <tr><td headers="Wales  Kiln" class="gt_row gt_left">Caldicot</td>
+<td headers="Wales  Sites" class="gt_row gt_right">2</td>
+<td headers="Wales  Al2O3" class="gt_row gt_right">11.70%</td>
+<td headers="Wales  Fe2O3" class="gt_row gt_right">5.42%</td>
+<td headers="Wales  MgO" class="gt_row gt_right">3.85%</td>
+<td headers="Wales  CaO" class="gt_row gt_right">0.29%</td>
+<td headers="Wales  Na2O" class="gt_row gt_right">0.05%</td>
+<td headers="Wales  K2O" class="gt_row gt_right">4.57%</td>
+<td headers="Wales  TiO2" class="gt_row gt_right">0.57%</td>
+<td headers="Wales  MnO" class="gt_row gt_right">0.10%</td>
+<td headers="Wales  BaO" class="gt_row gt_right">0.01%</td></tr>
     <tr class="gt_group_heading_row">
-      <td colspan="11" class="gt_group_heading">New Forest</td>
+      <th colspan="11" class="gt_group_heading" scope="colgroup" id="New Forest">New Forest</th>
     </tr>
-    <tr><td class="gt_row gt_left">Islands Thorns</td>
-<td class="gt_row gt_right">5</td>
-<td class="gt_row gt_right">18.18&percnt;</td>
-<td class="gt_row gt_right">1.71&percnt;</td>
-<td class="gt_row gt_right">0.67&percnt;</td>
-<td class="gt_row gt_right">0.03&percnt;</td>
-<td class="gt_row gt_right">0.05&percnt;</td>
-<td class="gt_row gt_right">2.08&percnt;</td>
-<td class="gt_row gt_right">1.05&percnt;</td>
-<td class="gt_row gt_right">0.00&percnt;</td>
-<td class="gt_row gt_right">0.02&percnt;</td></tr>
-    <tr><td class="gt_row gt_left">Ashley Rails</td>
-<td class="gt_row gt_right">5</td>
-<td class="gt_row gt_right">17.32&percnt;</td>
-<td class="gt_row gt_right">1.51&percnt;</td>
-<td class="gt_row gt_right">0.61&percnt;</td>
-<td class="gt_row gt_right">0.05&percnt;</td>
-<td class="gt_row gt_right">0.05&percnt;</td>
-<td class="gt_row gt_right">1.97&percnt;</td>
-<td class="gt_row gt_right">0.99&percnt;</td>
-<td class="gt_row gt_right">0.00&percnt;</td>
-<td class="gt_row gt_right">0.02&percnt;</td></tr>
+    <tr class="gt_row_group_first"><td headers="New Forest  Kiln" class="gt_row gt_left">Islands Thorns</td>
+<td headers="New Forest  Sites" class="gt_row gt_right">5</td>
+<td headers="New Forest  Al2O3" class="gt_row gt_right">18.18%</td>
+<td headers="New Forest  Fe2O3" class="gt_row gt_right">1.71%</td>
+<td headers="New Forest  MgO" class="gt_row gt_right">0.67%</td>
+<td headers="New Forest  CaO" class="gt_row gt_right">0.03%</td>
+<td headers="New Forest  Na2O" class="gt_row gt_right">0.05%</td>
+<td headers="New Forest  K2O" class="gt_row gt_right">2.08%</td>
+<td headers="New Forest  TiO2" class="gt_row gt_right">1.05%</td>
+<td headers="New Forest  MnO" class="gt_row gt_right">0.00%</td>
+<td headers="New Forest  BaO" class="gt_row gt_right">0.02%</td></tr>
+    <tr><td headers="New Forest  Kiln" class="gt_row gt_left">Ashley Rails</td>
+<td headers="New Forest  Sites" class="gt_row gt_right">5</td>
+<td headers="New Forest  Al2O3" class="gt_row gt_right">17.32%</td>
+<td headers="New Forest  Fe2O3" class="gt_row gt_right">1.51%</td>
+<td headers="New Forest  MgO" class="gt_row gt_right">0.61%</td>
+<td headers="New Forest  CaO" class="gt_row gt_right">0.05%</td>
+<td headers="New Forest  Na2O" class="gt_row gt_right">0.05%</td>
+<td headers="New Forest  K2O" class="gt_row gt_right">1.97%</td>
+<td headers="New Forest  TiO2" class="gt_row gt_right">0.99%</td>
+<td headers="New Forest  MnO" class="gt_row gt_right">0.00%</td>
+<td headers="New Forest  BaO" class="gt_row gt_right">0.02%</td></tr>
   </tbody>
   
-  <tfoot>
-    <tr class="gt_footnotes">
-      <td colspan="11">
-        <p class="gt_footnote">
-          <sup class="gt_footnote_marks">
-            <em>*</em>
-          </sup>
-           
-          May contain an error.
-          <br />
-        </p>
-      </td>
+  <tfoot class="gt_footnotes">
+    <tr>
+      <td class="gt_footnote" colspan="11"><sup class="gt_footnote_marks gt_asterisk">*</sup> May contain an error.</td>
     </tr>
   </tfoot>
 </table>
@@ -1336,19 +1464,20 @@ class: inverse, center, middle
 
 ```
 ## # A tibble: 1,915 × 10
-##    LabID   CRA Error Material Species SiteName Country Longitude Latitude Region
-##    &lt;chr&gt; &lt;int&gt; &lt;int&gt; &lt;chr&gt;    &lt;chr&gt;   &lt;chr&gt;    &lt;chr&gt;       &lt;dbl&gt;    &lt;dbl&gt; &lt;chr&gt; 
-##  1 AA-1…  9100   140 charcoal Pisum   'Ain Gh… JO           36.0     32.0 1     
-##  2 AA-1…  8570   180 charcoal &lt;NA&gt;    'Ain Gh… JO           36.0     32.0 1     
-##  3 AA-2…  8775    75 charcoal &lt;NA&gt;    'Ain Gh… JO           36.0     32.0 1     
-##  4 AA-2…  8030    65 charcoa… &lt;NA&gt;    'Ain Gh… JO           36.0     32.0 1     
-##  5 AA-2…  8080    65 charcoal &lt;NA&gt;    'Ain Gh… JO           36.0     32.0 1     
-##  6 AA-2…  8205    65 charcoal &lt;NA&gt;    'Ain Gh… JO           36.0     32.0 1     
-##  7 AA-2…  7910    60 charcoal &lt;NA&gt;    'Ain Gh… JO           36.0     32.0 1     
-##  8 AA-2…  7910    60 charcoal &lt;NA&gt;    'Ain Gh… JO           36.0     32.0 1     
-##  9 AA-2…  7980    55 seeds (… Lens    'Ain Gh… JO           36.0     32.0 1     
-## 10 AA-5…  7670   100 charcoal &lt;NA&gt;    'Ain Gh… JO           36.0     32.0 1     
-## # … with 1,905 more rows
+##    LabID      CRA Error Material  Species SiteN…¹ Country Longi…² Latit…³ Region
+##    &lt;chr&gt;    &lt;int&gt; &lt;int&gt; &lt;chr&gt;     &lt;chr&gt;   &lt;chr&gt;   &lt;chr&gt;     &lt;dbl&gt;   &lt;dbl&gt; &lt;chr&gt; 
+##  1 AA-1164   9100   140 charcoal  Pisum   'Ain G… JO         36.0    32.0 1     
+##  2 AA-1167   8570   180 charcoal  &lt;NA&gt;    'Ain G… JO         36.0    32.0 1     
+##  3 AA-25037  8775    75 charcoal  &lt;NA&gt;    'Ain G… JO         36.0    32.0 1     
+##  4 AA-25424  8030    65 charcoal… &lt;NA&gt;    'Ain G… JO         36.0    32.0 1     
+##  5 AA-25425  8080    65 charcoal  &lt;NA&gt;    'Ain G… JO         36.0    32.0 1     
+##  6 AA-25426  8205    65 charcoal  &lt;NA&gt;    'Ain G… JO         36.0    32.0 1     
+##  7 AA-25427  7910    60 charcoal  &lt;NA&gt;    'Ain G… JO         36.0    32.0 1     
+##  8 AA-25428  7910    60 charcoal  &lt;NA&gt;    'Ain G… JO         36.0    32.0 1     
+##  9 AA-25429  7980    55 seeds (c… Lens    'Ain G… JO         36.0    32.0 1     
+## 10 AA-5196   7670   100 charcoal  &lt;NA&gt;    'Ain G… JO         36.0    32.0 1     
+## # … with 1,905 more rows, and abbreviated variable names ¹​SiteName, ²​Longitude,
+## #   ³​Latitude
 ```
 
 .pull-left[
@@ -1416,7 +1545,7 @@ class: center, middle
 ---
 
 .pull-left[
-&lt;img src="r4r_visualisation_slides_files/figure-html/eg-tavo-1.png" width="100%" /&gt;
+
 &lt;img src="r4r_visualisation_slides_files/figure-html/tidy-rcarbon-1.png" width="100%" /&gt;
 ]
 
@@ -1595,6 +1724,19 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     deleted = true;
   });
 })();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
 (function() {
   "use strict"
   // Replace <script> tags in slides area to make them executable
