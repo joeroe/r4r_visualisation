@@ -96,7 +96,7 @@ tibble(Day = c("Monday", "", "Tuesday", ""),
 "**Advanced visualisation exercises**
 * Tables: `gt`
 * Radiocarbon: `ggridges`
-* Multivariate analysis: `dimensio`
+* Cartography: `ggspatial`
 * 3D: `rayshader`",
 "**Publication-ready visualisation**
 * What makes an effective graphic?
@@ -442,6 +442,12 @@ Chapter 12: *Tidy data* (if you have time)
 ---
 class: inverse, center, middle
 
+# Advanced visualisations
+## Plotting archaeological data
+
+---
+class: inverse, center, middle
+
 # CartogRaphy
 ## Mapping with `ggplot2` and friends
 
@@ -541,59 +547,53 @@ write_tsv(tavo, "data/tavo-a27-tidy.tsv")
 ```
 ```{r eg-tavo, echo=FALSE, warning=FALSE, cache=TRUE}
 # Convert occurrence data to spatial object
-# tavo %>% 
-#   drop_na(latitude, longitude) %>% 
-#   st_as_sf(crs = 4326, 
-#            coords = c("longitude", "latitude"), 
-#            remove = FALSE,
-#            agr = "constant") %>% 
-#   st_transform(crs = 22770) -> # Syria Lambert
-#   tavo
-# 
-# # Read base map data
-# box <- st_bbox(tavo)
-# read_sf("./data/ne_10m_land/ne_10m_land.shp") %>% 
-#   st_crop(xmin = 0, xmax = 90, 
-#           ymin = 0, ymax = 60) %>% 
-#   st_transform(crs = 22770) ->
-#   land
-# 
-# dem <- raster("data/etopo1_swasia.tif")
-# projection(dem) <- crs("+init=EPSG:4326")
-# dem <- projectRaster(dem, crs = crs("+init=EPSG:22770"))
-# dem <- mask(dem, land)
-# 
-# # Plot
-# eg_tavo_periods <- c("Upper Palaeolithic", "Epipalaeolithic", "Protoneolithic",
-#                      "Early Neolithic", "Late Neolithic", "Bronze Age")
-# tavo %>% 
-#   filter(taxon == "Ovicaprid") %>% 
-#   filter(period %in% eg_tavo_periods) %>%
-#   mutate(period = fct_relevel(period, eg_tavo_periods)) %>% 
-#   ggplot() +
-#   facet_wrap(vars(period), ncol = 3) +
-#   geom_raster(data = df_spatial(dem), aes(x, y, fill = band1)) +
-#   scale_fill_gradientn(colours = terrain.colors(32)[16:32], 
-#                        na.value = "transparent",
-#                        guide = guide_none()) +
-#   geom_sf(data = land, colour = "black", fill = "NA") +
-#   geom_sf(size = 1) +
-#   coord_sf(xlim = c(box$xmin, box$xmax), 
-#            ylim = c(box$ymin, box$ymax),
-#            label_axes = "----") +
-#   labs(title = "Dispersal of ovicaprids in Southwest Asia",
-#        subtitle = "Data from Uerpmann 1987, The Ancient Distribution of Ungulate Mammals in the Middle East*",
-#        caption = "*Available at <https://github.com/joeroe/tavo-a27>",
-#        x = NULL,
-#        y = NULL) +
-#   annotation_scale(style = "ticks", location = "br")
+tavo %>%
+  drop_na(latitude, longitude) %>%
+  st_as_sf(crs = 4326,
+           coords = c("longitude", "latitude"),
+           remove = FALSE,
+           agr = "constant") %>%
+  st_transform(crs = 22770) -> # Syria Lambert
+  tavo
+
+# Read base map data
+box <- st_bbox(tavo)
+read_sf("./data/ne_10m_land/ne_10m_land.shp") %>%
+  st_crop(xmin = 0, xmax = 90,
+          ymin = 0, ymax = 60) %>%
+  st_transform(crs = 22770) ->
+  land
+
+dem <- raster("data/etopo1_swasia.tif")
+crs(dem) <- "+init=EPSG:4326"
+dem <- projectRaster(dem, crs = "+init=EPSG:22770")
+dem <- mask(dem, land)
+
+# Plot
+eg_tavo_periods <- c("Upper Palaeolithic", "Epipalaeolithic", "Protoneolithic",
+                     "Early Neolithic", "Late Neolithic", "Bronze Age")
+tavo %>%
+  filter(taxon == "Ovicaprid") %>%
+  filter(period %in% eg_tavo_periods) %>%
+  mutate(period = fct_relevel(period, eg_tavo_periods)) %>%
+  ggplot() +
+  facet_wrap(vars(period), ncol = 3) +
+  geom_raster(data = df_spatial(dem), aes(x, y, fill = band1)) +
+  scale_fill_gradientn(colours = terrain.colors(32)[16:32],
+                       na.value = "transparent",
+                       guide = guide_none()) +
+  geom_sf(data = land, colour = "black", fill = "NA") +
+  geom_sf(size = 1) +
+  coord_sf(xlim = c(box$xmin, box$xmax),
+           ylim = c(box$ymin, box$ymax),
+           label_axes = "----") +
+  labs(title = "Dispersal of ovicaprids in Southwest Asia",
+       subtitle = "Data from Uerpmann 1987, The Ancient Distribution of Ungulate Mammals in the Middle East*",
+       caption = "*Available at <https://github.com/joeroe/tavo-a27>",
+       x = NULL,
+       y = NULL) +
+  annotation_scale(style = "ticks", location = "br")
 ```
-
----
-class: inverse, center, middle
-
-# Advanced visualisations
-## Plotting archaeological data
 
 ---
 
