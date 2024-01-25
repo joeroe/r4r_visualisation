@@ -2,8 +2,6 @@
 title: "R for Archaeologists"
 subtitle: "Visualisation"
 # author: "Joe Roe"
-# institute: "University of Copenhagen"
-# date: "27–28 January 2021"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -82,7 +80,7 @@ University of Bern
 class: center, middle
 
 ```{r programme-table, echo=FALSE}
-tibble(Day = c("Monday", "", "Tuesday", ""),
+tibble(Day = c("Thursday", "", "Friday", ""),
        Time = c("10–13", "14–17", "10–13", "14–17"),
        Topics = c(
 "**Introduction to visualisation in R**
