@@ -2,6 +2,7 @@
 
 This repository contains the slides and source code for a workshop on visualisation in R, part of the [R for Archaeologists (R4R) winter school](http://www.mappaproject.org/r4rchaeologists/) held at the University of Pisa on:
 
+* 13–24th January 2025
 * 22nd January – 2nd February 2024
 * 30th January – 10th February 2023
 * 24th January – 4th February 2022

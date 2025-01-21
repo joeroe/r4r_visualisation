@@ -57,14 +57,14 @@ style_mono_accent(
 ```
 
 .pull-left[
-![](https://joeroe.io/images/avatar.png)
+![](figures/Me_Feb2021_square_bw2.jpg)
 
 **Joe Roe**  
-University of Bern  
+University of Copenhagen  
 
 * `r fa("link")` [joeroe.io](https://joeroe.io)
 * `r fa("github")` [joeroe](https://github.com/joeroe)
-* `r fa("twitter")` [@joeroe](https://twitter.com/joeroe90)
+* `r fa("mastodon")` [joeroe@archaeo.social](https://archaeo.social/joeroe)
 ]
 
 .pull-right[
@@ -80,8 +80,8 @@ University of Bern
 class: center, middle
 
 ```{r programme-table, echo=FALSE}
-tibble(Day = c("Thursday", "", "Friday", ""),
-       Time = c("10–13", "14–17", "10–13", "14–17"),
+tibble(Day = c("Tuesday", "", "Wednesday", ""),
+       Time = c("09–13", "14–16", "09–13", "14–16"),
        Topics = c(
 "**Introduction to visualisation in R**
 * Visualisation in data science
